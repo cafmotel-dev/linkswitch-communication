@@ -37,6 +37,65 @@
   .closer-to-hero {
     margin-top: -90px; 
   }
+
+.megamenu-li {
+  position: relative;
+}
+
+.services-megamenu {
+  position: absolute;
+  top: 100%;
+   left: -300px !important; 
+  width: 900px; 
+  max-width: 95vw;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  z-index: 999;
+  display: none;
+  overflow: hidden;
+}
+
+.megamenu-li:hover .services-megamenu {
+  display: block;
+}
+
+.services-row {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.services-row .col {
+  flex: 1;
+  min-width: 200px;
+}
+
+.services-row .title  {
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  pointer-events: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: default;
+  padding-left: 25px;
+}
+
+.services-row ul li a {
+  color: #444;
+  text-decoration: none;
+  padding: 6px 0;
+  display: block;
+  font-size: 14px;
+}
+
+.services-row ul li a:hover {
+  color: #007bff;
+  padding-left: 5px;
+}
+
 </style>
 
 <body>
@@ -226,7 +285,7 @@
                         <div class="header-left">
                             <div class="logo">
                                 <a href="index.html" class="header-logo">
-                                    <img src="assets/img/logo.svg" alt="logo-img">
+                                    <img src="assets/img/logo.webp" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -90px;">
                                 </a>
                             </div>
                         </div>
@@ -237,121 +296,81 @@
                                         <ul>
                                             <li class="has-dropdown active menu-thumb">
                                                 <a href="home.php">
-                                                    Home
-                                                    <i class="fas fa-angle-down"></i>
+                                                    Home 
                                                 </a>
-                                                <!-- <ul class="submenu has-homemenu">
-                                                    <li>
-                                                        <div class="homemenu-items">
-                                                            <div class="homemenu">
-                                                                <div class="homemenu-thumb">
-                                                                    <img src="assets/img/header/home-1.jpg" alt="img">
-                                                                    <div class="demo-button">
-                                                                        <a href="index.html" class="theme-btn">
-                                                                            <span>Multi Page</span>
-                                                                        </a>
-                                                                        <a href="index-one-page.html" class="theme-btn">
-                                                                            <span>One Page</span>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="homemenu-content text-center">
-                                                                    <h4 class="homemenu-title">
-                                                                        Home 01
-                                                                    </h4>
-                                                                </div>
-                                                            </div>
-                                                            <div class="homemenu">
-                                                                <div class="homemenu-thumb mb-15">
-                                                                    <img src="assets/img/header/home-2.jpg" alt="img">
-                                                                    <div class="demo-button">
-                                                                        <a href="index-2.html" class="theme-btn">
-                                                                            <span>Multi Page</span>
-                                                                        </a>
-                                                                        <a href="index-two-page.html" class="theme-btn">
-                                                                            <span>One Page</span>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="homemenu-content text-center">
-                                                                    <h4 class="homemenu-title">
-                                                                        Home 02
-                                                                    </h4>
-                                                                </div>
-                                                            </div>
-                                                            <div class="homemenu">
-                                                                <div class="homemenu-thumb mb-15">
-                                                                    <img src="assets/img/header/home-3.jpg" alt="img">
-                                                                    <div class="demo-button">
-                                                                        <a href="index-3.html" class="theme-btn">
-                                                                            <span>Multi Page</span>
-                                                                        </a>
-                                                                        <a href="index-three-page.html"
-                                                                            class="theme-btn">
-                                                                            <span>One Page</span>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="homemenu-content text-center">
-                                                                    <h4 class="homemenu-title">
-                                                                        Home 03
-                                                                    </h4>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                </ul> -->
                                             </li>
 
                                             <li>
                                                 <a href="about.php">About</a>
                                             </li>
-                                            <li>
-                                                <a href="news.html">
-                                                    Services
-                                                    <i class="fas fa-angle-down"></i>
-                                                </a>
-                                                <ul class="submenu">
-                                                    <li><a href="service.html">Services</a></li>
-                                                    <li><a href="service-carousel.html">Service Carousel</a></li>
-                                                    <li><a href="service-details.html">Service Details</a></li>
-                                                </ul>
-                                            </li>
+                                <li class="megamenu-li">
+  <a href="#0">Services <i class="fa-solid fa-angle-down"></i></a>
+  <ul class="submenu services-megamenu">
+    <li>
+      <div class="services-row">
+        <div class="col">
+          <ul>
+            <li class="title"><span>IT Services</span></li>
+            <li><a href="#">Managed IT Services</a></li>
+            <li><a href="#">Cloud Services</a></li>
+            <li><a href="#">Software Development</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <li class="title"><span>Consulting</span></li>
+            <li><a href="#">IT Consulting & Strategy</a></li>
+            <li><a href="#">IT Staffing</a></li>
+            <li><a href="#">BPO Services</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <li class="title"><span>Digital</span></li>
+            <li><a href="#">E-commerce</a></li>
+          </ul>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li>
+
+
                                             <li class="has-dropdown">
                                                 <a href="news.html">
-                                                    Pages
+                                                     Products
                                                     <i class="fas fa-angle-down"></i>
                                                 </a>
                                                 <ul class="submenu">
                                                     <li class="has-dropdown">
                                                         <a href="project.html">
-                                                            Projects
-                                                            <i class="fas fa-angle-down"></i>
+                                                           Call Center Dialer with Integrated CRM
+                                                            <!-- <i class="fas fa-angle-down"></i> -->
                                                         </a>
-                                                        <ul class="submenu">
-                                                            <li><a href="project.html">Project</a></li>
-                                                            <li><a href="project-carousel.html">Project Carousel</a>
+                                                        <!-- <ul class="submenu">
+                                                            <li><a href="project.html">CallChex – Call Center QA Platform</a></li>
+                                                            <li><a href="project-carousel.html">Alt-Lending Origination & Servicing Software</a>
                                                             </li>
                                                             <li><a href="project-details.html">Project Details</a></li>
-                                                        </ul>
+                                                        </ul> -->
                                                     </li>
                                                     <li class="has-dropdown">
                                                         <a href="team.html">
-                                                            Team
-                                                            <i class="fas fa-angle-down"></i>
+                                                            CallChex – Call Center QA Platform
+                                                            <!-- <i class="fas fa-angle-down"></i> -->
                                                         </a>
-                                                        <ul class="submenu">
+                                                        <!-- <ul class="submenu">
                                                             <li><a href="team.html">Our Team</a></li>
                                                             <li><a href="team-carousel.html">Team Carousel</a></li>
                                                             <li><a href="team-details.html">Team Details</a></li>
-                                                        </ul>
+                                                        </ul> -->
                                                     </li>
-                                                    <li><a href="pricing.html">Pricing</a></li>
-                                                    <li><a href="faq.html">Faq's</a></li>
-                                                    <li><a href="404.html">404 Page</a></li>
+                                                    <li><a href="pricing.html">Alt-Lending Origination & Servicing Software</a></li>
+                                                    <!-- <li><a href="faq.html">Faq's</a></li>
+                                                    <li><a href="404.html">404 Page</a></li> -->
                                                 </ul>
                                             </li>
-                                            <li>
+                                            <!-- <li>
                                                 <a href="news.html">
                                                     Blog
                                                     <i class="fas fa-angle-down"></i>
@@ -361,7 +380,7 @@
                                                     <li><a href="news-standard.html">Blog Standard</a></li>
                                                     <li><a href="news-details.html">Blog Details</a></li>
                                                 </ul>
-                                            </li>
+                                            </li> -->
                                             <li>
                                                 <a href="contact.html">Contact</a>
                                             </li>
@@ -435,12 +454,13 @@
                             <div class="col-lg-8">
                                 <div class="hero-content">
                                     <h5 data-animation="slideInRight" data-duration="2s" data-delay=".3s"> Welcome to </h5>
-                                    <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s">
+                                    <h2 class="text-white" data-animation="slideInRight" data-duration="2s" data-delay=".5s">
                                          LinkSwitch Communications 
-                                    </h1>
+                                    </h2>
+                                    </br>
                                     <p data-animation="slideInRight" data-duration="2s" data-delay=".9s">
                                         
-                                     LinkSwitch Communications is a global technology solutions provider with offices in the USA,</br> Canada, Dubai, and India. We empower organizations with transformative IT solutions, powerful </br> software products, and enterprise-grade digital services tailored for the modern age.
+                                     A global tech partner driving innovation across borders—delivering cutting-edge IT solutions, </br>smart software, and digital services tailored for growth in a connected world.
                                     </p>
                                     <div class="hero-button">
                                         <a href="about.html" data-animation="slideInRight" data-duration="2s"
@@ -479,12 +499,13 @@
                             <div class="col-lg-8">
                                 <div class="hero-content">
                                     <h5 data-animation="slideInRight" data-duration="2s" data-delay=".3s"> Welcome to </h5>
-                                    <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s">
+                                    <h2 class="text-white" data-animation="slideInRight" data-duration="2s" data-delay=".5s">
                                       
                                         LinkSwitch Communications 
-                                    </h1>
+                                    </h2>
+                                  </br>
                                     <p data-animation="slideInRight" data-duration="2s" data-delay=".9s">
-                                              LinkSwitch Communications is a global technology solutions provider with offices in the USA,</br> Canada, Dubai, and India. We empower organizations with transformative IT solutions, powerful </br> software products, and enterprise-grade digital services tailored for the modern age.
+                                          Transforming ideas into intelligent tech solutions that drive growth, streamline </br>operations, and connect businesses worldwide.
                                     </p>
                                     <div class="hero-button">
                                         <a href="about.html" data-animation="slideInRight" data-duration="2s"
@@ -523,11 +544,12 @@
                             <div class="col-lg-8">
                                 <div class="hero-content">
                                     <h5 data-animation="slideInRight" data-duration="2s" data-delay=".3s"> Welcome to</h5>
-                                    <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s">
+                                    <h2 class="text-white" data-animation="slideInRight" data-duration="2s" data-delay=".5s">
                                         LinkSwitch Communications 
-                                    </h1>
+                                    </h2>
+                                    </br>
                                     <p data-animation="slideInRight" data-duration="2s" data-delay=".9s">
-                                             LinkSwitch Communications is a global technology solutions provider with offices in the USA,</br> Canada, Dubai, and India. We empower organizations with transformative IT solutions, powerful </br> software products, and enterprise-grade digital services tailored for the modern age.
+                                           Driven by innovation, we craft smart digital ecosystems—blending technology, design, </br>and data to accelerate your business across global markets.
                                     </p>
                                     <div class="hero-button">
                                         <a href="about.html" data-animation="slideInRight" data-duration="2s"
@@ -562,7 +584,7 @@
                 <span> Our Services </span
                 ><img src="assets/img/icon/arrowRight.svg" alt="icon" />
               </div>
-              <h2 class="title">Elevating Businesses with IT Ingenuity</h2>
+              <h3>Smart Solutions That Drive Results.</h3>
             </div>
             <div class="arrow-btn text-end wow fadeInUp" data-wow-delay=".9s">
               <button
@@ -819,8 +841,8 @@
                               src="assets/img/icon/arrowLeftWhite.svg" alt="icon"> <span class="text-white"> about
                               company
                            </span><img src="assets/img/icon/arrowRightWhite.svg" alt="icon"></div>
-                        <h2 class="title text-white wow fadeInUp" data-wow-delay=".6s">Where Vision Meets Innovation
-                        </h2>
+                        <h3 class="text-white wow fadeInUp" data-wow-delay=".6s">Where Vision Meets Innovation
+                        </h3>
                         <p class="mt-25 text-white wow fadeInUp" data-wow-delay=".5s">LinkSwitch Communications combines global innovation with local insight. With presence across four continents, we offer next-gen tech services that help clients compete and scale.</p>
                      </div>
                      <div class="fancy-box-wrapper style2">
@@ -1230,11 +1252,10 @@
             <div class="section-title">
               <div class="subtitle">
                 <img src="assets/img/icon/arrowLeft.svg" alt="icon" />
-                <span>Products</span
+                <span>Our Products</span
                 ><img src="assets/img/icon/arrowRight.svg" alt="icon" />
               </div>
-                 <h2 class="title">Our Latest Incredible
-                Client's </br>Projects</h2>
+                 <h3>Explore Our Cutting-Edge Product Solutions</h3>
             </div>
             <!-- <div class="arrow-btn text-end wow fadeInUp" data-wow-delay=".9s">
               <button
@@ -1256,12 +1277,12 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                    <div class="project-items style-2 mt-0">
                                 <div class="project-image">
-                                    <img src="assets/img/project/05.jpg" alt="project-img">
+                                    <img src="assets/img/bg/dial.jpg" alt="project-img">
                                     <div class="project-content style2">
                                         <!-- <p>Technology</p> -->
-                                        <h4>
+                                        <h6>
                                             <a href="project-details.html">Call Center Dialer with Integrated CRM</a>
-                                        </h4>
+                                        </h6>
                                         <a href="project-details.html" class="arrow-icon">
                                             <i class="fa-solid fa-arrow-right"></i>
                                         </a>
@@ -1273,12 +1294,12 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                             <div class="project-items style-2 mt-0">
                                 <div class="project-image">
-                                    <img src="assets/img/project/06.jpg" alt="project-img">
+                                    <img src="assets/img/bg/call-center.jpg" alt="project-img">
                                     <div class="project-content style2">
                                      
-                                        <h4>
+                                        <h6>
                                             <a href="project-details.html">CallChex – Call Center QA Platform</a>
-                                        </h4>
+                                        </h6>
                                         <a href="project-details.html" class="arrow-icon">
                                             <i class="fa-solid fa-arrow-right"></i>
                                         </a>
@@ -1289,12 +1310,12 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                   <div class="project-items style-2 mt-0">
                                 <div class="project-image">
-                                    <img src="assets/img/project/07.jpg" alt="project-img">
+                                    <img src="assets/img/bg/Alt.jpg" alt="project-img">
                                     <div class="project-content style2">
                                       
-                                        <h4>
-                                            <a href="project-details.html">Alt-Lending Origination & Servicing Software</a>
-                                        </h4>
+                                        <h6>
+                                            <a href="project-details.html">Alternative Lending Software</a>
+                                        </h6>
                                         <a href="project-details.html" class="arrow-icon">
                                             <i class="fa-solid fa-arrow-right"></i>
                                         </a>
@@ -1572,7 +1593,7 @@
                     <div class="content">
                         <p>Call Emergency</p>
                         <h3>
-                            <a href="tel:+2085550112">+88 0123 654 99</a>
+                            <a href="tel:+2085550112">+1 (902) 441-2385</a>
                         </h3>
                     </div>
                 </div>
@@ -1586,11 +1607,9 @@
                             <div class="widget footer-widget wow fadeInUp" data-wow-delay=".6s">
                                 <div class="gt-widget-about">
                                     <div class="about-logo">
-                                        <a href="index.html"><img src="assets/img/footer-logo.svg" alt="extech"></a>
+                                        <a href="index.html"><img src="assets/img/logo.webp" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -25px;"></a>
                                     </div>
-                                    <p class="about-text"> Extexh IT is a Phasellus ultricies aliquam volutpat
-                                        ullamcorper
-                                        laoreet neque, a lacinia curabitur lacinia mollis
+                                    <p class="about-text">Global tech solutions, locally delivered—LinkSwitch Communications operates in the USA, Canada, Dubai, and India.
                                     </p>
                                     <div class="gt-social style2">
                                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -1623,7 +1642,49 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-md-6 col-12">
+
+                         <div class="col-xl-2 col-md-6 col-12">
+                            <div class="widget widget_nav_menu footer-widget wow fadeInUp" data-wow-delay="1s">
+                                <h3 class="widget_title">Services</h3>
+                                <div class="menu-all-pages-container">
+                                    <ul class="menu">
+                                        <li><a href="about.html"><i class="fa-solid fa-chevrons-right"></i>
+                                                Managed IT Services</a>
+                                        </li>
+                                        <li><a href="service.html"><i class="fa-solid fa-chevrons-right"></i>Cloud Services</a>
+                                        </li>
+                                        <li><a href="news.html"><i class="fa-solid fa-chevrons-right"></i>Software Development</a>
+                                        </li>
+                                        <!-- <li><a href="faq.html"><i class="fa-solid fa-chevrons-right"></i>FAQ’S</a></li> -->
+                                        <li><a href="contact.html"><i class="fa-solid fa-chevrons-right"></i>IT Consulting & Strategy</a></li>
+                                        <li><a href="contact.html"><i class="fa-solid fa-chevrons-right"></i>IT Staffing & Augmentation</a></li>
+                                        <li><a href="contact.html"><i class="fa-solid fa-chevrons-right"></i>BPO Services</a>  </li>
+                                         <li><a href="contact.html"><i class="fa-solid fa-chevrons-right"></i>E-commerce & Web Solutions</a>  </li>
+                                      
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                                   <div class="col-xl-2 col-md-6 col-12">
+                            <div class="widget widget_nav_menu footer-widget wow fadeInUp" data-wow-delay="1s">
+                                <h3 class="widget_title">Products</h3>
+                                <div class="menu-all-pages-container">
+                                    <ul class="menu">
+                                        <li><a href="about.html"><i class="fa-solid fa-chevrons-right"></i>
+                                               Call Center Dialer </a>
+                                        </li>
+                                        <li><a href="service.html"><i class="fa-solid fa-chevrons-right"></i>CallChex – Call Center QA Platform</a>
+                                        </li>
+                                        <li><a href="news.html"><i class="fa-solid fa-chevrons-right"></i>Alt-Lending Origination & Servicing Software</a>
+                                        </li>
+                                 
+                                      
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-xl-4 col-md-6 col-12">
                             <div class="widget footer-widget wow fadeInUp" data-wow-delay="1.3s">
                                 <h3 class="widget_title">Recent Posts</h3>
                                 <div class="recent-post-wrap">
@@ -1661,7 +1722,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-xl-3 col-md-6 col-12">
                             <div class="widget widget_nav_menu footer-widget wow fadeInUp" data-wow-delay="1.6s">
                                 <h3 class="widget_title">Contact Us</h3>
@@ -1672,7 +1733,7 @@
                                     </ul>
                                     <ul class="ps-0">
                                         <li class="text-white"><i class="fa-solid fa-phone"></i></li>
-                                        <li class="text-white">+208-6666-0112</li>
+                                        <li class="text-white">+1 (902) 441-2385</li>
                                     </ul>
                                     <div class="email-input-container">
                                         <input type="email" id="email" placeholder="Your email address" required="">
