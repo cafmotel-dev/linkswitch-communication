@@ -16,9 +16,9 @@
                     </div>
                     <div class="content">
                         <p>Address</p>
-                        <h6 style="color: white;">
-                            4648 Rocky Road Philadelphia PA
-                        </h6>
+                        <h7 style="color: white;">
+                           169 Madison Ave STE 2945 New York, NY 10016
+                        </h7>
                     </div>
                 </div>
                 <div class="contact-info-items wow fadeInUp" data-wow-delay=".5s">
@@ -88,7 +88,7 @@
                                 <h3 class="widget_title">Quick Links</h3>
                                 <div class="menu-all-pages-container">
                                     <ul class="menu">
-                                        <li><a href="about.html"><i class="fa-solid fa-chevrons-right"></i>
+                                        <li><a href="about.php"><i class="fa-solid fa-chevrons-right"></i>
                                                 About</a>
                                         </li>
                                         <li><a href="service.html"><i class="fa-solid fa-chevrons-right"></i>Our
@@ -98,7 +98,7 @@
                                                 Products</a>
                                         </li>
                                         <!-- <li><a href="faq.html"><i class="fa-solid fa-chevrons-right"></i>FAQ’S</a></li> -->
-                                        <li><a href="contact.html"><i class="fa-solid fa-chevrons-right"></i>Contact
+                                        <li><a href="contact.php"><i class="fa-solid fa-chevrons-right"></i>Contact
                                                 Us</a>
                                         </li>
                                     </ul>

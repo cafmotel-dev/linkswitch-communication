@@ -37,6 +37,7 @@
 .text-black {
   color: black !important;
 }
+
 </style>
 
 <body>
@@ -112,7 +113,7 @@
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="index.html">
-                                <img src="assets/img/logo.svg" alt="logo-img">
+                                <img src="assets/img/logo.webp" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -50px;">
                             </a>
                         </div>
                         <div class="offcanvas__close">
@@ -121,10 +122,10 @@
                             </button>
                         </div>
                     </div>
-                    <p class="text d-none d-lg-block">
+                    <!-- <p class="text d-none d-lg-block">
                         Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a
                         feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
-                    </p>
+                    </p> -->
                     <div class="mobile-menu fix mb-3"></div>
                     <div class="offcanvas__contact">
                         <h4>Contact Info</h4>
@@ -134,7 +135,7 @@
                                     <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                    <a target="_blank" href="#">169 Madison Ave STE 2945 New York, NY 10016</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -143,29 +144,29 @@
                                 </div>
                                 <div class="offcanvas__contact-text">
                                     <a href="mailto:info@azent.com"><span
-                                            class="mailto:info@example.com">info@example.com</span></a>
+                                            class="mailto:info@example.com">sales@linkswitchcommunications.com</span></a>
                                 </div>
                             </li>
-                            <li class="d-flex align-items-center">
+                            <!-- <li class="d-flex align-items-center">
                                 <div class="offcanvas__contact-icon mr-15">
                                     <i class="fal fa-clock"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
                                     <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="d-flex align-items-center">
                                 <div class="offcanvas__contact-icon mr-15">
                                     <i class="far fa-phone"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="tel:+11002345909">+11002345909</a>
+                                    <a href="tel:+11002345909">+1 (902) 441-2385</a>
                                 </div>
                             </li>
                         </ul>
                         <div class="header-button mt-4">
-                            <a href="contact.html" class="theme-btn text-center">
-                                <span>get A Quote<i class="fa-solid fa-arrow-right-long"></i></span>
+                            <a href="contact.php" class="theme-btn text-center">
+                                <span>Get Started<i class="fa-solid fa-arrow-right-long"></i></span>
                             </a>
                         </div>
                         <div class="social-icon d-flex align-items-center">
@@ -291,8 +292,8 @@
                             </div>
                             <div class="about-author">
                                 <div class="about-button wow fadeInUp" data-wow-delay=".5s">
-                                    <a href="about.html" class="theme-btn">
-                                        Explore More
+                                    <a href="contact.php" class="theme-btn">
+                                        Connect Now
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
                                 </div>
@@ -597,10 +598,10 @@
             <div class="section-title">
               <div class="subtitle">
                 <img src="assets/img/icon/arrowLeft.svg" alt="icon" />
-                <span>Our Products</span
+                <span> What We Do </span
                 ><img src="assets/img/icon/arrowRight.svg" alt="icon" />
               </div>
-                 <h3>Explore Our Cutting-Edge Product Solutions</h3>
+                 <h3>Transforming Ideas into Powerful Products</h3>
             </div>
             <!-- <div class="arrow-btn text-end wow fadeInUp" data-wow-delay=".9s">
               <button
@@ -705,7 +706,7 @@
             <h3 class="cta-title text-white wow fadeInUp" data-wow-delay=".3s">Stay Connected With Cutting Edge IT
             </h3>
             <div class="btn-wrapper">
-               <a class="gt-btn style5" href="contact.html">Talk to a Specialist<i
+               <a class="gt-btn style5" href="contact.php">Talk to a Specialist<i
                      class="fa-sharp fa-regular fa-arrow-right-long"></i></a>
             </div>
          </div>
@@ -738,6 +739,18 @@
     <script src="assets/js/wow.min.js"></script>
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
+
+<script>
+    window.addEventListener('load', function () {
+        const preloader = document.getElementById('preloader');
+        if (preloader) {
+            preloader.style.opacity = '0';
+            preloader.style.visibility = 'hidden';
+            preloader.style.transition = 'opacity 0.5s ease'; 
+        }
+    });
+</script>
+
 </body>
 
 

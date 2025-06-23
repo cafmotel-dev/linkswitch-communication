@@ -105,7 +105,7 @@
     <div class="mouse-cursor cursor-outer"></div>
     <div class="mouse-cursor cursor-inner"></div>
 
-    <!-- Offcanvas Area Start -->
+     <!-- Offcanvas Area Start -->
     <div class="fix-area">
         <div class="offcanvas__info">
             <div class="offcanvas__wrapper">
@@ -113,7 +113,7 @@
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="index.html">
-                                <img src="assets/img/logo.svg" alt="logo-img">
+                                <img src="assets/img/logo.webp" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -50px;">
                             </a>
                         </div>
                         <div class="offcanvas__close">
@@ -122,10 +122,10 @@
                             </button>
                         </div>
                     </div>
-                    <p class="text d-none d-lg-block">
+                    <!-- <p class="text d-none d-lg-block">
                         Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a
                         feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
-                    </p>
+                    </p> -->
                     <div class="mobile-menu fix mb-3"></div>
                     <div class="offcanvas__contact">
                         <h4>Contact Info</h4>
@@ -135,7 +135,7 @@
                                     <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                    <a target="_blank" href="#">169 Madison Ave STE 2945 New York, NY 10016</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -144,28 +144,28 @@
                                 </div>
                                 <div class="offcanvas__contact-text">
                                     <a href="mailto:info@azent.com"><span
-                                            class="mailto:info@example.com">info@example.com</span></a>
+                                            class="mailto:info@example.com">sales@linkswitchcommunications.com</span></a>
                                 </div>
                             </li>
-                            <li class="d-flex align-items-center">
+                            <!-- <li class="d-flex align-items-center">
                                 <div class="offcanvas__contact-icon mr-15">
                                     <i class="fal fa-clock"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
                                     <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="d-flex align-items-center">
                                 <div class="offcanvas__contact-icon mr-15">
                                     <i class="far fa-phone"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="tel:+11002345909">+11002345909</a>
+                                    <a href="tel:+11002345909">+1 (902) 441-2385</a>
                                 </div>
                             </li>
                         </ul>
                         <div class="header-button mt-4">
-                            <a href="contact.html" class="theme-btn text-center">
+                            <a href="contact.php" class="theme-btn text-center">
                                 <span>Get Started<i class="fa-solid fa-arrow-right-long"></i></span>
                             </a>
                         </div>
@@ -284,12 +284,12 @@
                                           Transforming ideas into intelligent tech solutions that drive growth, streamline </br>operations, and connect businesses worldwide.
                                     </p>
                                     <div class="hero-button">
-                                        <a href="about.html" data-animation="slideInRight" data-duration="2s"
+                                        <a href="about.php" data-animation="slideInRight" data-duration="2s"
                                             data-delay=".9s" class="theme-btn hover-white">
                                             Explore More
                                             <i class="fa-solid fa-arrow-right-long"></i>
                                         </a>
-                                        <a href="contact.html" data-animation="slideInRight" data-duration="2s"
+                                        <a href="contact.php" data-animation="slideInRight" data-duration="2s"
                                             data-delay=".9s" class="theme-btn border-white">
                                             Contact Us
                                             <i class="fa-solid fa-arrow-right-long"></i>
@@ -328,12 +328,12 @@
                                            Driven by innovation, we craft smart digital ecosystems—blending technology, design, </br>and data to accelerate your business across global markets.
                                     </p>
                                     <div class="hero-button">
-                                        <a href="about.html" data-animation="slideInRight" data-duration="2s"
+                                        <a href="about.php" data-animation="slideInRight" data-duration="2s"
                                             data-delay=".9s" class="theme-btn hover-white">
                                             Explore Now
                                             <i class="fa-solid fa-arrow-right-long"></i>
                                         </a>
-                                        <a href="contact.html" data-animation="slideInRight" data-duration="2s"
+                                        <a href="contact.php" data-animation="slideInRight" data-duration="2s"
                                             data-delay=".9s" class="theme-btn border-white">
                                             Contact Us
                                             <i class="fa-solid fa-arrow-right-long"></i>
@@ -1550,6 +1550,17 @@
     <script src="assets/js/wow.min.js"></script>
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
+
+<script>
+    window.addEventListener('load', function () {
+        const preloader = document.getElementById('preloader');
+        if (preloader) {
+            preloader.style.opacity = '0';
+            preloader.style.visibility = 'hidden';
+            preloader.style.transition = 'opacity 0.5s ease'; 
+        }
+    });
+</script>
 </body>
 
 
