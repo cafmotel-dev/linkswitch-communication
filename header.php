@@ -1,3 +1,63 @@
+ <style>
+ .megamenu-li {
+  position: relative;
+}
+
+.services-megamenu {
+  position: absolute;
+  top: 100%;
+   left: -300px !important; 
+  width: 900px; 
+  max-width: 95vw;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  z-index: 999;
+  display: none;
+  overflow: hidden;
+}
+
+.megamenu-li:hover .services-megamenu {
+  display: block;
+}
+
+.services-row {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.services-row .col {
+  flex: 1;
+  min-width: 200px;
+}
+
+.services-row .title  {
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  pointer-events: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: default;
+  padding-left: 25px;
+}
+
+.services-row ul li a {
+  color: #444;
+  text-decoration: none;
+  padding: 6px 0;
+  display: block;
+  font-size: 14px;
+}
+
+.services-row ul li a:hover {
+  color: #007bff;
+  padding-left: 5px;
+}
+</style>
+ 
  <!-- Header Section Start -->
     <header>
         <!-- <div class="header-top-section top-style-3">
@@ -66,7 +126,7 @@
                                     <nav id="mobile-menu">
                                         <ul>
                                             <li class="has-dropdown active menu-thumb">
-                                                <a href="home.php">
+                                                <a href="index.php">
                                                     Home 
                                                 </a>
                                             </li>
@@ -137,6 +197,7 @@
                                                         </ul> -->
                                                     </li>
                                                     <li><a href="pricing.html">Alt-Lending Origination & Servicing Software</a></li>
+                                                    <li><a href="pricing.html">Ringless.Cloud</a></li>
                                                     <!-- <li><a href="faq.html">Faq's</a></li>
                                                     <li><a href="404.html">404 Page</a></li> -->
                                                 </ul>

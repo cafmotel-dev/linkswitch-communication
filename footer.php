@@ -16,9 +16,9 @@
                     </div>
                     <div class="content">
                         <p>Address</p>
-                        <h3>
+                        <h6 style="color: white;">
                             4648 Rocky Road Philadelphia PA
-                        </h3>
+                        </h6>
                     </div>
                 </div>
                 <div class="contact-info-items wow fadeInUp" data-wow-delay=".5s">
@@ -38,7 +38,7 @@
                     <div class="content">
                         <p>Send Email</p>
                         <h6 style="color: white;">
-                            <a href="mailme@rohitwanchoo.com" style="color: white;">mailme@rohitwanchoo.com</a>
+                            <a href="mailme@rohitwanchoo.com" style="color: white;">sales@linkswitchcommunications.com</a>
                         </h6>
                     </div>
                 </div>
@@ -55,9 +55,9 @@
                     </div>
                     <div class="content">
                         <p>Call Emergency</p>
-                        <h3>
-                            <a href="tel:+2085550112">+1 (902) 441-2385</a>
-                        </h3>
+                        <h6 style="color: white;">
+                            <a href="tel:+2085550112" style="color: white;">+1 (902) 441-2385</a>
+                        </h6>
                     </div>
                 </div>
             </div>
@@ -142,7 +142,8 @@
                                         <li><a href="news.html"><i class="fa-solid fa-chevrons-right"></i>Alt-Lending Origination & Servicing Software</a>
                                         </li>
                                  
-                                      
+                                        <li><a href="news.html"><i class="fa-solid fa-chevrons-right"></i>Ringless.Cloud</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -192,7 +193,7 @@
                                 <div class="checklist style2">
                                     <ul class="ps-0">
                                         <li class="text-white"><i class="fa-solid fa-envelope"></i></li>
-                                        <li class="text-white">mailme@rohitwanchoo.com</li>
+                                        <li class="text-white">sales@linkswitchcommunications.com</li>
                                     </ul>
                                     <ul class="ps-0">
                                         <li class="text-white"><i class="fa-solid fa-phone"></i></li>

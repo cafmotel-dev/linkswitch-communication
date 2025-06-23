@@ -12,7 +12,7 @@
     <meta name="author" content="ex-coders">
     <meta name="description" content="LinkSwitch - Be Inspired By Communication">
     <!-- ======== Page title ============ -->
-    <title>LinkSwitch - Be Inspired By Communication</title>
+    <title>LinkSwitch - Be Inspired By Communication- about us</title>
     <!--<< Favcion >>-->
     <link rel="shortcut icon" href="assets/img/favicon.svg">
     <!--<< Bootstrap min.css >>-->
@@ -32,6 +32,12 @@
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
+<style>
+.text-black {
+  color: black !important;
+}
+</style>
 
 <body>
 
@@ -253,7 +259,7 @@
                                 <div class="subtitle"> <img src="assets/img/icon/arrowLeft.svg" alt="icon"> <span>ABOUT
                                         US
                                     </span><img src="assets/img/icon/arrowRight.svg" alt="icon"></div>
-                                <h2 class="title"> We Are Increasing Business Success With <span>Technology</span> </h2>
+                                <h3> Empowering Growth Through <span>Innovation</span> </h3>
                             </div>
                             <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
                                LinkSwitch Communications combines global innovation with local insight. With presence across four continents, we offer next-gen tech services that help clients compete and scale. Our mission is to deliver secure, scalable, and intelligent technology solutions to businesses worldwide.
@@ -290,13 +296,14 @@
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
                                 </div>
-                                <div class="author-image wow fadeInUp" data-wow-delay=".7s">
+                                <!-- <div class="author-image wow fadeInUp" data-wow-delay=".7s">
                                     <img src="assets/img/about/author.png" alt="author-img">
                                     <div class="content">
                                         <h6>Ronald Richards</h6>
                                         <p>Co, Founder</p>
                                     </div>
-                                </div>
+                                </div> -->
+                                
                             </div>
                         </div>
                     </div>
@@ -318,7 +325,7 @@
                 <div class="subtitle d-flex justify-content-center"> <img src="assets/img/icon/arrowLeftWhite.svg"
                         alt="icon"> <span class="text-white"> Our offering
                     </span><img src="assets/img/icon/arrowRightWhite.svg" alt="icon"></div>
-                <h2 class="title text-center text-white"> Enhance and Pioneer Using <br> Technology Trends</h2>
+                <h2 class="text-center text-white"> Empower Progress with Smart Tech</h2>
             </div>
 
             <div class="row">
@@ -346,7 +353,7 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <h5>Website</h5>
+                            <h5>IT Services</h5>
                         </div>
                     </div>
                 </div>
@@ -370,7 +377,7 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <h5>Android</h5>
+                            <h5>Cloud Services</h5>
                         </div>
                     </div>
                 </div>
@@ -402,7 +409,7 @@
 
                         </div>
                         <div class="content">
-                            <h5>IOS</h5>
+                            <h5>SWD</h5>
                         </div>
                     </div>
                 </div>
@@ -436,7 +443,7 @@
 
                         </div>
                         <div class="content">
-                            <h5>Watch</h5>
+                            <h5>IT Consulting</h5>
                         </div>
                     </div>
                 </div>
@@ -471,7 +478,7 @@
 
                         </div>
                         <div class="content">
-                            <h5>Tv</h5>
+                            <h5>IT Staffing</h5>
                         </div>
                     </div>
                 </div>
@@ -496,7 +503,7 @@
 
                         </div>
                         <div class="content">
-                            <h5>IOT</h5>
+                            <h5>BPO Services</h5>
                         </div>
                     </div>
                 </div>
@@ -504,38 +511,118 @@
         </div>
     </section>
 
-    <!-- Project Section Start -->
-    <section class="project-section-2 section-padding fix">
-        <div class="left-shape">
-            <img src="assets/img/project/left-shape.png" alt="shape-img">
+        <!-- Work Process Section Start -->
+    <section class="work-process-section fix section-padding pt-5">
+      <div class="container">
+        <div class="section-title title-area mx-auto mb-25">
+          <div class="subtitle d-flex justify-content-center">
+            <img src="assets/img/icon/arrowLeft.svg" alt="icon" />
+            <span> How IT work </span
+            ><img src="assets/img/icon/arrowRight.svg" alt="icon" />
+          </div>
+          <h3 class="text-center">Standard Work Process</h3>
         </div>
-        <div class="right-shape">
-            <img src="assets/img/project/right-shape.png" alt="shape-img">
-        </div>
-        <div class="container">
-            <div class="row d-flex align-items-center justify-content-between">
-                <div class="col-xl-6">
-                    <div class="section-title mb-3 mxw-650">
-                        <div class="subtitle"> <img src="assets/img/icon/arrowLeft.svg" alt="icon"> <span> PROJECTS
-                            </span><img src="assets/img/icon/arrowRight.svg" alt="icon"></div>
-                        <h3>Explore Our Cutting-Edge Product Solutions </h3>
-                    </div>
-                </div>
 
-                <div class="col-xl-6 d-flex  justify-content-start justify-content-lg-end">
-                    <div class="array-button wow fadeInUp" data-wow-delay=".5s">
-                        <button class="array-next"><i class="fal fa-arrow-left"></i></button>
-                        <button class="array-prev"><i class="fal fa-arrow-right"></i></button>
-                    </div>
+        <div class="process-work-wrapper">
+          <div class="line-shape">
+            <img src="assets/img/process/linepng.png" alt="" />
+          </div>
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="work-process-items text-center">
+                <div class="icon">
+                  <img src="assets/img/process/01.svg" alt="img" />
+                  <h6 class="number">1</h6>
                 </div>
+                <div class="content">
+                  <h4>Choose A Service</h4>
+                  <p>
+                    "Choose the service that aligns with your vision. We deliver tech solutions that drive real results."
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="project-wrapper">
-                <div class="swiper project-slider-2">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="project-items style-2">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="work-process-items text-center">
+                <div class="content style-2">
+                  <h4>Define Requirements</h4>
+                  <p>
+                   "We begin by understanding your goals and challenges. Clear requirements lead to smarter, faster, and more effective solutions."
+                  </p>
+                </div>
+                <div class="icon">
+                  <img src="assets/img/process/02.svg" alt="img" />
+                  <h6 class="number">2</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="work-process-items text-center">
+                <div class="icon">
+                  <img src="assets/img/process/03.svg" alt="img" />
+                  <h6 class="number">3</h6>
+                </div>
+                <div class="content">
+                  <h4>Request A Meeting</h4>
+                  <p>
+                    "Let’s connect to explore your needs and goals. Schedule a meeting and take the first step toward tailored tech success."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="work-process-items text-center">
+                <div class="content style-2">
+                  <h4>Final Solution</h4>
+                  <p>
+                    "We deliver the final solution with precision and purpose. Designed to perform, built to scale, and aligned with your vision."
+                  </p>
+                </div>
+                <div class="icon">
+                  <img src="assets/img/process/04.svg" alt="img" />
+                  <h6 class="number">4</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      
+        <!-- Project Section Start -->
+    <section class="project-section section-padding fix" style="padding-top: 30px; padding-bottom: 30px;">
+        <div class="container">
+        <div class="title-wrap mb-45">
+            <div class="section-title">
+              <div class="subtitle">
+                <img src="assets/img/icon/arrowLeft.svg" alt="icon" />
+                <span>Our Products</span
+                ><img src="assets/img/icon/arrowRight.svg" alt="icon" />
+              </div>
+                 <h3>Explore Our Cutting-Edge Product Solutions</h3>
+            </div>
+            <!-- <div class="arrow-btn text-end wow fadeInUp" data-wow-delay=".9s">
+              <button
+                data-slider-prev="#serviceSliderOne"
+                class="slider-arrow style1"
+              >
+                <i class="fa-sharp fa-regular fa-arrow-left-long"></i>
+              </button>
+              <button
+                data-slider-next="#serviceSliderOne"
+                class="slider-arrow style1 slider-next"
+              >
+                <i class="fa-regular fa-arrow-right-long"></i>
+              </button>
+            </div> -->
+          </div>
+
+            <div class="row g-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                   <div class="project-items style-2 mt-0">
                                 <div class="project-image">
-                                    <img src="assets/img/project/05.jpg" alt="project-img">
+                                    <img src="assets/img/bg/dial.jpg" alt="project-img">
                                     <div class="project-content style2">
                                         <!-- <p>Technology</p> -->
                                         <h6>
@@ -548,12 +635,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="project-items style-2">
+       
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                            <div class="project-items style-2 mt-0">
                                 <div class="project-image">
-                                    <img src="assets/img/project/06.jpg" alt="project-img">
+                                    <img src="assets/img/bg/call-center.jpg" alt="project-img">
                                     <div class="project-content style2">
-                                        <!-- <p>Technology</p> -->
+                                     
                                         <h6>
                                             <a href="project-details.html">CallChex – Call Center QA Platform</a>
                                         </h6>
@@ -564,12 +652,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="project-items style-2">
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                  <div class="project-items style-2 mt-0">
                                 <div class="project-image">
-                                    <img src="assets/img/project/07.jpg" alt="project-img">
+                                    <img src="assets/img/bg/Alt.jpg" alt="project-img">
                                     <div class="project-content style2">
-                                        <!-- <p>Solutions</p> -->
+                                      
                                         <h6>
                                             <a href="project-details.html">Alternative Lending Software</a>
                                         </h6>
@@ -580,10 +668,48 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                            <div class="project-items style-2 mt-0">
+                                <div class="project-image">
+                                    <img src="assets/img/bg/ringless.jpg" alt="project-img">
+                                    <div class="project-content style2" >
+                                     
+                                        <h5>
+                                            <a href="project-details.html">Ringless.Cloud</a>
+                                        </h5>
+                                        <a href="project-details.html" class="arrow-icon">
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+             
+                        </div>
+          
             </div>
         </div>
+
+
+      <div class="cta-banner-2 section-padding" style="margin-bottom: 0px;">
+    <div class="container">
+         <div class="cta-wrap style2">
+            <div class="shape1_1 rotate360 d-none d-xl-block"><img src="assets/img/shape/ctaShape2_1.png" alt="shape">
+            </div>
+            <div class="shape1_2 d-none d-xl-block"><img src="assets/img/shape/ctaShape2_2.png" alt="shape"> </div>
+            <div class="shape1_3 d-none d-xl-block"><img src="assets/img/shape/ctaShape2_3.png" alt="shape"></div>
+            <div class="shape1_4 d-none d-xl-block"><img src="assets/img/shape/ctaShape2_4.png" alt="shape"></div>
+            <div class="cta-thumb d-none d-xl-block">
+               <img src="assets/img/cta/ctaThumb.png" alt="thumb">
+            </div>
+            <h3 class="cta-title text-white wow fadeInUp" data-wow-delay=".3s">Stay Connected With Cutting Edge IT
+            </h3>
+            <div class="btn-wrapper">
+               <a class="gt-btn style5" href="contact.html">Talk to a Specialist<i
+                     class="fa-sharp fa-regular fa-arrow-right-long"></i></a>
+            </div>
+         </div>
+      </div>
     </section>
 
 

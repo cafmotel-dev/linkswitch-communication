@@ -38,64 +38,6 @@
     margin-top: -90px; 
   }
 
-.megamenu-li {
-  position: relative;
-}
-
-.services-megamenu {
-  position: absolute;
-  top: 100%;
-   left: -300px !important; 
-  width: 900px; 
-  max-width: 95vw;
-  padding: 20px;
-  background: #fff;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-  z-index: 999;
-  display: none;
-  overflow: hidden;
-}
-
-.megamenu-li:hover .services-megamenu {
-  display: block;
-}
-
-.services-row {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-}
-
-.services-row .col {
-  flex: 1;
-  min-width: 200px;
-}
-
-.services-row .title  {
-  font-weight: bold;
-  font-size: 15px;
-  text-transform: uppercase;
-  margin-bottom: 8px;
-  pointer-events: none;
-  color: #007bff;
-  text-decoration: underline;
-  cursor: default;
-  padding-left: 25px;
-}
-
-.services-row ul li a {
-  color: #444;
-  text-decoration: none;
-  padding: 6px 0;
-  display: block;
-  font-size: 14px;
-}
-
-.services-row ul li a:hover {
-  color: #007bff;
-  padding-left: 5px;
-}
-
 </style>
 
 <body>
@@ -682,7 +624,7 @@
                      <div class="fancy-box-wrapper style2">
                         <div class="fancy-box style2 wow fadeInUp" data-wow-delay=".3s">
                            <div class="item">
-                              <div class="icon"><img src="assets/img/icon/aboutIcon1_1.svg" alt="icon"></div>
+                              <div class="icon"><img src="assets/img/icon/safe&reliable.svg" alt="icon" style="height: 35px;"></div>
                            </div>
                            <div class="item">
                               <h6>Regional presence</h6>
@@ -698,7 +640,7 @@
                         </div>
                         <div class="fancy-box style2 wow fadeInUp" data-wow-delay=".5s">
                            <div class="item">
-                              <div class="icon"><img src="assets/img/icon/aboutIcon1_1.svg" alt="icon"></div>
+                              <div class="icon"><img src="assets/img/icon/24-7.svg" alt="icon" style="height: 35px;"></div>
                            </div>
                            <div class="item">
                               <h6>24/7 services</h6>
@@ -706,7 +648,7 @@
                         </div>
                         <div class="fancy-box style2 wow fadeInUp" data-wow-delay=".5s">
                            <div class="item">
-                              <div class="icon"><img src="assets/img/icon/aboutIcon1_1.svg" alt="icon"></div>
+                              <div class="icon"><img src="assets/img/icon/ROI.svg" alt="icon" style="height: 35px;"></div>
                            </div>
                            <div class="item">
                               <h6>ROI delivery</h6>
@@ -1079,90 +1021,251 @@
     </section> -->
 
 
-    <!-- Project Section Start -->
-    <section class="project-section section-padding fix">
-        <div class="container">
-        <div class="title-wrap mb-45">
-            <div class="section-title">
+ 
+   <!-- Service Section Start -->
+    <section
+      class="service-section-3 pb-0 fix section-padding bg-cover"
+      style="background-image: url('assets/img/service/service-bg-3.jpg')"
+    >
+      <div class="container">
+        <div class="row d-flex align-items-end justify-content-between mb-20">
+          <div class="col-xl-7">
+            <div class="section-title mxw-650">
               <div class="subtitle">
                 <img src="assets/img/icon/arrowLeft.svg" alt="icon" />
-                <span>Our Products</span
+                <span> Our Products </span
                 ><img src="assets/img/icon/arrowRight.svg" alt="icon" />
               </div>
-                 <h3>Explore Our Cutting-Edge Product Solutions</h3>
+              <h3>Explore Our Cutting-Edge Product Solutions</h3>
             </div>
-            <!-- <div class="arrow-btn text-end wow fadeInUp" data-wow-delay=".9s">
-              <button
-                data-slider-prev="#serviceSliderOne"
-                class="slider-arrow style1"
-              >
-                <i class="fa-sharp fa-regular fa-arrow-left-long"></i>
-              </button>
-              <button
-                data-slider-next="#serviceSliderOne"
-                class="slider-arrow style1 slider-next"
-              >
-                <i class="fa-regular fa-arrow-right-long"></i>
-              </button>
-            </div> -->
           </div>
 
-            <div class="row g-4">
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                   <div class="project-items style-2 mt-0">
-                                <div class="project-image">
-                                    <img src="assets/img/bg/dial.jpg" alt="project-img">
-                                    <div class="project-content style2">
-                                        <!-- <p>Technology</p> -->
-                                        <h6>
-                                            <a href="project-details.html">Call Center Dialer with Integrated CRM</a>
-                                        </h6>
-                                        <a href="project-details.html" class="arrow-icon">
-                                            <i class="fa-solid fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-       
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                            <div class="project-items style-2 mt-0">
-                                <div class="project-image">
-                                    <img src="assets/img/bg/call-center.jpg" alt="project-img">
-                                    <div class="project-content style2">
-                                     
-                                        <h6>
-                                            <a href="project-details.html">CallChex – Call Center QA Platform</a>
-                                        </h6>
-                                        <a href="project-details.html" class="arrow-icon">
-                                            <i class="fa-solid fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                  <div class="project-items style-2 mt-0">
-                                <div class="project-image">
-                                    <img src="assets/img/bg/Alt.jpg" alt="project-img">
-                                    <div class="project-content style2">
-                                      
-                                        <h6>
-                                            <a href="project-details.html">Alternative Lending Software</a>
-                                        </h6>
-                                        <a href="project-details.html" class="arrow-icon">
-                                            <i class="fa-solid fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-          
+          <div class="col-xl-5 d-flex align-items-end justify-content-end">
+            <div class="btn-wrapper" data-wow-delay=".9s">
+              <a href="service.html" class="theme-btn">
+                See all Products <i class="fa-solid fa-arrow-right-long"></i>
+              </a>
             </div>
+          </div>
         </div>
-    </section>
+        <div class="row mb-45">
 
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-card-items">
+              <div class="service-image">
+                <img src="assets/img/service/03.jpg" alt="service-img" />
+              </div>
+              <div class="icon-2">
+                <img src="assets/img/service/icon/s-icon-2.svg" alt="img" />
+              </div>
+              <div class="service-content">
+                <div class="icon">
+                  <img src="assets/img/service/icon/s-icon-2.svg" alt="img" />
+                </div>
+                <h5 class="text-black">
+                  <a href="service-details.html" class="text-black">Call Center Dialer with Integrated CRM</a>
+                </h5>
+                <p>Smart dialer with CRM, multichannel outreach, and real-time lead automation.</p>
+                <a href="service-details.html" class="theme-btn-2 mt-3">
+                  read More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-card-items">
+              <div class="service-image">
+                <img src="assets/img/service/04.jpg" alt="service-img" />
+              </div>
+              <div class="icon-2">
+                <img src="assets/img/service/icon/s-icon-4.svg" alt="img" />
+              </div>
+              <div class="service-content">
+                <div class="icon">
+                  <img src="assets/img/service/icon/s-icon-5.svg" alt="img" />
+                </div>
+                <h5 class="text-black">
+                  <a href="service-details.html" class="text-black">CallChex – Call Center QA Platform</a>
+                </h4>
+                <p>AI call analyzer for coaching, compliance, and performance insights.</p>
+                <a href="service-details.html" class="theme-btn-2 mt-3">
+                  read More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-card-items">
+              <div class="service-image">
+                <img src="assets/img/service/05.jpg" alt="service-img" />
+              </div>
+              <div class="icon-2">
+                <img src="assets/img/service/icon/s-icon-3.svg" alt="img" />
+              </div>
+              <div class="service-content">
+                <div class="icon">
+                  <img src="assets/img/service/icon/s-icon-3.svg" alt="img" />
+                </div>
+                <h5 class="text-black">
+                  <a href="service-details.html" class="text-black">Alternative Lending Software</a>
+                </h5>
+                <p>End-to-end MCA lending automation with syndication, ACH, and real-time analytics.</p>
+                <a href="service-details.html" class="theme-btn-2 mt-3">
+                  read More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-card-items">
+              <div class="service-image">
+                <img src="assets/img/service/02.jpg" alt="service-img" />
+              </div>
+              <div class="icon-2">
+                <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
+              </div>
+              <div class="service-content">
+                <div class="icon">
+                  <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
+                </div>
+                <h5 class="text-black">
+                  <a href="service-details.html" class="text-black">Ringless.Cloud</a>
+                </h5>
+                <p>RingLess enhances productivity with intelligent workflows, automated tasks, and effortless scheduling for busy professionals.</p>
+                <a href="service-details.html" class="theme-btn-2 mt-3">
+                  read More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <!-- Service Section Start -->
+    <!-- <section
+      class="service-section-3 pb-0 fix section-padding bg-cover"
+      style="background-image: url('assets/img/service/service-bg-3.jpg')"
+    >
+      <div class="container">
+        <div class="row d-flex align-items-end justify-content-between mb-20">
+          <div class="col-xl-7">
+            <div class="section-title mxw-650">
+              <div class="subtitle">
+                <img src="assets/img/icon/arrowLeft.svg" alt="icon" />
+                <span> Our Products </span
+                ><img src="assets/img/icon/arrowRight.svg" alt="icon" />
+              </div>
+              <h3>Explore Our Cutting-Edge Product Solutions</h3>
+            </div>
+          </div>
+
+          <div class="col-xl-5 d-flex align-items-end justify-content-end">
+            <div class="btn-wrapper" data-wow-delay=".9s">
+              <a href="service.html" class="theme-btn">
+                See all Products <i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-card-items">
+              <div class="service-image">
+                <img src="assets/img/service/03.jpg" alt="service-img" />
+              </div>
+              <div class="icon-2">
+                <img src="assets/img/service/icon/s-icon-2.svg" alt="img" />
+              </div>
+              <div class="service-content">
+                <div class="icon">
+                  <img src="assets/img/service/icon/s-icon-2.svg" alt="img" />
+                </div>
+                <h5 class="text-black">
+                  <a href="service-details.html" class="text-black">Call Center Dialer with Integrated CRM</a>
+                </h5>
+                <p>accumsan. Pellentesque in magna tincidunt, this is.</p>
+                <a href="service-details.html" class="theme-btn-2 mt-3">
+                  read More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-card-items">
+              <div class="service-image">
+                <img src="assets/img/service/04.jpg" alt="service-img" />
+              </div>
+              <div class="icon-2">
+                <img src="assets/img/service/icon/s-icon-4.svg" alt="img" />
+              </div>
+              <div class="service-content">
+                <div class="icon">
+                  <img src="assets/img/service/icon/s-icon-5.svg" alt="img" />
+                </div>
+                <h5 class="text-black">
+                  <a href="service-details.html" class="text-black">CallChex – Call Center QA Platform</a>
+                </h4>
+                <p>accumsan. Pellentesque in magna tincidunt, this is.</p>
+                <a href="service-details.html" class="theme-btn-2 mt-3">
+                  read More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-card-items">
+              <div class="service-image">
+                <img src="assets/img/service/05.jpg" alt="service-img" />
+              </div>
+              <div class="icon-2">
+                <img src="assets/img/service/icon/s-icon-3.svg" alt="img" />
+              </div>
+              <div class="service-content">
+                <div class="icon">
+                  <img src="assets/img/service/icon/s-icon-3.svg" alt="img" />
+                </div>
+                <h5 class="text-black">
+                  <a href="service-details.html" class="text-black">Alternative Lending Software</a>
+                </h5>
+                <p>accumsan. Pellentesque in magna tincidunt, this is.</p>
+                <a href="service-details.html" class="theme-btn-2 mt-3">
+                  read More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-card-items">
+              <div class="service-image">
+                <img src="assets/img/service/02.jpg" alt="service-img" />
+              </div>
+              <div class="icon-2">
+                <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
+              </div>
+              <div class="service-content">
+                <div class="icon">
+                  <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
+                </div>
+                <h5>
+                  <a href="service-details.html">Ringless.Cloud</a>
+                </h5>
+                <p>accumsan. Pellentesque in magna tincidunt, this is.</p>
+                <a href="service-details.html" class="theme-btn-2 mt-3">
+                  read More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
 
 
     <!--<< Testimonial Section Start >>-->
@@ -1182,7 +1285,7 @@
                 <div class="subtitle d-flex justify-content-center"> <img src="assets/img/icon/arrowLeftWhite.svg"
                         alt="icon"> <span class=" text-white"> Testimonials
                     </span><img src="assets/img/icon/arrowRightWhite.svg" alt="icon"></div>
-                <h2 class="title text-center text-white"> People Who Already Love Us</h2>
+                <h2 class="text-center text-white"> People Who Already Love Us</h2>
             </div>
             <div class="swiper testimonial-slider-2">
                 <div class="swiper-wrapper">
@@ -1193,10 +1296,10 @@
                             </div>
                             <div class="client-items">
                                 <div class="client-image style-2 bg-cover"
-                                    style="background-image: url('assets/img/testimonial/02.jpg');"></div>
+                                    style="background-image: url('assets/img/testimonial/03.jpg');"></div>
                                 <div class="client-content">
-                                    <h4>Kathryn Murphy</h4>
-                                    <p>Web Designer</p>
+                                    <h4>Edgard Uzcategui</h4>
+                                    <p>Septic LLC</p>
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -1207,8 +1310,61 @@
                                 </div>
                             </div>
                             <p>
-                                Consectetur adipiscing elit. Integer nunc viverra laoreet est the is porta pretium metus
-                                aliquam eget maecenas porta is nunc viverra Aenean pulvinar maximus leo ”
+                            Thanks to CallChex’s strategic guidance and ongoing support, we expanded our
+                            business faster than planned - and saved significant costs!
+                            </p>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                        <div class="testimonial-box-items">
+                            <div class="icon">
+                                <img src="assets/img/testimonial/icon.png" alt="icon-img">
+                            </div>
+                            <div class="client-items">
+                                <div class="client-image style-2 bg-cover"
+                                    style="background-image: url('assets/img/testimonial/testiThumb3_3.png');"></div>
+                                <div class="client-content">
+                                    <h4>Marcus Boyd</h4>
+                                    <p>BrightTouch
+                                    Communications</p>
+                                    <div class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                            Our agents feel more confident, and sales have improved just weeks after adopting this AI
+                            call scoring software.
+                            </p>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                        <div class="testimonial-box-items">
+                            <div class="icon">
+                                <img src="assets/img/testimonial/icon.png" alt="icon-img">
+                            </div>
+                            <div class="client-items">
+                                <div class="client-image style-2 bg-cover"
+                                    style="background-image: url('assets/img/testimonial/testiThumb3_1.png');"></div>
+                                <div class="client-content">
+                                    <h4>Jorge Martinez</h4>
+                                    <p>SalesNova
+                                    Team</p>
+                                    <div class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                             It’s like having a real-time manager for every agent – without micromanaging anyone.
                             </p>
                         </div>
                     </div>
@@ -1219,10 +1375,11 @@
                             </div>
                             <div class="client-items">
                                 <div class="client-image style-2 bg-cover"
-                                    style="background-image: url('assets/img/testimonial/03.jpg');"></div>
+                                    style="background-image: url('assets/img/testimonial/02.jpg');"></div>
                                 <div class="client-content">
-                                    <h4>Albert Flores</h4>
-                                    <p>Medical Assistant</p>
+                                    <h4>Nandita Rao</h4>
+                                    <p>NextVoice Contact
+                                    Center</p>
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -1233,8 +1390,8 @@
                                 </div>
                             </div>
                             <p>
-                                Consectetur adipiscing elit. Integer nunc viverra laoreet est the is porta pretium metus
-                                aliquam eget maecenas porta is nunc viverra Aenean pulvinar maximus leo ”
+                                 We don’t just coach better now – we coach faster and with purpose. That’s made a real
+                                 difference with CallChex.
                             </p>
                         </div>
                     </div>
@@ -1253,7 +1410,7 @@
                             <div class="subtitle"> <img src="assets/img/icon/arrowLeft.svg" alt="icon"> <span> Latest
                                     Blog
                                 </span><img src="assets/img/icon/arrowRight.svg" alt="icon"></div>
-                            <h2 class="title"> Checkout Our Latest News & Articles</h2>
+                            <h3> Checkout Our Latest News & Articles</h3>
                         </div>
                     </div>
                 </div>
@@ -1271,15 +1428,15 @@
                         <div class="news-card-items style-2">
                             <div class="news-image">
                                 <img src="assets/img/news/04.jpg" alt="news-img">
-                                <div class="post-date">
+                                <!-- <div class="post-date">
                                     <h3>
                                         17 <br>
                                         <span>Feb</span>
                                     </h3>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="news-content">
-                                <ul>
+                                <!-- <ul>
                                     <li>
                                         <i class="fa-regular fa-user"></i>
                                         By Admin
@@ -1288,10 +1445,10 @@
                                         <i class="fa-solid fa-tag"></i>
                                         IT Services
                                     </li>
-                                </ul>
-                                <h3>
-                                    <a href="news-details.html">Simplify Streamline Succeed IT Solutions</a>
-                                </h3>
+                                </ul> -->
+                                <h5>
+                                    <a href="news-details.html">Agent Coaching AI: Smarter Coaching for Better Call Center Results</a>
+                                </h5>
                                 <a href="news-details.html" class="theme-btn-2 mt-3">
                                     read More
                                     <i class="fa-solid fa-arrow-right-long"></i>
@@ -1303,15 +1460,15 @@
                         <div class="news-card-items style-2">
                             <div class="news-image">
                                 <img src="assets/img/news/07.jpg" alt="news-img">
-                                <div class="post-date">
+                                <!-- <div class="post-date">
                                     <h3>
                                         20 <br>
                                         <span>May</span>
                                     </h3>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="news-content">
-                                <ul>
+                                <!-- <ul>
                                     <li>
                                         <i class="fa-regular fa-user"></i>
                                         By Admin
@@ -1320,10 +1477,10 @@
                                         <i class="fa-solid fa-tag"></i>
                                         UI/UX Design
                                     </li>
-                                </ul>
-                                <h3>
-                                    <a href="news-details.html">Unlocking Potential Through Technology</a>
-                                </h3>
+                                </ul> -->
+                                <h5>
+                                    <a href="news-details.html">Call Auditing Software: Boosting Call Center Efficiency</a>
+                                </h5>
                                 <a href="news-details.html" class="theme-btn-2 mt-3">
                                     read More
                                     <i class="fa-solid fa-arrow-right-long"></i>
@@ -1335,15 +1492,15 @@
                         <div class="news-card-items style-2">
                             <div class="news-image">
                                 <img src="assets/img/news/08.jpg" alt="news-img">
-                                <div class="post-date">
+                                <!-- <div class="post-date">
                                     <h3>
                                         10 <br>
                                         <span>Feb</span>
                                     </h3>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="news-content">
-                                <ul>
+                                <!-- <ul>
                                     <li>
                                         <i class="fa-regular fa-user"></i>
                                         By Admin
@@ -1352,10 +1509,10 @@
                                         <i class="fa-solid fa-tag"></i>
                                         Cyber Security
                                     </li>
-                                </ul>
-                                <h3>
-                                    <a href="news-details.html">Supervisor Disapproved of Latest Work.</a>
-                                </h3>
+                                </ul> -->
+                                <h5>
+                                    <a href="news-details.html">AI Call Monitoring: Smarter Call Center Optimization</a>
+                                </h5>
                                 <a href="news-details.html" class="theme-btn-2 mt-3">
                                     read More
                                     <i class="fa-solid fa-arrow-right-long"></i>
