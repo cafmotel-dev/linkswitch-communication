@@ -549,7 +549,7 @@
                     </div>
                   </div>
                
-                  <!-- <div class="swiper-slide">
+                  <div class="swiper-slide">
                     <div class="service-card style1">
                       <div class="icon">
                         <img
@@ -569,7 +569,28 @@
                         ></a>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
+                       <div class="swiper-slide">
+                    <div class="service-card style1">
+                      <div class="icon">
+                        <img
+                          src="assets/img/icon/serviceIcon1_3.svg"
+                          alt="icon"
+                        />
+                      </div>
+                      <div class="body">
+                        <h3>
+                          <a href="service-details.html">RCM Services</a>
+                        </h3>
+                        <p>
+                         CleverCrew Healthcare leverages cutting-edge automation, AI, and data-driven insights to transform healthcare operations.
+                        </p>
+                        <a href="service-details.html" class="link-btn style1"
+                          >Read more <i class="fa-regular fa-chevrons-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

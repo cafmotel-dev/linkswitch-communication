@@ -6,9 +6,9 @@
 .services-megamenu {
   position: absolute;
   top: 100%;
-   left: -300px !important; 
-  width: 900px; 
-  max-width: 95vw;
+  left: -750px !important; 
+  width: 1400px; 
+  max-width: 140vw;
   padding: 20px;
   background: #fff;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
@@ -24,7 +24,7 @@
 .services-row {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 2px;
 }
 
 .services-row .col {
@@ -116,7 +116,7 @@
                         <div class="header-left">
                             <div class="logo">
                                 <a href="index.html" class="header-logo">
-                                    <img src="assets/img/logo.png" alt="logo-img" style="width: 480px; max-height: 85px; margin-left: -100px;">
+                                    <img src="assets/img/logo4.png" alt="logo-img" style="width: 480px; max-height: 85px; margin-left: -100px;">
                                 </a>
                             </div>
                         </div>
@@ -141,24 +141,37 @@
       <div class="services-row">
         <div class="col">
           <ul>
-            <li class="title"><span>IT Services</span></li>
-            <li><a href="managed-itservices.php">Managed IT Services</a></li>
-            <li><a href="#">Cloud Services</a></li>
-            <li><a href="#">Software Development</a></li>
+      <li class="title"><span><i class="fas fa-laptop-code"></i>  IT Services</span></li>
+      <li><a href="managed-itservices.php"><i class="fas fa-cogs"></i> Managed IT Services</a></li>
+      <li><a href="#"><i class="fas fa-cloud"></i> Cloud Services</a></li>
+      <li><a href="#"><i class="fas fa-code"></i>  Software Development</a></li>
           </ul>
         </div>
         <div class="col">
           <ul>
-            <li class="title"><span>Consulting</span></li>
-            <li><a href="#">IT Consulting & Strategy</a></li>
-            <li><a href="#">IT Staffing</a></li>
-            <!-- <li><a href="#">BPO Services</a></li> -->
+        <li class="title"><span><i class="fas fa-user-tie"></i> Consulting</span></li>
+      <li><a href="#"><i class="fas fa-lightbulb"></i> IT Consulting & Strategy</a></li>
+      <li><a href="#"><i class="fas fa-users"></i> IT Staffing</a></li>
           </ul>
         </div>
         <div class="col">
           <ul>
-            <li class="title"><span>Business Services</span></li>
-            <li><a href="#">BPO Services</a></li>
+             <li class="title"><span><i class="fas fa-briefcase"></i> Business Services</span></li>
+             <li><a href="#"><i class="fas fa-headset"></i> BPO Services</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <li class="title"><span><i class="fas fa-globe"></i> Digital Solutions</span></li>
+            <li><a href="#"><i class="fas fa-cart-plus"></i> E-commerce & Web Solutions</a></li>
+
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+             <li class="title"><span><i class="fas fa-notes-medical"></i> Healthcare Services</span></li>
+            <li><a href="#"><i class="fas fa-file-invoice-dollar"></i> RCM Services</a></li>
+
           </ul>
         </div>
       </div>

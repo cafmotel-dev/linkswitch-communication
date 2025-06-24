@@ -70,7 +70,7 @@
                             <div class="widget footer-widget wow fadeInUp" data-wow-delay=".6s">
                                 <div class="gt-widget-about">
                                     <div class="about-logo">
-                                        <a href="index.html"><img src="assets/img/logo.webp" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -25px;"></a>
+                                        <a href="index.html"><img src="assets/img/logo-transparent5.png" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -40px;"></a>
                                     </div>
                                     <p class="about-text">Global tech solutions, locally delivered—LinkSwitch Communications operates in the USA, Canada, Dubai, and India.
                                     </p>
@@ -123,6 +123,7 @@
                                         <li><a href="contact.html"><i class="fa-solid fa-chevrons-right"></i>IT Staffing & Augmentation</a></li>
                                         <li><a href="contact.html"><i class="fa-solid fa-chevrons-right"></i>BPO Services</a>  </li>
                                          <li><a href="contact.html"><i class="fa-solid fa-chevrons-right"></i>E-commerce & Web Solutions</a>  </li>
+                                            <li><a href="contact.html"><i class="fa-solid fa-chevrons-right"></i>RCM Services</a></li>
                                       
                                     </ul>
                                 </div>
