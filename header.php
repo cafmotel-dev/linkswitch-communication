@@ -50,13 +50,55 @@
   padding: 6px 0;
   display: block;
   font-size: 14px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
 }
 
-.services-row ul li a:hover {
-  color: #007bff;
-  padding-left: 5px;
-}
+/* .services-row ul li a:hover,
+.services-row ul li a:focus {
+  color: #007bff !important;
+  padding-left: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+} */
+
+
 </style>
+
+    <style>
+        .preloader {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #fff;
+        }
+
+        .loader-container {
+            position: relative;
+        }
+
+        .loader-logo {
+            width: 120px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .loader-spinner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 150px;
+            height: 150px;
+            margin-top: -75px;
+            margin-left: -75px;
+            z-index: 1;
+        }
+    </style>
  
  <!-- Header Section Start -->
     <header>

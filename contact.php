@@ -78,7 +78,7 @@ textarea {
 
 
     <!-- Preloader Start -->
-    <div id="preloader" class="preloader">
+    <!-- <div id="preloader" class="preloader">
         <div class="animation-preloader">
             <div class="spinner">
             </div>
@@ -132,7 +132,17 @@ textarea {
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+
+         <div class="preloader">
+
+            <div class="loader-container">
+                <img src="assets/img/logo4.png" alt="Logo" class="loader-logo">
+                <div class="spinner-border text-info loader-spinner" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        </div>
 
     <!--<< Mouse Cursor Start >>-->
     <div class="mouse-cursor cursor-outer"></div>
@@ -232,7 +242,7 @@ textarea {
     </div>
 
     <!--<< Breadcrumb Section Start >>-->
-    <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb.jpg');">
+    <!-- <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb.jpg');">
         <div class="border-shape">
             <img src="assets/img/element.png" alt="shape-img">
         </div>
@@ -257,13 +267,13 @@ textarea {
                 </ul>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
     <!-- Contact Section Start -->
     <section class="contact-section fix section-padding">
-        <div class="container">
+        <div class="container" style="margin-top: -95px;">
             <div class="contact-wrapper-2">
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-6">

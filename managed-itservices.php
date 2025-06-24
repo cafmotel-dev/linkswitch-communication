@@ -36,7 +36,7 @@
 
 
     <!-- Preloader Start -->
-    <div id="preloader" class="preloader">
+    <!-- <div id="preloader" class="preloader">
         <div class="animation-preloader">
             <div class="spinner">
             </div>
@@ -91,7 +91,17 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+
+         <div class="preloader">
+
+            <div class="loader-container">
+                <img src="assets/img/logo4.png" alt="Logo" class="loader-logo">
+                <div class="spinner-border text-info loader-spinner" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        </div>
 
     <!--<< Mouse Cursor Start >>-->
     <div class="mouse-cursor cursor-outer"></div>

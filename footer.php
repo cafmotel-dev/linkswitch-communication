@@ -1,6 +1,6 @@
     <!--<< Footer Section Start >>-->
     <footer class="footer-section pt-100 footer-bg">
-        <div class="container">
+        <!-- <div class="container">
             <div class="contact-info-area">
                 <div class="contact-info-items wow fadeInUp" data-wow-delay=".7s">
                     <div class="icon">
@@ -61,16 +61,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="widget-area style1 footer-bg pb-80">
-            <div class="container">
+            <div class="container" style="margin-top: -95px;">
                 <div class="footer-layout style1">
                     <div class="row">
                         <div class="col-xl-3 col-md-6 col-12">
                             <div class="widget footer-widget wow fadeInUp" data-wow-delay=".6s">
                                 <div class="gt-widget-about">
                                     <div class="about-logo">
-                                        <a href="index.html"><img src="assets/img/logo-transparent5.png" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -40px;"></a>
+                                        <a href="index.html"><img src="assets/img/logo-transparent5.png" alt="logo-img" style="width: 450px; max-height: 100px; margin-left: -40px;"></a>
                                     </div>
                                     <p class="about-text">Global tech solutions, locally delivered—LinkSwitch Communications operates in the USA, Canada, Dubai, and India.
                                     </p>
@@ -200,11 +200,15 @@
                                         <li class="text-white"><i class="fa-solid fa-phone"></i></li>
                                         <li class="text-white">+1 (902) 441-2385</li>
                                     </ul>
-                                    <div class="email-input-container">
+                                     <ul class="ps-0">
+                                        <li class="text-white"><i class="fa-solid fa-location-dot"></i></li>
+                                        <li class="text-white">169 Madison Ave STE 2945 New York, NY 10016</li>
+                                    </ul>
+                                    <!-- <div class="email-input-container">
                                         <input type="email" id="email" placeholder="Your email address" required="">
                                         <button type="submit" id="submitButton" disabled=""><i
                                                 class="fa-regular fa-arrow-right-long"></i></button>
-                                    </div>
+                                    </div> -->
                                     <form id="termsForm">
                                         <label class="custom-checkbox">
                                             <input type="checkbox" name="agree" id="agreeCheckbox">
