@@ -741,14 +741,16 @@
     <script src="assets/js/main.js"></script>
 
 <script>
-    window.addEventListener('load', function () {
-        const preloader = document.getElementById('preloader');
-        if (preloader) {
-            preloader.style.opacity = '0';
+document.addEventListener('DOMContentLoaded', function () {
+    const preloader = document.getElementById('preloader');
+    if (preloader) {
+        preloader.style.transition = 'opacity 0.3s ease';
+        preloader.style.opacity = '0';
+        setTimeout(() => {
             preloader.style.visibility = 'hidden';
-            preloader.style.transition = 'opacity 0.5s ease'; 
-        }
-    });
+        }, 300); 
+    }
+});
 </script>
 
 </body>

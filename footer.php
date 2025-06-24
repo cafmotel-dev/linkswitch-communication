@@ -111,7 +111,7 @@
                                 <h3 class="widget_title">Services</h3>
                                 <div class="menu-all-pages-container">
                                     <ul class="menu">
-                                        <li><a href="about.html"><i class="fa-solid fa-chevrons-right"></i>
+                                        <li><a href="managed-itservices.php"><i class="fa-solid fa-chevrons-right"></i>
                                                 Managed IT Services</a>
                                         </li>
                                         <li><a href="service.html"><i class="fa-solid fa-chevrons-right"></i>Cloud Services</a>

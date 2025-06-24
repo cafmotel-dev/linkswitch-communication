@@ -116,7 +116,7 @@
                         <div class="header-left">
                             <div class="logo">
                                 <a href="index.html" class="header-logo">
-                                    <img src="assets/img/logo.webp" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -90px;">
+                                    <img src="assets/img/logo.png" alt="logo-img" style="width: 480px; max-height: 85px; margin-left: -100px;">
                                 </a>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
         <div class="col">
           <ul>
             <li class="title"><span>IT Services</span></li>
-            <li><a href="#">Managed IT Services</a></li>
+            <li><a href="managed-itservices.php">Managed IT Services</a></li>
             <li><a href="#">Cloud Services</a></li>
             <li><a href="#">Software Development</a></li>
           </ul>

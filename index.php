@@ -396,13 +396,13 @@
                       </div>
                       <div class="body">
                         <h3>
-                          <a href="service-details.html">Managed IT Services</a>
+                          <a href="managed-itservices.php">Managed IT Services</a>
                         </h3>
                         <p>
                          Full-spectrum IT support with helpdesk, system management, remote troubleshooting, and 24/7 monitoring.
 
                         </p>
-                        <a href="service-details.html" class="link-btn style1"
+                        <a href="managed-itservices.php" class="link-btn style1"
                           >Read more <i class="fa-regular fa-chevrons-right"></i
                         ></a>
                       </div>
@@ -549,7 +549,7 @@
                     </div>
                   </div>
                
-                  <div class="swiper-slide">
+                  <!-- <div class="swiper-slide">
                     <div class="service-card style1">
                       <div class="icon">
                         <img
@@ -569,7 +569,7 @@
                         ></a>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -1552,14 +1552,16 @@
     <script src="assets/js/main.js"></script>
 
 <script>
-    window.addEventListener('load', function () {
-        const preloader = document.getElementById('preloader');
-        if (preloader) {
-            preloader.style.opacity = '0';
+document.addEventListener('DOMContentLoaded', function () {
+    const preloader = document.getElementById('preloader');
+    if (preloader) {
+        preloader.style.transition = 'opacity 0.3s ease';
+        preloader.style.opacity = '0';
+        setTimeout(() => {
             preloader.style.visibility = 'hidden';
-            preloader.style.transition = 'opacity 0.5s ease'; 
-        }
-    });
+        }, 300); 
+    }
+});
 </script>
 </body>
 

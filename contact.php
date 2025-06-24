@@ -33,6 +33,47 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
+<style>
+.text-white {
+  color: white !important;
+}
+
+.contact-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 50px 60px;         
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  max-width: 1100px;         
+  margin: 60px auto;         
+  min-height: 800px;         
+}
+
+.contact-card h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+.contact-card p {
+  margin-bottom: 30px;
+  color: #666;
+  font-size: 16px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #999;
+  opacity: 1; /* Make sure it's visible */
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 16px;
+}
+
+
+</style>
+
 <body>
 
 
@@ -218,6 +259,8 @@
         </div>
     </div>
 
+
+
     <!-- Contact Section Start -->
     <section class="contact-section fix section-padding">
         <div class="container">
@@ -241,9 +284,9 @@
                                     </div>
                                     <div class="content">
                                         <p>Call Us 7/24</p>
-                                        <h3>
-                                            <a href="tel:+2085550112">+1 (902) 441-2385</a>
-                                        </h3>
+                                        <h5 class="text-white">
+                                            <a href="tel:+2085550112" class="text-white">+1 (902) 441-2385</a>
+                                        </h5>
                                     </div>
                                 </div>
                                 <div class="contact-info-items mb-4">
@@ -263,9 +306,9 @@
                                     </div>
                                     <div class="content">
                                         <p>Make a Quote</p>
-                                        <h3>
-                                            <a href="mailto:infotech@gmail.com">sales@linkswitchcommunications.com</a>
-                                        </h3>
+                                        <h5 class="text-white">
+                                            <a href="mailto:infotech@gmail.com" class="text-white">sales@linkswitchcommunications.com</a>
+                                        </h5>
                                     </div>
                                 </div>
                                 <div class="contact-info-items border-none">
@@ -282,9 +325,9 @@
                                     </div>
                                     <div class="content">
                                         <p>Location</p>
-                                        <h3>
+                                        <h5 class="text-white">
                                            169 Madison Ave STE 2945 New York, NY 10016
-                                        </h3>
+                                        </h5>
                                     </div>
                                 </div>
                             </div>
@@ -300,33 +343,33 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="contact-content">
-                            <h2>Ready to Get Started?</h2>
+                        <div class="contact-content contact-card">
+                            <h2>Get In Touch</h2>
                             <p>
                                 "Have questions or ready to start? Connect with us—our experts are here to guide your growth and success."
                             </p>
                             <form action="https://wpriverthemes.com/HTML/extech/contact.php" id="contact-form" method="POST" class="contact-form-items">
                                 <div class="row g-4">
-                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="col-lg-6">
                                         <div class="form-clt">
                                             <span>Your name*</span>
                                             <input type="text" name="name" id="name" placeholder="Your Name">
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                    <div class="col-lg-6">
                                         <div class="form-clt">
                                             <span>Your Email*</span>
                                             <input type="text" name="email" id="email" placeholder="Your Email">
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
+                                    <div class="col-lg-12">
                                         <div class="form-clt">
                                             <span>Write Message*</span>
                                             <textarea name="message" id="message"
                                                 placeholder="Write Message"></textarea>
                                         </div>
                                     </div>
-                                    <div class="col-lg-7 wow fadeInUp" data-wow-delay=".9s">
+                                    <div class="col-lg-7">
                                         <button type="submit" class="theme-btn">
                                             Send Message <i class="fa-solid fa-arrow-right-long"></i>
                                         </button>
@@ -383,14 +426,16 @@
     <script src="assets/js/main.js"></script>
 
 <script>
-    window.addEventListener('load', function () {
-        const preloader = document.getElementById('preloader');
-        if (preloader) {
-            preloader.style.opacity = '0';
+document.addEventListener('DOMContentLoaded', function () {
+    const preloader = document.getElementById('preloader');
+    if (preloader) {
+        preloader.style.transition = 'opacity 0.3s ease';
+        preloader.style.opacity = '0';
+        setTimeout(() => {
             preloader.style.visibility = 'hidden';
-            preloader.style.transition = 'opacity 0.5s ease'; 
-        }
-    });
+        }, 300); 
+    }
+});
 </script>
 </body>
 
