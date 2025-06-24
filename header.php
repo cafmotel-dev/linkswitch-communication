@@ -235,7 +235,7 @@
                             </div>
                             <a href="#0" class="search-trigger search-icon"><i class="fal fa-search"></i></a>
                             <div class="header-button">
-                                <a href="contact.html" class="theme-btn bg-white">
+                                <a href="contact.php" class="theme-btn bg-white">
                                     <span>
                                         Get Started
                                         <i class="fa-solid fa-arrow-right-long"></i>
