@@ -42,6 +42,16 @@
     margin-top: -78px; 
   }
 
+  .bg-white{
+    background: #fff;
+  }
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+
 </style>
 
 
@@ -128,7 +138,7 @@
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="index.html">
-                                <img src="assets/img/logo.webp" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -50px;">
+                                <img src="assets/img/logo4.png" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -50px;">
                             </a>
                         </div>
                         <div class="offcanvas__close">
@@ -181,7 +191,7 @@
                         </ul>
                         <div class="header-button mt-4">
                             <a href="contact.php" class="theme-btn text-center">
-                                <span>Get Started<i class="fa-solid fa-arrow-right-long"></i></span>
+                                <span>Join Us Now<i class="fa-solid fa-arrow-right-long"></i></span>
                             </a>
                         </div>
                         <div class="social-icon d-flex align-items-center">
@@ -254,7 +264,7 @@
                                      A global tech partner driving innovation across borders—delivering cutting-edge IT solutions, </br>smart software, and digital services tailored for growth in a connected world.
                                     </p>
                                     <div class="hero-button">
-                                        <a href="about.html" data-animation="slideInRight" data-duration="2s"
+                                        <a href="about.php" data-animation="slideInRight" data-duration="2s"
                                             data-delay=".9s" class="theme-btn hover-white">
                                             Explore More
                                             <i class="fa-solid fa-arrow-right-long"></i>
@@ -363,260 +373,133 @@
         </div>
     </section>
 
-
-        <!-- Service Section    S T A R T -->
-    <section class="service-section space fix closer-to-hero">
-      <div class="service-container-wrapper style1">
-        <div class="container">
-          <div class="title-wrap mb-5">
-            <div class="section-title">
+      <!-- Service Section Start -->
+    <section
+      class="service-section-3 pb-0 fix section-padding bg-cover close-to-hero bg-white"
+      style="background-image: url('assets/img/service/service-bg-3.jpg')"
+    >
+      <div class="container">
+        <div class="row d-flex align-items-end justify-content-between mb-20">
+          <div class="col-xl-7">
+            <div class="section-title mxw-650">
               <div class="subtitle">
                 <img src="assets/img/icon/arrowLeft.svg" alt="icon" />
-                <span> Our Services </span
+                <span> Our Products </span
                 ><img src="assets/img/icon/arrowRight.svg" alt="icon" />
               </div>
-              <h3>Smart Solutions That Drive Results.</h3>
-            </div>
-            <div class="arrow-btn text-end wow fadeInUp" data-wow-delay=".9s">
-              <button
-                data-slider-prev="#serviceSliderOne"
-                class="slider-arrow style1"
-              >
-                <i class="fa-sharp fa-regular fa-arrow-left-long"></i>
-              </button>
-              <button
-                data-slider-next="#serviceSliderOne"
-                class="slider-arrow style1 slider-next"
-              >
-                <i class="fa-regular fa-arrow-right-long"></i>
-              </button>
+              <h3>Explore Our Cutting-Edge Product Solutions</h3>
             </div>
           </div>
 
-          <div class="row">
-            <div class="slider-area serviceSliderOne">
-              <div
-                class="swiper gt-slider"
-                id="serviceSliderOne"
-                data-slider-options='{"loop": true, "breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":2,"centeredSlides":true},"768":{"slidesPerView":2},"992":{"slidesPerView":3},"1200":{"slidesPerView":4}}}'
-              >
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="service-card style1">
-                      <div class="icon">
-                        <img
-                          src="assets/img/icon/serviceIcon1_1.svg"
-                          alt="icon"
-                        />
-                      </div>
-                      <div class="body">
-                        <h3>
-                          <a href="managed-itservices.php">Managed IT Services</a>
-                        </h3>
-                        <p>
-                         Full-spectrum IT support with helpdesk, system management, remote troubleshooting, and 24/7 monitoring.
+          <div class="col-xl-5 d-flex align-items-end justify-content-end">
+            <div class="btn-wrapper" data-wow-delay=".9s">
+              <a href="service.html" class="theme-btn">
+                See all Products <i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-45">
 
-                        </p>
-                        <a href="managed-itservices.php" class="link-btn style1"
-                          >Read more <i class="fa-regular fa-chevrons-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="service-card style1">
-                      <div class="icon">
-                        <img
-                          src="assets/img/icon/serviceIcon1_2.svg"
-                          alt="icon"
-                        />
-                      </div>
-                      <div class="body">
-                        <h3>
-                          <a href="service-details.html">Cloud Services</a>
-                        </h3>
-                        <p>
-                         Seamless migration to AWS, Azure, and GCP with VDI setup, cloud optimization, and disaster recovery for secure business continuity.
-
-                        </p>
-                        <a href="service-details.html" class="link-btn style1"
-                          >Read more <i class="fa-regular fa-chevrons-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- <div class="swiper-slide">
-                    <div class="service-card style1">
-                      <div class="icon">
-                        <img
-                          src="assets/img/icon/serviceIcon1_3.svg"
-                          alt="icon"
-                        />
-                      </div>
-                      <div class="body">
-                        <h3>
-                          <a href="service-details.html">CRM Solutions</a>
-                        </h3>
-                        <p>
-                          Collaboratively formulate principle capital.
-                          Progressively evolve user revolutionary hosting
-                          services.
-                        </p>
-                        <a href="service-details.html" class="link-btn style1"
-                          >Read more <i class="fa-regular fa-chevrons-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div> -->
-                  <div class="swiper-slide">
-                    <div class="service-card style1">
-                      <div class="icon">
-                        <img
-                          src="assets/img/icon/serviceIcon1_4.svg"
-                          alt="icon"
-                        />
-                      </div>
-                      <div class="body">
-                        <h3>
-                          <a href="service-details.html"
-                            >Software Development</a
-                          >
-                        </h3>
-                        <p>
-                      Custom software for mobile apps, SaaS, APIs, ERP, and CRM systems. We modernize legacy code and build scalable digital platforms.
-
-                        </p>
-                        <a href="service-details.html" class="link-btn style1"
-                          >Read more <i class="fa-regular fa-chevrons-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                     <div class="swiper-slide">
-                    <div class="service-card style1">
-                      <div class="icon">
-                        <img
-                          src="assets/img/icon/serviceIcon1_1.svg"
-                          alt="icon"
-                        />
-                      </div>
-                      <div class="body">
-                        <h3>
-                          <a href="service-details.html">BPO Services</a>
-                        </h3>
-                        <p>
-                          Customer support and back-office outsourcing with
-                          multilingual agents and AI tools for cost-effective
-                          service delivery.
-                        </p>
-                        <a href="service-details.html" class="link-btn style1"
-                          >Read more <i class="fa-regular fa-chevrons-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="service-card style1">
-                      <div class="icon">
-                        <img
-                          src="assets/img/icon/serviceIcon1_1.svg"
-                          alt="icon"
-                        />
-                      </div>
-                      <div class="body">
-                        <h3>
-                          <a href="service-details.html"
-                            >IT Consulting & Strategy</a
-                          >
-                        </h3>
-                        <p>
-                       IT audits, CTO-as-a-Service, automation, and strategic roadmaps for long-term efficiency.
-
-                        </p>
-                        <a href="service-details.html" class="link-btn style1"
-                          >Read more <i class="fa-regular fa-chevrons-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="service-card style1">
-                      <div class="icon">
-                        <img
-                          src="assets/img/icon/serviceIcon1_2.svg"
-                          alt="icon"
-                        />
-                      </div>
-                      <div class="body">
-                        <h3>
-                          <a href="service-details.html"
-                            >IT Staffing & Augmentation</a
-                          >
-                        </h3>
-                        <p>
-                        Pre-vetted developers, offshore teams, flexible hiring, and RPO solutions.
-
-                        </p>
-                        <a href="service-details.html" class="link-btn style1"
-                          >Read more <i class="fa-regular fa-chevrons-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-               
-                  <div class="swiper-slide">
-                    <div class="service-card style1">
-                      <div class="icon">
-                        <img
-                          src="assets/img/icon/serviceIcon1_2.svg"
-                          alt="icon"
-                        />
-                      </div>
-                      <div class="body">
-                        <h3><a href="service-details.html">E-commerce & Web Solutions</a></h3>
-                        <p>
-                         E-commerce solutions with Shopify, WooCommerce, CMS, SEO, and digital marketing.
-
-
-                        </p>
-                        <a href="service-details.html" class="link-btn style1"
-                          >Read more <i class="fa-regular fa-chevrons-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                       <div class="swiper-slide">
-                    <div class="service-card style1">
-                      <div class="icon">
-                        <img
-                          src="assets/img/icon/serviceIcon1_3.svg"
-                          alt="icon"
-                        />
-                      </div>
-                      <div class="body">
-                        <h3>
-                          <a href="service-details.html">RCM Services</a>
-                        </h3>
-                        <p>
-                         CleverCrew Healthcare leverages cutting-edge automation, AI, and data-driven insights to transform healthcare operations.
-                        </p>
-                        <a href="service-details.html" class="link-btn style1"
-                          >Read more <i class="fa-regular fa-chevrons-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-card-items">
+              <div class="service-image">
+                <img src="assets/img/service/03.jpg" alt="service-img" />
+              </div>
+              <div class="icon-2">
+                <img src="assets/img/service/icon/s-icon-2.svg" alt="img" />
+              </div>
+              <div class="service-content">
+                <div class="icon">
+                  <img src="assets/img/service/icon/s-icon-2.svg" alt="img" />
                 </div>
+                <h5 class="text-black">
+                  <a href="service-details.html" class="text-black">Call Center Dialer with Integrated CRM</a>
+                </h5>
+                <p>Smart dialer with CRM, multichannel outreach, and real-time lead automation.</p>
+                <a href="service-details.html" class="theme-btn-2 mt-3">
+                  read More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-card-items">
+              <div class="service-image">
+                <img src="assets/img/service/04.jpg" alt="service-img" />
+              </div>
+              <div class="icon-2">
+                <img src="assets/img/service/icon/s-icon-4.svg" alt="img" />
+              </div>
+              <div class="service-content">
+                <div class="icon">
+                  <img src="assets/img/service/icon/s-icon-5.svg" alt="img" />
+                </div>
+                <h5 class="text-black">
+                  <a href="service-details.html" class="text-black">CallChex – Call Center QA Platform</a>
+                </h4>
+                <p>AI call analyzer for coaching, compliance, and performance insights.</p>
+                <a href="service-details.html" class="theme-btn-2 mt-3">
+                  read More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-card-items">
+              <div class="service-image">
+                <img src="assets/img/service/05.jpg" alt="service-img" />
+              </div>
+              <div class="icon-2">
+                <img src="assets/img/service/icon/s-icon-3.svg" alt="img" />
+              </div>
+              <div class="service-content">
+                <div class="icon">
+                  <img src="assets/img/service/icon/s-icon-3.svg" alt="img" />
+                </div>
+                <h5 class="text-black">
+                  <a href="service-details.html" class="text-black">Alternative Lending Software</a>
+                </h5>
+                <p>End-to-end MCA lending automation with syndication, ACH, and real-time analytics.</p>
+                <a href="service-details.html" class="theme-btn-2 mt-3">
+                  read More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="service-card-items">
+              <div class="service-image">
+                <img src="assets/img/service/02.jpg" alt="service-img" />
+              </div>
+              <div class="icon-2">
+                <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
+              </div>
+              <div class="service-content">
+                <div class="icon">
+                  <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
+                </div>
+                <h5 class="text-black">
+                  <a href="service-details.html" class="text-black">Ringless.Cloud</a>
+                </h5>
+                <p>Ringless enhances productivity with intelligent workflows, automated tasks, and effortless scheduling for busy professionals.</p>
+                <a href="service-details.html" class="theme-btn-2 mt-3">
+                  read More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+
 
 
     <!-- About Section    S T A R T -->
-   <section class="about-section space fix bg-theme-color closer-to-top" style="padding-top: 35px; padding-bottom: 5px;" >
+   <section class="about-section space fix bg-theme-color" style="padding-top: 35px; padding-bottom: 5px;" >
       <div class="about-container-wrapper style1">
          <div class="shape1"><img src="assets/img/shape/aboutShape1_1.png" alt="shape"></div>
          <div class="shape2"><img src="assets/img/shape/aboutShape1_2.png" alt="shape"></div>
@@ -1059,130 +942,257 @@
     </section> -->
 
 
- 
-   <!-- Service Section Start -->
-    <section
-      class="service-section-3 pb-0 fix section-padding bg-cover"
-      style="background-image: url('assets/img/service/service-bg-3.jpg')"
-    >
-      <div class="container">
-        <div class="row d-flex align-items-end justify-content-between mb-20">
-          <div class="col-xl-7">
-            <div class="section-title mxw-650">
+            <!-- Service Section    S T A R T -->
+    <section class="service-section space fix closer-to-hero">
+      <div class="service-container-wrapper style1">
+        <div class="container">
+          <div class="title-wrap mb-5">
+            <div class="section-title">
               <div class="subtitle">
                 <img src="assets/img/icon/arrowLeft.svg" alt="icon" />
-                <span> Our Products </span
+                <span> Our Services </span
                 ><img src="assets/img/icon/arrowRight.svg" alt="icon" />
               </div>
-              <h3>Explore Our Cutting-Edge Product Solutions</h3>
+              <h3>Smart Solutions That Drive Results.</h3>
+            </div>
+            <div class="arrow-btn text-end wow fadeInUp" data-wow-delay=".9s">
+              <button
+                data-slider-prev="#serviceSliderOne"
+                class="slider-arrow style1"
+              >
+                <i class="fa-sharp fa-regular fa-arrow-left-long"></i>
+              </button>
+              <button
+                data-slider-next="#serviceSliderOne"
+                class="slider-arrow style1 slider-next"
+              >
+                <i class="fa-regular fa-arrow-right-long"></i>
+              </button>
             </div>
           </div>
 
-          <div class="col-xl-5 d-flex align-items-end justify-content-end">
-            <div class="btn-wrapper" data-wow-delay=".9s">
-              <a href="service.html" class="theme-btn">
-                See all Products <i class="fa-solid fa-arrow-right-long"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row mb-45">
+          <div class="row">
+            <div class="slider-area serviceSliderOne">
+              <div
+                class="swiper gt-slider"
+                id="serviceSliderOne"
+                data-slider-options='{"loop": true, "breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":2,"centeredSlides":true},"768":{"slidesPerView":2},"992":{"slidesPerView":3},"1200":{"slidesPerView":4}}}'
+              >
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="service-card style1">
+                      <div class="icon">
+                        <img
+                          src="assets/img/icon/serviceIcon1_1.svg"
+                          alt="icon"
+                        />
+                      </div>
+                      <div class="body">
+                        <h3>
+                          <a href="managed-itservices.php">Managed IT Services</a>
+                        </h3>
+                        <p>
+                         Full-spectrum IT support with helpdesk, system management, remote troubleshooting, and 24/7 monitoring.
 
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="service-card-items">
-              <div class="service-image">
-                <img src="assets/img/service/03.jpg" alt="service-img" />
-              </div>
-              <div class="icon-2">
-                <img src="assets/img/service/icon/s-icon-2.svg" alt="img" />
-              </div>
-              <div class="service-content">
-                <div class="icon">
-                  <img src="assets/img/service/icon/s-icon-2.svg" alt="img" />
+                        </p>
+                        <a href="managed-itservices.php" class="link-btn style1"
+                          >Read more <i class="fa-regular fa-chevrons-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="service-card style1">
+                      <div class="icon">
+                        <img
+                          src="assets/img/icon/serviceIcon1_2.svg"
+                          alt="icon"
+                        />
+                      </div>
+                      <div class="body">
+                        <h3>
+                          <a href="service-details.html">Cloud Services</a>
+                        </h3>
+                        <p>
+                         Seamless migration to AWS, Azure, and GCP with VDI setup, cloud optimization, and disaster recovery for secure business continuity.
+
+                        </p>
+                        <a href="service-details.html" class="link-btn style1"
+                          >Read more <i class="fa-regular fa-chevrons-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="swiper-slide">
+                    <div class="service-card style1">
+                      <div class="icon">
+                        <img
+                          src="assets/img/icon/serviceIcon1_3.svg"
+                          alt="icon"
+                        />
+                      </div>
+                      <div class="body">
+                        <h3>
+                          <a href="service-details.html">CRM Solutions</a>
+                        </h3>
+                        <p>
+                          Collaboratively formulate principle capital.
+                          Progressively evolve user revolutionary hosting
+                          services.
+                        </p>
+                        <a href="service-details.html" class="link-btn style1"
+                          >Read more <i class="fa-regular fa-chevrons-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div> -->
+                  <div class="swiper-slide">
+                    <div class="service-card style1">
+                      <div class="icon">
+                        <img
+                          src="assets/img/icon/serviceIcon1_4.svg"
+                          alt="icon"
+                        />
+                      </div>
+                      <div class="body">
+                        <h3>
+                          <a href="service-details.html"
+                            >Software Development</a
+                          >
+                        </h3>
+                        <p>
+                      Custom software for mobile apps, SaaS, APIs, ERP, and CRM systems. We modernize legacy code and build scalable digital platforms.
+
+                        </p>
+                        <a href="service-details.html" class="link-btn style1"
+                          >Read more <i class="fa-regular fa-chevrons-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                     <div class="swiper-slide">
+                    <div class="service-card style1">
+                      <div class="icon">
+                        <img
+                          src="assets/img/icon/serviceIcon1_1.svg"
+                          alt="icon"
+                        />
+                      </div>
+                      <div class="body">
+                        <h3>
+                          <a href="service-details.html">BPO Services</a>
+                        </h3>
+                        <p>
+                          Customer support and back-office outsourcing with
+                          multilingual agents and AI tools for cost-effective
+                          service delivery.
+                        </p>
+                        <a href="service-details.html" class="link-btn style1"
+                          >Read more <i class="fa-regular fa-chevrons-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="service-card style1">
+                      <div class="icon">
+                        <img
+                          src="assets/img/icon/serviceIcon1_1.svg"
+                          alt="icon"
+                        />
+                      </div>
+                      <div class="body">
+                        <h3>
+                          <a href="service-details.html"
+                            >IT Consulting & Strategy</a
+                          >
+                        </h3>
+                        <p>
+                       IT audits, CTO-as-a-Service, automation, and strategic roadmaps for long-term efficiency.
+
+                        </p>
+                        <a href="service-details.html" class="link-btn style1"
+                          >Read more <i class="fa-regular fa-chevrons-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="service-card style1">
+                      <div class="icon">
+                        <img
+                          src="assets/img/icon/serviceIcon1_2.svg"
+                          alt="icon"
+                        />
+                      </div>
+                      <div class="body">
+                        <h3>
+                          <a href="service-details.html"
+                            >IT Staffing & Augmentation</a
+                          >
+                        </h3>
+                        <p>
+                        Pre-vetted developers, offshore teams, flexible hiring, and RPO solutions.
+
+                        </p>
+                        <a href="service-details.html" class="link-btn style1"
+                          >Read more <i class="fa-regular fa-chevrons-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+               
+                  <div class="swiper-slide">
+                    <div class="service-card style1">
+                      <div class="icon">
+                        <img
+                          src="assets/img/icon/serviceIcon1_2.svg"
+                          alt="icon"
+                        />
+                      </div>
+                      <div class="body">
+                        <h3><a href="service-details.html">E-commerce & Web Solutions</a></h3>
+                        <p>
+                         E-commerce solutions with Shopify, WooCommerce, CMS, SEO, and digital marketing.
+
+
+                        </p>
+                        <a href="service-details.html" class="link-btn style1"
+                          >Read more <i class="fa-regular fa-chevrons-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                       <div class="swiper-slide">
+                    <div class="service-card style1">
+                      <div class="icon">
+                        <img
+                          src="assets/img/icon/serviceIcon1_3.svg"
+                          alt="icon"
+                        />
+                      </div>
+                      <div class="body">
+                        <h3>
+                          <a href="service-details.html">RCM Services</a>
+                        </h3>
+                        <p>
+                         CleverCrew Healthcare leverages cutting-edge automation, AI, and data-driven insights to transform healthcare operations.
+                        </p>
+                        <a href="service-details.html" class="link-btn style1"
+                          >Read more <i class="fa-regular fa-chevrons-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <h5 class="text-black">
-                  <a href="service-details.html" class="text-black">Call Center Dialer with Integrated CRM</a>
-                </h5>
-                <p>Smart dialer with CRM, multichannel outreach, and real-time lead automation.</p>
-                <a href="service-details.html" class="theme-btn-2 mt-3">
-                  read More
-                  <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="service-card-items">
-              <div class="service-image">
-                <img src="assets/img/service/04.jpg" alt="service-img" />
-              </div>
-              <div class="icon-2">
-                <img src="assets/img/service/icon/s-icon-4.svg" alt="img" />
-              </div>
-              <div class="service-content">
-                <div class="icon">
-                  <img src="assets/img/service/icon/s-icon-5.svg" alt="img" />
-                </div>
-                <h5 class="text-black">
-                  <a href="service-details.html" class="text-black">CallChex – Call Center QA Platform</a>
-                </h4>
-                <p>AI call analyzer for coaching, compliance, and performance insights.</p>
-                <a href="service-details.html" class="theme-btn-2 mt-3">
-                  read More
-                  <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="service-card-items">
-              <div class="service-image">
-                <img src="assets/img/service/05.jpg" alt="service-img" />
-              </div>
-              <div class="icon-2">
-                <img src="assets/img/service/icon/s-icon-3.svg" alt="img" />
-              </div>
-              <div class="service-content">
-                <div class="icon">
-                  <img src="assets/img/service/icon/s-icon-3.svg" alt="img" />
-                </div>
-                <h5 class="text-black">
-                  <a href="service-details.html" class="text-black">Alternative Lending Software</a>
-                </h5>
-                <p>End-to-end MCA lending automation with syndication, ACH, and real-time analytics.</p>
-                <a href="service-details.html" class="theme-btn-2 mt-3">
-                  read More
-                  <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="service-card-items">
-              <div class="service-image">
-                <img src="assets/img/service/02.jpg" alt="service-img" />
-              </div>
-              <div class="icon-2">
-                <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
-              </div>
-              <div class="service-content">
-                <div class="icon">
-                  <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
-                </div>
-                <h5 class="text-black">
-                  <a href="service-details.html" class="text-black">Ringless.Cloud</a>
-                </h5>
-                <p>RingLess enhances productivity with intelligent workflows, automated tasks, and effortless scheduling for busy professionals.</p>
-                <a href="service-details.html" class="theme-btn-2 mt-3">
-                  read More
-                  <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-
+    </section>
+ 
+ 
       <!-- Service Section Start -->
     <!-- <section
       class="service-section-3 pb-0 fix section-padding bg-cover"
@@ -1601,6 +1611,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 </script>
+
+
 </body>
 
 

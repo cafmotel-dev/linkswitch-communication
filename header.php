@@ -24,26 +24,28 @@
 .services-row {
   display: flex;
   flex-direction: row;
-  gap: 2px;
+
 }
 
 .services-row .col {
   flex: 1;
   min-width: 200px;
+  margin: 0;
+  padding: 0;
 }
 
-.services-row .title  {
+.services-row .title {
   font-weight: bold;
   font-size: 15px;
   text-transform: uppercase;
-  margin-bottom: 8px;
-  pointer-events: none;
   color: #007bff;
-  text-decoration: underline;
+  pointer-events: none;
+  text-decoration: none;
   cursor: default;
-  padding-left: 25px;
+  padding: 4px 0 4px 25px;
+  border-bottom: 1px solid #007bff;
+  margin: 0;
 }
-
 
 .services-row li a,
 .services-row li a *,
@@ -97,12 +99,19 @@
             background: #fff;
         }
 
-        .loader-container {
-            position: relative;
-        }
+      .loader-container {
+       position: relative;
+       width: 100%;               
+       max-width: 250px;          
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+
 
         .loader-logo {
-            width: 120px;
+            width: 250px;
             position: relative;
             z-index: 2;
         }
@@ -121,21 +130,21 @@
  
  <!-- Header Section Start -->
     <header>
-        <!-- <div class="header-top-section top-style-3">
+        <div class="header-top-section top-style-3">
             <div class="container">
                 <div class="header-top-wrapper">
-                    <ul class="contact-list">
-                        <li>
+                    <ul class="contact-list mb-1">
+                        <li style= "margin-left: -18px;">
                             <i class="far fa-envelope"></i>
-                            <a href="mailto:info@example.com" class="link">info@example.com</a>
+                            <a href="mailto:info@example.com" class="link">sales@linkswitchcommunications.com</a>
                         </li>
                         <li>
                             <i class="fa-solid fa-phone-volume"></i>
-                            <a href="tel:2086660112">+208-666-0112</a>
+                            <a href="tel:2086660112">+1 (902) 441-2385</a>
                         </li>
                     </ul>
                     <div class="top-right">
-                        <div class="flag-wrap">
+                        <!-- <div class="flag-wrap">
                             <div class="flag">
                                 <img src="assets/img/flag.png" alt="flag">
                             </div>
@@ -155,7 +164,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="social-icon d-flex align-items-center">
                             <span>Follow Us:</span>
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -166,7 +175,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <div id="header-sticky" class="header-3">
             <div class="plane-shape">
                 <img src="assets/img/plane.png" alt="shape-img">
@@ -204,7 +213,7 @@
           <ul>
       <li class="title"><span><i class="fas fa-laptop-code"></i>  IT Services</span></li>
       <li><a href="managed-itservices.php"><i class="fas fa-cogs"></i> Managed IT Services</a></li>
-      <li><a href="#"><i class="fas fa-cloud"></i> Cloud Services</a></li>
+      <li><a href="cloudservices.php"><i class="fas fa-cloud"></i> Cloud Services</a></li>
       <li><a href="#"><i class="fas fa-code"></i>  Software Development</a></li>
           </ul>
         </div>
@@ -314,3 +323,6 @@
             </div>
         </div>
     </header>
+
+
+    

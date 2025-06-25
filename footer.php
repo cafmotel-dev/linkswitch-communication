@@ -115,7 +115,7 @@
                                         <li><a href="managed-itservices.php"><i class="fa-solid fa-chevrons-right"></i>
                                                 Managed IT Services</a>
                                         </li>
-                                        <li><a href="service.html"><i class="fa-solid fa-chevrons-right"></i>Cloud Services</a>
+                                        <li><a href="cloudservices.php"><i class="fa-solid fa-chevrons-right"></i>Cloud Services</a>
                                         </li>
                                         <li><a href="news.html"><i class="fa-solid fa-chevrons-right"></i>Software Development</a>
                                         </li>
@@ -210,7 +210,7 @@
                                         <button type="submit" id="submitButton" disabled=""><i
                                                 class="fa-regular fa-arrow-right-long"></i></button>
                                     </div> -->
-                                    <form id="termsForm">
+                                    <!-- <form id="termsForm">
                                         <label class="custom-checkbox">
                                             <input type="checkbox" name="agree" id="agreeCheckbox">
                                             <span class="checkmark"></span>
@@ -219,7 +219,7 @@
                                                 Policy.</a>
                                         </label>
                                         <br>
-                                    </form>
+                                    </form> -->
                                 </div>
                             </div>
                         </div>
@@ -237,8 +237,8 @@
                     </div>
                     <div class="layout-link wow fadeInUp" data-wow-delay=".6s">
                         <div class="link-wrapper">
-                            <a href="contact.html">Terms &amp; Condition </a>
-                            <a href="contact.html">Privacy Policy</a>
+                            <a href="contact.php">Terms &amp; Condition </a>
+                            <a href="contact.php">Privacy Policy</a>
                         </div>
                     </div>
                 </div>

@@ -9,7 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="ex-coders">
-    <meta name="description" content="Extech - IT Solution & Technology HTML Template">
+    <meta name="description" content="LinkSwitch - Be Inspired By Communication">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
     <!-- ======== Page title ============ -->
     <title>IT Services - LinkSwitch</title>
     <!--<< Favcion >>-->
@@ -32,6 +34,23 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
+<style>
+
+
+.hilight-text {
+    border-left: 4px solid var(--theme);
+    padding: 40px;
+    background-color: var(--bg);
+    position: relative;
+}
+
+.hilight-text svg {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+</style>
 <body>
 
 
@@ -115,7 +134,7 @@
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="index.html">
-                                <img src="assets/img/logo.webp" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -50px;">
+                                <img src="assets/img/logo4.png" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -50px;">
                             </a>
                         </div>
                         <div class="offcanvas__close">
@@ -168,7 +187,7 @@
                         </ul>
                         <div class="header-button mt-4">
                             <a href="contact.php" class="theme-btn text-center">
-                                <span>Get Started<i class="fa-solid fa-arrow-right-long"></i></span>
+                                <span>Join Us Now<i class="fa-solid fa-arrow-right-long"></i></span>
                             </a>
                         </div>
                         <div class="social-icon d-flex align-items-center">
@@ -202,7 +221,7 @@
     </div>
 
     <!--<< Breadcrumb Section Start >>-->
-    <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb.jpg');">
+    <!-- <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/bg/group.jpg');">
         <div class="border-shape">
             <img src="assets/img/element.png" alt="shape-img">
         </div>
@@ -227,10 +246,12 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> -->
+
+                    
 
     <!-- Service Details Section Start -->
-    <section class="service-details-section fix section-padding">
+    <section class="service-details-section fix section-padding"  style="padding-top: 45px;">
         <div class="container">
             <div class="service-details-wrapper">
                 <div class="row g-4">
@@ -244,7 +265,7 @@
                                     <ul>
                                         <li class="active"><a href="managed-itservices.php">Managed IT Services <i
                                                     class="fa-solid fa-arrow-right-long"></i></a></li>
-                                        <li><a href="service-details.html">Cloud Services <i
+                                        <li><a href="cloudservices.php">Cloud Services <i
                                                     class="fa-solid fa-arrow-right-long"></i></a></li>
                                         <li><a href="service-details.html">Software Development <i
                                                     class="fa-solid fa-arrow-right-long"></i></a></li>
@@ -257,19 +278,19 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="single-sidebar-widget">
+                            <!-- <div class="single-sidebar-widget">
                                 <div class="wid-title">
                                     <h3>Opening Hours</h3>
                                 </div>
                                 <div class="opening-category">
                                     <ul>
                                         <li><i class="fa-regular fa-clock"></i>Mon - Fri: 9.00 AM - 20.00 PM</li>
-                                        <li><i class="fa-regular fa-clock"></i>Sat - Sun: 10.00 AM - 22.00 PM</li>
+                                        <li><i class="fa-regular fa-clock"></i>Sat - Sun: 10.00 AM - 22.00 PM</li> -->
                                         <!-- <li><i class="fa-regular fa-clock"></i>Friday: Closed</li> -->
-                                        <li><i class="fa-regular fa-clock"></i>Emergency: 24 hours</li>
+                                        <!-- <li><i class="fa-regular fa-clock"></i>Emergency: 24 hours</li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="single-sidebar-image bg-cover"
                                 style="background-image: url('assets/img/service/post.jpg');">
                                 <div class="contact-text">
@@ -365,72 +386,22 @@
                                     ullamco laboris nisi ut aliquip ex ea dolor commodo consequat. Duis aute irure and
                                     dolor in reprehenderit.
                                 </p> -->
-                                <h3>Mostly Asked Questions?</h3>
-                               <p class="mt-3">
-                                Find quick answers to common questions about our services, support, and how we help your business thrive.
-                               </p>
-                            </div>
-                            <div class="faq-content style-3">
-                                <div class="faq-accordion">
-                                    <div class="accordion" id="accordion">
-                                        <div class="accordion-item mb-3 wow fadeInUp" data-wow-delay=".3s">
-                                            <h5 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq1"
-                                                    aria-expanded="true" aria-controls="faq1">
-                                                    What services does LinkSwitch Communications provide?
-                                                </button>
-                                            </h5>
-                                            <div id="faq1" class="accordion-collapse collapse"
-                                                data-bs-parent="#accordion">
-                                              <div class="accordion-body">
-                                                   We offer a full suite of IT services including Managed IT, Cloud Services, Custom Software Development, IT Consulting, IT Staffing, BPO Solutions, and E-commerce/Web Development.
-                                              </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item mb-3 wow fadeInUp" data-wow-delay=".5s">
-                                            <h5 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq2"
-                                                    aria-expanded="false" aria-controls="faq2">
-                                                        Do you provide staffing or remote team solutions?
-                                                </button>
-                                            </h5>
-                                            <div id="faq2" class="accordion-collapse collapse"
-                                                data-bs-parent="#accordion">
-                                  <div class="accordion-body">
-            Yes, we offer IT staffing and team augmentation with pre-vetted developers, offshore squads, and flexible hiring models, including RPO services.
-        </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item mb-3 wow fadeInUp" data-wow-delay=".7s">
-                                            <h5 class="accordion-header">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
-                                                     Where is LinkSwitch Communications located?
-                                                </button>
-                                            </h5>
-                                            <div id="faq3" class="accordion-collapse show" data-bs-parent="#accordion">
-                                              <div class="accordion-body">
-            We have offices in the USA, Canada, Dubai, and India—allowing us to serve clients across multiple time zones with regional insight and global capabilities.
-        </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
-                                            <h5 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#faq4"
-                                                    aria-expanded="false" aria-controls="faq4">
-                                                     How can I contact your team for a consultation or demo?
-                                                </button>
-                                            </h5>
-                                            <div id="faq4" class="accordion-collapse collapse"
-                                                data-bs-parent="#accordion">
-                                                 <div class="accordion-body">
-            You can contact us through our website using the contact form, email us directly, or schedule a call with our team. We're available 24/7 to assist you.
-        </div>
-                                            </div>
-                                        </div>
+                                         <div class="hilight-text  mt-4 mb-4">
+   <p>
+    Leave your IT worries behind and let us take care of the technology that powers your business. Our fully managed IT services cover everything from real-time network monitoring and data security to system updates and user support. We act as your dedicated IT partner—proactively solving issues before they become problems, ensuring smooth operations, and allowing your team to focus on productivity and growth. With us by your side, your infrastructure stays secure, optimized, and always ready for what’s next.
+</p>
+</br>
+                                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0 20.3698H7.71428L2.57139 30.5546H10.2857L15.4286 20.3698V5.09247H0V20.3698Z"
+                                                fill="#3C72FC" />
+                                            <path
+                                                d="M20.5703 5.09247V20.3698H28.2846L23.1417 30.5546H30.856L35.9989 20.3698V5.09247H20.5703Z"
+                                                fill="#3C72FC" />
+                                        </svg>
+                                    </div>
+                
                                     </div>
                                 </div>
                             </div>
@@ -480,6 +451,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 </script>
+
+
+
 
 </body>
 
