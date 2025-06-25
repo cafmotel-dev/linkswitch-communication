@@ -1,5 +1,5 @@
     <!--<< Footer Section Start >>-->
-    <footer class="footer-section pt-100 footer-bg">
+    <footer class="footer-section pt-75 footer-bg">
         <!-- <div class="container">
             <div class="contact-info-area">
                 <div class="contact-info-items wow fadeInUp" data-wow-delay=".7s">
@@ -91,16 +91,17 @@
                                         <li><a href="about.php"><i class="fa-solid fa-chevrons-right"></i>
                                                 About</a>
                                         </li>
-                                        <li><a href="service.html"><i class="fa-solid fa-chevrons-right"></i>Our
+                                        <!-- <li><a href="service.html"><i class="fa-solid fa-chevrons-right"></i>Our
                                                 Services</a>
                                         </li>
                                         <li><a href="news.html"><i class="fa-solid fa-chevrons-right"></i>Our
                                                 Products</a>
-                                        </li>
-                                        <!-- <li><a href="faq.html"><i class="fa-solid fa-chevrons-right"></i>FAQ’S</a></li> -->
+                                        </li> -->
+                                        
                                         <li><a href="contact.php"><i class="fa-solid fa-chevrons-right"></i>Contact
                                                 Us</a>
                                         </li>
+                                        <li><a href="faq.html"><i class="fa-solid fa-chevrons-right"></i>FAQ</a></li>
                                     </ul>
                                 </div>
                             </div>

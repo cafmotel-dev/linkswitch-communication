@@ -35,7 +35,11 @@
 
 <style>
   .closer-to-hero {
-    margin-top: -90px; 
+    margin-top: -95px; 
+  }
+
+   .closer-to-top {
+    margin-top: -78px; 
   }
 
 </style>
@@ -255,7 +259,7 @@
                                             Explore More
                                             <i class="fa-solid fa-arrow-right-long"></i>
                                         </a>
-                                        <a href="contact.html" data-animation="slideInRight" data-duration="2s"
+                                        <a href="contact.php" data-animation="slideInRight" data-duration="2s"
                                             data-delay=".9s" class="theme-btn border-white">
                                             Contact Us
                                             <i class="fa-solid fa-arrow-right-long"></i>
@@ -612,7 +616,7 @@
 
 
     <!-- About Section    S T A R T -->
-   <section class="about-section space fix bg-theme-color">
+   <section class="about-section space fix bg-theme-color closer-to-top" style="padding-top: 35px; padding-bottom: 5px;" >
       <div class="about-container-wrapper style1">
          <div class="shape1"><img src="assets/img/shape/aboutShape1_1.png" alt="shape"></div>
          <div class="shape2"><img src="assets/img/shape/aboutShape1_2.png" alt="shape"></div>
@@ -638,7 +642,7 @@
                            src="assets/img/about/aboutThumb1_2.png" alt="thumb">
                      </div>
 
-                     <div class="shape"><a href="contact.html"><img class="rotate360"
+                     <div class="shape"><a href="contact.php"><img class="rotate360"
                               src="assets/img/shape/aboutShape1_4.png" alt="shape"></a></div>
                   </div>
                </div>
@@ -649,14 +653,16 @@
                               src="assets/img/icon/arrowLeftWhite.svg" alt="icon"> <span class="text-white"> about
                               company
                            </span><img src="assets/img/icon/arrowRightWhite.svg" alt="icon"></div>
+                       </br>
                         <h3 class="text-white wow fadeInUp" data-wow-delay=".6s">Where Vision Meets Innovation
                         </h3>
                         <p class="mt-25 text-white wow fadeInUp" data-wow-delay=".5s">LinkSwitch Communications combines global innovation with local insight. With presence across four continents, we offer next-gen tech services that help clients compete and scale.</p>
                      </div>
+                      </br>
                      <div class="fancy-box-wrapper style2">
                         <div class="fancy-box style2 wow fadeInUp" data-wow-delay=".3s">
                            <div class="item">
-                              <div class="icon"><img src="assets/img/icon/safe&reliable.svg" alt="icon" style="height: 35px;"></div>
+                              <div class="icon"><img src="assets/img/icon/safe.svg" alt="icon" style="height: 35px;"></div>
                            </div>
                            <div class="item">
                               <h6>Regional presence</h6>
@@ -691,7 +697,7 @@
                    </br>
                     </br>
                      </br>
-                       <a href="contact.html" class="theme-btn bg-white">
+                       <a href="about.php" class="theme-btn bg-white">
                         Explore More
                         <i class="fa-solid fa-arrow-right-long"></i>
                     </a>
@@ -1301,7 +1307,7 @@
 
 
     <!--<< Testimonial Section Start >>-->
-    <section class="tesimonial-section-3 section-padding section-bg-2 bg-cover">
+    <section class="tesimonial-section-3 section-padding section-bg-2 bg-cover" style="padding-top: 35px;">
         <div class="line-shape">
             <img src="assets/img/team/line-shape.png" alt="shape-img">
         </div>
@@ -1313,7 +1319,7 @@
             <button class="array-next"><i class="fal fa-arrow-right"></i></button>
         </div>
         <div class="container">
-            <div class="section-title title-area  mx-auto mb-20">
+            <div class="section-title title-area  mx-auto mb-0">
                 <div class="subtitle d-flex justify-content-center"> <img src="assets/img/icon/arrowLeftWhite.svg"
                         alt="icon"> <span class=" text-white"> Testimonials
                     </span><img src="assets/img/icon/arrowRightWhite.svg" alt="icon"></div>
@@ -1433,7 +1439,7 @@
     </section>
 
     <!-- News Section Start -->
-    <section class="news-section-3 fix section-padding">
+    <section class="news-section-3 fix section-padding closer-to-top">
         <div class="container">
             <div class="row d-flex align-items-center justify-content-between mb-20">
                 <div class="col-xl-7">

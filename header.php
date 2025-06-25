@@ -1,5 +1,5 @@
  <style>
- .megamenu-li {
+.megamenu-li {
   position: relative;
 }
 
@@ -10,7 +10,7 @@
   width: 1400px; 
   max-width: 140vw;
   padding: 20px;
-  background: #fff;
+  background: #fff !important; 
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
   z-index: 999;
   display: none;
@@ -44,28 +44,47 @@
   padding-left: 25px;
 }
 
-.services-row ul li a {
-  color: #444;
-  text-decoration: none;
-  padding: 6px 0;
-  display: block;
-  font-size: 14px;
-  outline: none;
-  box-shadow: none;
-  border: none;
-  background: transparent;
-}
 
-/* .services-row ul li a:hover,
-.services-row ul li a:focus {
-  color: #007bff !important;
-  padding-left: 0 !important;
-  background: transparent !important;
-  border: none !important;
+.services-row li a,
+.services-row li a *,
+.services-row li:hover a,
+.services-row li:hover a *,
+.services-row li:focus a,
+.services-row li:focus a *,
+.services-row li:active a,
+.services-row li:active a * {
+  color: black !important;
+  background-color: transparent !important;
+  -webkit-text-fill-color: black !important; 
+  text-decoration: none !important;
   outline: none !important;
   box-shadow: none !important;
-} */
+}
 
+
+.services-row li a:hover,
+.services-row li a:hover *,
+.services-row li a:focus,
+.services-row li a:focus *,
+.services-row li a:active,
+.services-row li a:active * {
+  color: black !important;
+  -webkit-text-fill-color: black !important;
+}
+
+.services-row li a::selection,
+.services-row li a *::selection {
+  color: black !important;
+  background: #ddd !important;
+}
+
+.services-row li a span,
+.services-row li a i,
+.services-row li a strong,
+.services-row li a em {
+  color: black !important;
+  -webkit-text-fill-color: black !important;
+}
 
 </style>
 
@@ -275,11 +294,11 @@
                                     </nav>
                                 </div>
                             </div>
-                            <a href="#0" class="search-trigger search-icon"><i class="fal fa-search"></i></a>
+                            <!-- <a href="#0" class="search-trigger search-icon"><i class="fal fa-search"></i></a> -->
                             <div class="header-button">
                                 <a href="contact.php" class="theme-btn bg-white">
                                     <span>
-                                        Get Started
+                                        Join Us Now
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </span>
                                 </a>

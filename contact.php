@@ -53,24 +53,64 @@
   margin-bottom: 15px;
   font-size: 28px;
 }
+
 .contact-card p {
   margin-bottom: 30px;
   color: #666;
   font-size: 16px;
 }
 
-input::placeholder,
-textarea::placeholder {
-  color: #999;
-  opacity: 1; /* Make sure it's visible */
-}
-
 input,
 textarea {
-  padding: 10px;
-  font-size: 16px;
+  font-size: 14px;
+  padding: 6px 10px;   
+  min-height: 36px;      
+  line-height: 1.3;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: #000;
+  width: 100%;
 }
 
+input::placeholder,
+textarea::placeholder {
+  color: #000 !important;     
+  opacity: 1 !important;        
+  font-size: 14px !important;  
+}
+
+.contact-section {
+  background: linear-gradient(to right, #dbe9f4, #e3f2f4);
+  padding: 60px 20px;
+}
+
+.form-clt {
+  position: relative;
+}
+
+.form-clt input,
+.form-clt textarea {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: #000;
+}
+
+.form-clt span {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-clt sup.text-danger {
+  font-size: 16px;    
+  top: 0;               
+  position: relative;
+  margin-left: 2px;    
+}
 
 </style>
 
@@ -276,7 +316,7 @@ textarea {
         <div class="container" style="margin-top: -95px;">
             <div class="contact-wrapper-2">
                 <div class="row g-4 align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" style="width: 650px; height: auto;">
                         <div class="contact-left-items">
                             <div class="contact-info-area-2">
                                 <div class="contact-info-items mb-4">
@@ -352,29 +392,29 @@ textarea {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" style="width: 780px;">
                         <div class="contact-content contact-card">
                             <h2>Get In Touch</h2>
                             <p>
                                 "Have questions or ready to start? Connect with us—our experts are here to guide your growth and success."
                             </p>
-                            <form action="https://wpriverthemes.com/HTML/extech/contact.php" id="contact-form" method="POST" class="contact-form-items">
+                            <form action="#" id="contact-form" method="POST" class="contact-form-items">
                                 <div class="row g-4">
                                     <div class="col-lg-6">
                                         <div class="form-clt">
-                                            <span>Your name*</span>
+                                            <span>Name<sup class="text-danger">*</sup></span>
                                             <input type="text" name="name" id="name" placeholder="Your Name">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-clt">
-                                            <span>Your Email*</span>
+                                            <span>Email<sup class="text-danger">*</sup></span>
                                             <input type="text" name="email" id="email" placeholder="Your Email">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-clt">
-                                            <span>Write Message*</span>
+                                            <span>Write Message<sup class="text-danger">*</sup></span>
                                             <textarea name="message" id="message"
                                                 placeholder="Write Message"></textarea>
                                         </div>

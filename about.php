@@ -38,6 +38,13 @@
   color: black !important;
 }
 
+.closer-to-top {
+    margin-top: -90px; 
+}
+.custom-gap {
+  gap: 75px; 
+}
+
 </style>
 
 <body>
@@ -209,7 +216,7 @@
     </div>
 
     <!--<< Breadcrumb Section Start >>-->
-    <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb.jpg');">
+    <!-- <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb.jpg');">
         <div class="border-shape">
             <img src="assets/img/element.png" alt="shape-img">
         </div>
@@ -234,7 +241,7 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- About Section Start -->
     <section class="about-section section-padding fix bg-cover"
@@ -324,7 +331,7 @@
     </section>
 
     <!-- Offer Section Start -->
-    <section class="offer-section fix section-bg-2 section-padding">
+    <section class="offer-section fix section-bg-2 section-padding close-to-top" style="padding-top: 35px;">
         <div class="line-shape">
             <img src="assets/img/team/line-shape.png" alt="shape-img">
         </div>
@@ -334,12 +341,12 @@
         <div class="container">
             <div class="section-title title-area  mx-auto mb-15">
                 <div class="subtitle d-flex justify-content-center"> <img src="assets/img/icon/arrowLeftWhite.svg"
-                        alt="icon"> <span class="text-white"> Our offering
+                        alt="icon"> <span class="text-white"> Our offerings
                     </span><img src="assets/img/icon/arrowRightWhite.svg" alt="icon"></div>
                 <h2 class="text-center text-white"> Empower Progress with Smart Tech</h2>
             </div>
 
-            <div class="row">
+            <div class="row d-flex justify-content-center custom-gap">
                 <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="offer-items">
                         <div class="shape-top">
@@ -458,6 +465,10 @@
                         </div>
                     </div>
                 </div>
+
+        </div>
+
+            <div class="row d-flex justify-content-center custom-gap">
                 <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".9s">
                     <div class="offer-items">
                         <div class="shape-top">
@@ -517,6 +528,63 @@
                             <h5>BPO Services</h5>
                         </div>
                     </div>
+                </div>
+                  <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="offer-items">
+                        <div class="shape-top">
+                            <img src="assets/img/shape/offer-top.png" alt="shape-img">
+                        </div>
+                        <div class="shape-bottom">
+                            <img src="assets/img/shape/offer-bottom.png" alt="shape-img">
+                        </div>
+                        <div class="icon">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_cart)">
+                    <path d="M13.5 30.75C14.7426 30.75 15.75 31.7574 15.75 33C15.75 34.2426 14.7426 35.25 13.5 35.25C12.2574 35.25 11.25 34.2426 11.25 33C11.25 31.7574 12.2574 30.75 13.5 30.75Z" fill="currentColor"/>
+                    <path d="M27 30.75C28.2426 30.75 29.25 31.7574 29.25 33C29.25 34.2426 28.2426 35.25 27 35.25C25.7574 35.25 24.75 34.2426 24.75 33C24.75 31.7574 25.7574 30.75 27 30.75Z" fill="currentColor"/>
+                    <path d="M2.25 1.5C1.00736 1.5 0 2.50736 0 3.75C0 4.99264 1.00736 6 2.25 6H4.5L9.675 21.3375C10.0125 22.3575 10.935 23.0625 12 23.0625H28.5C29.3325 23.0625 30.0975 22.61 30.4875 21.885L35.49 12.5475C36.2775 11.04 35.1825 9.1875 33.525 9.1875H9.03L8.1075 6H2.25Z" fill="currentColor"/>
+                </g>
+                <defs>
+                    <clipPath id="clip0_cart">
+                        <rect width="36" height="36" fill="white"/>
+                    </clipPath>
+                </defs>
+            </svg>
+
+                        </div>
+                        <div class="content">
+                            <h5>E-commerce</h5>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="offer-items">
+                        <div class="shape-top">
+                            <img src="assets/img/shape/offer-top.png" alt="shape-img">
+                        </div>
+                        <div class="shape-bottom">
+                            <img src="assets/img/shape/offer-bottom.png" alt="shape-img">
+                        </div>
+                        <div class="icon">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_rcm)">
+                    <path d="M28.5 0H7.5C6.12 0 4.95 1.17 4.95 2.55L4.5 33.45C4.5 34.83 5.67 36 7.05 36H28.95C30.33 36 31.5 34.83 31.5 33.45V2.55C31.5 1.17 30.33 0 28.95 0H28.5ZM28.5 33.45H7.5V2.55H28.5V33.45Z" fill="currentColor"/>
+                    <path d="M18 9C15.51 9 13.5 11.01 13.5 13.5H16.5C16.5 12.67 17.17 12 18 12C18.83 12 19.5 12.67 19.5 13.5C19.5 15 17.25 14.81 16.35 14.97C15.15 15.18 13.5 16.08 13.5 18C13.5 19.8 14.97 21.09 16.5 21.39V22.5H19.5V21.39C21.03 21.09 22.5 19.8 22.5 18H19.5C19.5 18.83 18.83 19.5 18 19.5C17.17 19.5 16.5 18.83 16.5 18C16.5 16.5 18.75 16.65 19.65 16.5C20.85 16.29 22.5 15.36 22.5 13.5C22.5 11.01 20.49 9 18 9Z" fill="currentColor"/>
+                    <path d="M10.5 27H25.5V30H10.5V27Z" fill="currentColor"/>
+                </g>
+                <defs>
+                    <clipPath id="clip0_rcm">
+                        <rect width="36" height="36" fill="white"/>
+                    </clipPath>
+                </defs>
+            </svg>
+
+                        </div>
+                        <div class="content">
+                            <h5>RCM Services</h5>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
