@@ -112,7 +112,7 @@
         <div class="preloader" id="preloader">
 
             <div class="loader-container">
-                <img src="assets/img/logo4.png" alt="Logo" class="loader-logo">
+                <img src="assets/img/logo-png.png" alt="Logo" class="loader-logo">
                 <div class="spinner-border text-info loader-spinner" role="status">
                     <span class="sr-only">Loading...</span>
                 </div>
@@ -131,7 +131,7 @@
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="index.php">
-                                <img src="assets/img/logo4.png" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -50px;">
+                                <img src="assets/img/logo-png.png" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -50px;">
                             </a>
                         </div>
                         <div class="offcanvas__close">

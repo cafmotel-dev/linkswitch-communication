@@ -41,29 +41,95 @@
 
 
 <style>
-
 .closer-to-top {
     margin-top: -80px !important; 
 }
 
 .contact-section {
-  background: linear-gradient(to right, #dbe9f4, #e3f2f4);
+    background: linear-gradient(to right, #dbe9f4, #e3f2f4);
+    position: relative;
+    z-index: 1;
 }
 
 .contact-wrapper {
-  background: #2e45ff;
-  border-radius: 30px;
-  overflow: hidden;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  margin-top: 40px;
-  padding: 0px 40px 60px;
-  height: 800px;
+    background: #2e45ff;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    padding: 0px 40px 60px;
+    height: 800px;
+    position: relative;
 }
 
 .contact-right {
-  margin-top: 95px !important; 
+    margin-top: 95px !important; 
 }
 
+
+@media (max-width: 1199.98px) {
+    .contact-wrapper {
+        padding: 0px 30px 50px;
+        height: auto;
+        min-height: 750px;
+    }
+    .contact-right {
+        margin-top: 70px !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .contact-wrapper {
+        padding: 0px 25px 40px;
+        min-height: auto;
+    }
+    .contact-right {
+        margin-top: 50px !important;
+        margin-bottom: 30px;
+    }
+    .contact-image img {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .contact-section {
+        padding-top: 30px !important; 
+        margin-top: -20px !important; 
+    }
+    .closer-to-top {
+        margin-top: -40px !important; 
+    }
+    .contact-wrapper {
+        padding: 0px 25px 40px;
+        margin-top: 30px !important; 
+        border-radius: 25px;
+    }
+    .contact-right {
+        margin-top: 40px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .contact-section {
+        margin-top: -15px !important; 
+        padding-top: 20px !important;
+    }
+    .closer-to-top {
+        margin-top: -30px !important; 
+    }
+    .contact-wrapper {
+        padding: 0px 20px 35px;
+        margin-top: 20px !important;
+        border-radius: 20px 20px 30px 30px;
+    }
+    .contact-right {
+        margin-top: 30px !important;
+    }
+    .section-title h2 {
+        font-size: 26px; 
+    }
+}
 
 </style>
 
@@ -130,7 +196,7 @@
         <div class="preloader" id="preloader">
 
             <div class="loader-container">
-                <img src="assets/img/logo4.png" alt="Logo" class="loader-logo">
+                <img src="assets/img/logo-png.png" alt="Logo" class="loader-logo">
                 <div class="spinner-border text-info loader-spinner" role="status">
                     <span class="sr-only">Loading...</span>
                 </div>
@@ -149,7 +215,7 @@
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="index.php">
-                                <img src="assets/img/logo4.png" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -50px;">
+                                <img src="assets/img/logo-png.png" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -50px;">
                             </a>
                         </div>
                         <div class="offcanvas__close">

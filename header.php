@@ -168,6 +168,52 @@ body, html {
     }
 }
 
+
+@media (max-width: 767px) {
+  .megamenu-li .submenu {
+    display: none;
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .megamenu-li.open .submenu {
+    display: block;
+  }
+
+  .megamenu-li a.mobile-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    padding: 12px 0;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .services-row {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .services-row .col ul {
+    padding: 0;
+  }
+
+  .services-row .col ul li {
+    padding: 5px 0;
+  }
+
+  .services-row .col .title {
+    font-weight: bold;
+    padding: 5px 0;
+  }
+}
+
+
 </style>
 
 <style>
@@ -333,12 +379,39 @@ body, html {
   }
 }
 
+/* .contact-info {
+  position: relative;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.contact-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 13px;
+  line-height: 1.2;
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.contact-wrap a {
+  color: #000;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  font-weight: 500;
+} */
+
 
 </style>
  
  <!-- Header Section Start -->
     <header>
-        <div class="header-top-section top-style-3">
+        <!-- <div class="header-top-section top-style-3">
             <div class="container">
                 <div class="header-top-wrapper">
                     <ul class="contact-list mb-1">
@@ -351,7 +424,7 @@ body, html {
                             <a href="tel:2086660112">+1 (902) 441-2385</a>
                         </li>
                     </ul>
-                    <div class="top-right">
+                    <div class="top-right"> -->
                         <!-- <div class="flag-wrap">
                             <div class="flag">
                                 <img src="assets/img/flag.png" alt="flag">
@@ -373,17 +446,17 @@ body, html {
                                 </ul>
                             </div>
                         </div> -->
-                        <div class="social-icon d-flex align-items-center">
+                        <!-- <div class="social-icon d-flex align-items-center">
                             <span>Follow Us:</span>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                        </div>
+                            <a href="https://www.facebook.com/profile.php?id=61577661337809"><i class="fab fa-facebook-f" style="cursor: pointer !important;"></i></a>
+                            <a href="#"><i class="fab fa-twitter" style="cursor: pointer !important;"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in" style="cursor: pointer !important;"></i></a> -->
+                            <!-- <a href="#"><i class="fa-brands fa-youtube" style="cursor: pointer !important;"></i></a> -->
+                        <!-- </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div id="header-sticky" class="header-3">
             <div class="plane-shape">
                 <img src="assets/img/plane.png" alt="shape-img">
@@ -394,7 +467,7 @@ body, html {
                         <div class="header-left">
                             <div class="logo">
                                 <a href="index.php" class="header-logo">
-                                    <img src="assets/img/logo4.png" alt="logo-img" style="width: 480px; max-height: 85px; margin-left: -100px;">
+                                    <img src="assets/img/logo-png.png" alt="logo-img" style="width: 470px; max-height: 80px; margin-left: -110px;">
                                 </a>
                             </div>
                         </div>
@@ -429,19 +502,20 @@ body, html {
           <ul>
         <li class="title"><span><i class="fas fa-user-tie"></i> Consulting</span></li>
       <li><a href="#"><i class="fas fa-lightbulb"></i> IT Consulting & Strategy</a></li>
-      <li><a href="#"><i class="fas fa-users"></i> IT Staffing</a></li>
+     
           </ul>
         </div>
         <div class="col">
           <ul>
              <li class="title"><span><i class="fas fa-briefcase"></i> Business Services</span></li>
              <li><a href="#"><i class="fas fa-headset"></i> BPO Services</a></li>
+            <li><a href="#"><i class="fas fa-user-friends"></i> IT Staffing</a></li>
           </ul>
         </div>
         <div class="col">
           <ul>
             <li class="title"><span><i class="fas fa-globe"></i> Digital Solutions</span></li>
-            <li><a href="#"><i class="fas fa-cart-plus"></i> E-commerce & Web Solutions</a></li>
+            <li><a href="#"><i class="fas fa-cart-plus"></i> E-commerce</a></li>
 
           </ul>
         </div>
@@ -507,19 +581,30 @@ body, html {
                                             <li>
                                                 <a href="contact.php">Contact</a>
                                             </li>
+<li class="contact-li">
+  <div class="contact-column">
+    <!-- <a href="mailto:sales@linkswitchcommunications.com">
+      <i class="far fa-envelope"></i> sales@linkswitchcommunications.com
+    </a> -->
+    <a href="tel:+19024412385">
+      <i class="fa-solid fa-phone-volume"></i> +1 (902) 441-2385
+    </a>
+  </div>
+</li>
+
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
                             <!-- <a href="#0" class="search-trigger search-icon"><i class="fal fa-search"></i></a> -->
-                            <div class="header-button">
+                            <!-- <div class="header-button">
                                 <a href="contact.php" class="theme-btn bg-white">
                                     <span>
                                         Join Us Now
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </span>
                                 </a>
-                            </div>
+                            </div> -->
                             <div class="header__hamburger d-lg-none my-auto">
                                 <div class="sidebar__toggle">
                                     <i class="fas fa-bars"></i>

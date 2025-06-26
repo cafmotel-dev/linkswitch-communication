@@ -70,15 +70,16 @@
                             <div class="widget footer-widget wow fadeInUp" data-wow-delay=".6s">
                                 <div class="gt-widget-about">
                                     <div class="about-logo">
-                                        <a href="index.php"><img src="assets/img/logo-transparent5.png" alt="logo-img" style="width: 450px; max-height: 100px; margin-left: -40px;"></a>
+                                        <a href="index.php"><img src="assets/img/logo-transparent-png.png" alt="logo-img" style="width: 450px; max-height: 100px; margin-left: -40px;"></a>
                                     </div>
                                     <p class="about-text">Global tech solutions, locally delivered—LinkSwitch Communications operates in the USA, Canada, Dubai, and India.
                                     </p>
                                     <div class="gt-social style2">
-                                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.facebook.com/profile.php?id=61577661337809"><i class="fab fa-facebook-f" style="cursor: pointer !important;"></i></a>
+                                        <a href="https://www.twitter.com/"><i class="fab fa-twitter" style="cursor: pointer !important;"></i></a>
+                                         <a href="#"><i class="fa-brands fa-linkedin-in" style="cursor: pointer !important;"></i></a>
+                                        <!-- <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> -->
                                     </div>
                                 </div>
                             </div>
