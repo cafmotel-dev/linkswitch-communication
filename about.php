@@ -108,7 +108,8 @@
         </div>
     </div> -->
 
-         <div class="preloader">
+       
+        <div class="preloader" id="preloader">
 
             <div class="loader-container">
                 <img src="assets/img/logo4.png" alt="Logo" class="loader-logo">
@@ -819,16 +820,16 @@
     <script src="assets/js/main.js"></script>
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
+  window.addEventListener('load', function () {
     const preloader = document.getElementById('preloader');
     if (preloader) {
-        preloader.style.transition = 'opacity 0.3s ease';
-        preloader.style.opacity = '0';
-        setTimeout(() => {
-            preloader.style.visibility = 'hidden';
-        }, 300); 
+      preloader.style.transition = 'opacity 0.3s ease';
+      preloader.style.opacity = '0';
+      setTimeout(() => {
+        preloader.style.display = 'none';
+      }, 300);
     }
-});
+  });
 </script>
 
 </body>

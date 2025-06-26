@@ -35,7 +35,7 @@
 
 <style>
   .closer-to-hero {
-    margin-top: -95px; 
+    margin-top: -80px; 
   }
 
    .closer-to-top {
@@ -48,6 +48,69 @@
 
 html {
   -webkit-tap-highlight-color: transparent;
+}
+
+
+@media (max-width: 767px) {
+  .about-section {
+    padding: 30px 15px !important;
+  }
+
+  .about-thumb {
+    text-align: center;
+  }
+
+  .about-thumb img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+
+  .section-title.mxw-560 {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .fancy-box-wrapper.style2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .fancy-box.style2 {
+    flex: 1 1 45%;
+    max-width: 45%;
+    text-align: center;
+  }
+
+  .fancy-box.style2 .icon {
+    margin-bottom: 5px;
+  }
+
+  .fancy-box.style2 h6 {
+    font-size: 14px;
+  }
+
+  .theme-btn.bg-white {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .about-container-wrapper .shape1,
+  .about-container-wrapper .shape2,
+  .about-container-wrapper .shape3,
+  .about-container-wrapper .shape {
+    display: none; /* Hide decorative shapes on mobile */
+  }
+
+  .gx-70 {
+    --bs-gutter-x: 1rem; /* Reduce horizontal gutter */
+  }
 }
 
 
@@ -116,7 +179,7 @@ html {
         </div>
     </div> -->
 
-        <div class="preloader">
+        <div class="preloader" id="preloader">
 
             <div class="loader-container">
                 <img src="assets/img/logo4.png" alt="Logo" class="loader-logo">
@@ -1614,17 +1677,18 @@ Thanks to LinkSwitch, our coaching sessions are quicker and way more focused. We
     <script src="assets/js/main.js"></script>
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
+  window.addEventListener('load', function () {
     const preloader = document.getElementById('preloader');
     if (preloader) {
-        preloader.style.transition = 'opacity 0.3s ease';
-        preloader.style.opacity = '0';
-        setTimeout(() => {
-            preloader.style.visibility = 'hidden';
-        }, 300); 
+      preloader.style.transition = 'opacity 0.3s ease';
+      preloader.style.opacity = '0';
+      setTimeout(() => {
+        preloader.style.display = 'none';
+      }, 300);
     }
-});
+  });
 </script>
+
 
 
 </body>

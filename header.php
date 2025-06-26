@@ -88,45 +88,253 @@
   -webkit-text-fill-color: black !important;
 }
 
+
+html, body, * {
+  cursor: auto !important;
+}
+
+#cursor,
+.cursor,
+.custom-cursor,
+.mouse-cursor,
+.cursor-dot,
+.cursor-outline {
+  display: none !important;
+  pointer-events: none !important;
+  animation: none !important;
+  transition: none !important;
+}
+
+a:hover,
+button:hover,
+[role="button"]:hover,
+.btn:hover,
+input[type="submit"]:hover {
+  cursor: pointer !important;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+textarea:hover {
+  cursor: text !important;
+}
+
+
+body, html {
+  cursor: default !important;
+}
+
+
+
+.header-left,
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .logo {
+        justify-content: flex-start;
+        padding-left: 60px;
+    }
+
+    .responsive-logo {
+        max-width: 180px;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .logo {
+        padding-left: 80px;
+    }
+
+    .responsive-logo {
+        max-width: 320px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo {
+        padding-left: 0;
+    }
+
+    .responsive-logo {
+        max-width: 480px;
+        margin-left: -100px;
+    }
+}
+
 </style>
 
-    <style>
-        .preloader {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: #fff;
-        }
+<style>
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-      .loader-container {
-       position: relative;
-       width: 100%;               
-       max-width: 250px;          
-       height: auto;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-      }
+.loader-container {
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-logo {
+  width: 250px;
+  position: relative;
+  z-index: 2;
+}
+
+.loader-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: -75px;
+  margin-left: -75px;
+  z-index: 1;
+}
 
 
-        .loader-logo {
-            width: 250px;
-            position: relative;
-            z-index: 2;
-        }
+@media (max-width: 480px) {
+  .loader-logo {
+    width: 180px;
+  }
+  .loader-spinner {
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+  }
+}
 
-        .loader-spinner {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 150px;
-            height: 150px;
-            margin-top: -75px;
-            margin-left: -75px;
-            z-index: 1;
-        }
-    </style>
+@media (max-width: 767px) {
+  .offcanvas__info {
+    width: 100%;
+    max-width: 100vw;
+    overflow-y: auto;
+    padding: 20px 15px;
+  }
+
+  .offcanvas__wrapper {
+    padding: 0;
+  }
+
+  .offcanvas__top {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center;
+  }
+
+  .offcanvas__logo img,
+  .offcanvas-logo-img {
+    width: 100%;
+    max-width: 180px;
+    max-height: 60px;
+    margin-left: 0 !important;
+    height: auto;
+  }
+
+ .offcanvas__close button {
+  font-size: 18px;
+  background: none;
+  border: none;
+  color: #000;
+  padding: 0;
+  line-height: 1;
+}
+
+
+  .offcanvas__contact h4 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .offcanvas__contact ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .offcanvas__contact ul li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+
+  .offcanvas__contact-icon i {
+    font-size: 18px;
+    margin-top: 2px;
+  }
+
+  .offcanvas__contact-text a {
+    font-size: 14px;
+    word-break: break-word;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .header-button .theme-btn {
+    padding: 10px 18px;
+    font-size: 14px;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+  }
+
+  .social-icon {
+    margin-top: 20px;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .social-icon a {
+    font-size: 16px;
+    padding: 8px;
+    background: #f2f2f2;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    transition: 0.3s ease;
+  }
+
+  .social-icon a:hover {
+    background: #2e45ff;
+    color: #fff;
+  }
+
+  .offcanvas__overlay {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+
+</style>
  
  <!-- Header Section Start -->
     <header>

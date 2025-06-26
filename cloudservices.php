@@ -50,6 +50,49 @@
     bottom: 20px;
 }
 
+
+.scrolling-banner {
+  background-color: var(--bg) !important;
+  overflow: hidden;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.scrolling-track {
+  display: flex;
+  animation: scrollLoop 30s linear infinite;
+}
+
+.scrolling-content {
+  display: flex;
+  gap: 60px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.item i {
+  font-size: 18px;
+  color: black;
+}
+
+@keyframes scrollLoop {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
 </style>
 <body>
 
@@ -112,7 +155,8 @@
         </div>
     </div> -->
 
-         <div class="preloader">
+       
+        <div class="preloader" id="preloader">
 
             <div class="loader-container">
                 <img src="assets/img/logo4.png" alt="Logo" class="loader-logo">
@@ -133,7 +177,7 @@
                 <div class="offcanvas__content">
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="assets/img/logo4.png" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -50px;">
                             </a>
                         </div>
@@ -248,6 +292,29 @@
         </div>
     </div> -->
 
+
+<div class="scrolling-banner">
+  <div class="scrolling-track">
+    <div class="scrolling-content">
+      <div class="item"><i class="fa-solid fa-cloud"></i><span>Cloud Migration (AWS | Azure | GCP)</span></div>
+      <div class="item"><i class="fa-solid fa-shield-halved"></i><span>Cloud Security & Compliance</span></div>
+      <div class="item"><i class="fa-solid fa-desktop"></i><span>Fast VDI Setup</span></div>
+      <div class="item"><i class="fa-solid fa-database"></i><span>Backup & Disaster Recovery</span></div>
+      <div class="item"><i class="fa-solid fa-chart-line"></i><span>Cloud Cost Optimization</span></div>
+      <div class="item"><i class="fa-solid fa-circle-nodes"></i><span>Managed Cloud Infrastructure</span></div>
+
+      <!-- Duplicated items for loop -->
+      <div class="item"><i class="fa-solid fa-cloud"></i><span>Cloud Migration (AWS | Azure | GCP)</span></div>
+      <div class="item"><i class="fa-solid fa-shield-halved"></i><span>Cloud Security & Compliance</span></div>
+      <div class="item"><i class="fa-solid fa-desktop"></i><span>Fast VDI Setup</span></div>
+      <div class="item"><i class="fa-solid fa-database"></i><span>Backup & Disaster Recovery</span></div>
+      <div class="item"><i class="fa-solid fa-chart-line"></i><span>Cloud Cost Optimization</span></div>
+      <div class="item"><i class="fa-solid fa-circle-nodes"></i><span>Managed Cloud Infrastructure</span></div>
+    </div>
+  </div>
+</div>
+
+
                     
 
     <!-- Service Details Section Start -->
@@ -311,7 +378,7 @@
                                 <img src="assets/img/bg/cloud1.jpg" alt="img">
                             </div>
                             <div class="details-content">
-                              <h4>☁️ Future-Proof Your Business with Smart Cloud Solutions</h4>
+                              <h4>💻 Future-Proof Your Business with Smart Cloud Solutions</h4>
                               <p class="mt-3"> We don’t just move your data—we transform the way you operate. With continuous performance tuning, cost optimization, and bulletproof security protocols, our cloud experts ensure your infrastructure delivers maximum ROI with minimum downtime. </p>
                                <p class="mt-3"> Seamlessly migrate to leading cloud platforms like AWS, Azure, or Google Cloud—without the headaches. From VDI deployments to disaster recovery strategies, we handle every detail to keep your business agile, resilient, and future-ready. </p>
                                 <div class="details-video-items">
@@ -433,16 +500,16 @@
     <script src="assets/js/main.js"></script>
     
 <script>
-document.addEventListener('DOMContentLoaded', function () {
+  window.addEventListener('load', function () {
     const preloader = document.getElementById('preloader');
     if (preloader) {
-        preloader.style.transition = 'opacity 0.3s ease';
-        preloader.style.opacity = '0';
-        setTimeout(() => {
-            preloader.style.visibility = 'hidden';
-        }, 300); 
+      preloader.style.transition = 'opacity 0.3s ease';
+      preloader.style.opacity = '0';
+      setTimeout(() => {
+        preloader.style.display = 'none';
+      }, 300);
     }
-});
+  });
 </script>
 
 
