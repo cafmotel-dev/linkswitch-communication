@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="ex-coders">
     <meta name="description" content="LinkSwitch - Be Inspired By Communication">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   
 
     <!-- ======== Page title ============ -->
     <title>IT Services - LinkSwitch</title>
@@ -36,7 +36,6 @@
 
 <style>
 
-
 .hilight-text {
     border-left: 4px solid var(--theme);
     padding: 40px;
@@ -49,6 +48,51 @@
     right: 20px;
     bottom: 20px;
 }
+
+
+.scrolling-banner {
+  background-color: var(--bg) !important;
+  overflow: hidden;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.scrolling-track {
+  display: flex;
+  animation: scrollLoop 30s linear infinite;
+}
+
+.scrolling-content {
+  display: flex;
+  gap: 60px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.item i {
+  font-size: 18px;
+  color: black;
+}
+
+@keyframes scrollLoop {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+
 
 </style>
 <body>
@@ -133,7 +177,7 @@
                 <div class="offcanvas__content">
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="assets/img/logo4.png" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -50px;">
                             </a>
                         </div>
@@ -248,7 +292,26 @@
         </div>
     </div> -->
 
-                    
+<div class="scrolling-banner">
+  <div class="scrolling-track">
+    <div class="scrolling-content">
+      <div class="item"><i class="fa-solid fa-server"></i><span>Managed IT Services</span></div>
+      <div class="item"><i class="fa-solid fa-network-wired"></i><span>24/7 Network Monitoring</span></div>
+      <div class="item"><i class="fa-solid fa-headset"></i><span>Helpdesk Support</span></div>
+      <div class="item"><i class="fa-solid fa-laptop-code"></i><span>Remote Troubleshooting</span></div>
+      <div class="item"><i class="fa-solid fa-diagram-project"></i><span>Infrastructure Management</span></div>
+      <!-- duplicated items -->
+      <div class="item"><i class="fa-solid fa-server"></i><span>Managed IT Services</span></div>
+      <div class="item"><i class="fa-solid fa-network-wired"></i><span>24/7 Network Monitoring</span></div>
+      <div class="item"><i class="fa-solid fa-headset"></i><span>Helpdesk Support</span></div>
+      <div class="item"><i class="fa-solid fa-laptop-code"></i><span>Remote Troubleshooting</span></div>
+      <div class="item"><i class="fa-solid fa-diagram-project"></i><span>Infrastructure Management</span></div>
+    </div>
+  </div>
+</div>
+
+
+
 
     <!-- Service Details Section Start -->
     <section class="service-details-section fix section-padding"  style="padding-top: 45px;">

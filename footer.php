@@ -70,7 +70,7 @@
                             <div class="widget footer-widget wow fadeInUp" data-wow-delay=".6s">
                                 <div class="gt-widget-about">
                                     <div class="about-logo">
-                                        <a href="index.html"><img src="assets/img/logo-transparent5.png" alt="logo-img" style="width: 450px; max-height: 100px; margin-left: -40px;"></a>
+                                        <a href="index.php"><img src="assets/img/logo-transparent5.png" alt="logo-img" style="width: 450px; max-height: 100px; margin-left: -40px;"></a>
                                     </div>
                                     <p class="about-text">Global tech solutions, locally delivered—LinkSwitch Communications operates in the USA, Canada, Dubai, and India.
                                     </p>
@@ -91,12 +91,7 @@
                                         <li><a href="about.php"><i class="fa-solid fa-chevrons-right"></i>
                                                 About</a>
                                         </li>
-                                        <!-- <li><a href="service.html"><i class="fa-solid fa-chevrons-right"></i>Our
-                                                Services</a>
-                                        </li>
-                                        <li><a href="news.html"><i class="fa-solid fa-chevrons-right"></i>Our
-                                                Products</a>
-                                        </li> -->
+                                       
                                         
                                         <li><a href="contact.php"><i class="fa-solid fa-chevrons-right"></i>Contact
                                                 Us</a>
@@ -150,45 +145,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-xl-4 col-md-6 col-12">
-                            <div class="widget footer-widget wow fadeInUp" data-wow-delay="1.3s">
-                                <h3 class="widget_title">Recent Posts</h3>
-                                <div class="recent-post-wrap">
-                                    <div class="recent-post">
-                                        <div class="media-img">
-                                            <a href="news-details.html"><img src="assets/img/footer/footerThumb1_1.png"
-                                                    alt="thumb"></a>
-                                        </div>
-                                        <div class="media-body">
-                                            <div class="recent-post-meta">
-                                                <a href="news-details.html"><img src="assets/img/icon/calendarIcon.svg"
-                                                        alt="icon">15th April, 2024</a>
-                                            </div>
-                                            <h4 class="post-title"><a class="text-inherit" href="news-details.html">Top
-                                                    5 Most
-                                                    Famous Technology Trend In 2024</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="recent-post">
-                                        <div class="media-img">
-                                            <a href="news-details.html"><img src="assets/img/footer/footerThumb1_2.png"
-                                                    alt="thumb"></a>
-                                        </div>
-                                        <div class="media-body">
-                                            <div class="recent-post-meta">
-                                                <a href="news-details.html"><img src="assets/img/icon/calendarIcon.svg"
-                                                        alt="icon">20th June, 2024</a>
-                                            </div>
-                                            <h4 class="post-title"><a class="text-inherit" href="news-details.html">The
-                                                    Surfing
-                                                    Man Will Blow Your Mind</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
+                       
                         <div class="col-xl-3 col-md-6 col-12">
                             <div class="widget widget_nav_menu footer-widget wow fadeInUp" data-wow-delay="1.6s">
                                 <h3 class="widget_title">Contact Us</h3>
@@ -205,21 +162,7 @@
                                         <li class="text-white"><i class="fa-solid fa-location-dot"></i></li>
                                         <li class="text-white">169 Madison Ave STE 2945 New York, NY 10016</li>
                                     </ul>
-                                    <!-- <div class="email-input-container">
-                                        <input type="email" id="email" placeholder="Your email address" required="">
-                                        <button type="submit" id="submitButton" disabled=""><i
-                                                class="fa-regular fa-arrow-right-long"></i></button>
-                                    </div> -->
-                                    <!-- <form id="termsForm">
-                                        <label class="custom-checkbox">
-                                            <input type="checkbox" name="agree" id="agreeCheckbox">
-                                            <span class="checkmark"></span>
-                                            I agree to the <a class="text-underline" href="contact.html"
-                                                target="_blank">Privacy
-                                                Policy.</a>
-                                        </label>
-                                        <br>
-                                    </form> -->
+                                  
                                 </div>
                             </div>
                         </div>

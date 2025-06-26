@@ -43,7 +43,7 @@
   text-decoration: none;
   cursor: default;
   padding: 4px 0 4px 25px;
-  border-bottom: 1px solid #007bff;
+  border-bottom: 2px solid #007bff;
   margin: 0;
 }
 
@@ -185,7 +185,7 @@
                     <div class="header-main">
                         <div class="header-left">
                             <div class="logo">
-                                <a href="index.html" class="header-logo">
+                                <a href="index.php" class="header-logo">
                                     <img src="assets/img/logo4.png" alt="logo-img" style="width: 480px; max-height: 85px; margin-left: -100px;">
                                 </a>
                             </div>
