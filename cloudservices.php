@@ -336,15 +336,15 @@
                                                     class="fa-solid fa-arrow-right-long"></i></a></li>
                                         <li><a href="softwaredevelopment.php">Software Development <i
                                                     class="fa-solid fa-arrow-right-long"></i></a></li>
-                                        <li><a href="#">IT Consulting & Strategy <i
+                                        <li><a href="it-consulting.php">IT Consulting & Strategy <i
                                                     class="fa-solid fa-arrow-right-long"></i></a></li>
-                                        <li><a href="#">IT Staffing & Augmentation<i
+                                        <li><a href="it-staffing.php">IT Staffing & Augmentation<i
                                                     class="fa-solid fa-arrow-right-long"></i></a> </li>
-                                        <li><a href="#">BPO Services<i
+                                        <li><a href="bpo-services.php">BPO Services<i
                                                     class="fa-solid fa-arrow-right-long"></i></a> </li>
-                                         <li><a href="#">E-commerce<i
+                                         <li><a href="ecommerce.php">E-commerce<i
                                                     class="fa-solid fa-arrow-right-long"></i></a> </li>
-                                        <li><a href="#">RCM Services<i
+                                        <li><a href="rcm-services.php">RCM Services<i
                                                     class="fa-solid fa-arrow-right-long"></i></a> </li>
                                     </ul>
                                 </div>

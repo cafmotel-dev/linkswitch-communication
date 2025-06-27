@@ -116,11 +116,11 @@
                                         <li><a href="softwaredevelopment.php"><i class="fa-solid fa-chevrons-right"></i>Software Development</a>
                                         </li>
                                         
-                                        <li><a href="#"><i class="fa-solid fa-chevrons-right"></i>IT Consulting & Strategy</a></li>
-                                        <li><a href="#"><i class="fa-solid fa-chevrons-right"></i>IT Staffing & Augmentation</a></li>
-                                        <li><a href="#"><i class="fa-solid fa-chevrons-right"></i>BPO Services</a>  </li>
-                                         <li><a href="#"><i class="fa-solid fa-chevrons-right"></i>E-commerce & Web Solutions</a>  </li>
-                                            <li><a href="#"><i class="fa-solid fa-chevrons-right"></i>RCM Services</a></li>
+                                        <li><a href="it-consulting.php"><i class="fa-solid fa-chevrons-right"></i>IT Consulting & Strategy</a></li>
+                                        <li><a href="it-staffing.php"><i class="fa-solid fa-chevrons-right"></i>IT Staffing & Augmentation</a></li>
+                                        <li><a href="bpo-services.php"><i class="fa-solid fa-chevrons-right"></i>BPO Services</a>  </li>
+                                         <li><a href="ecommerce.php"><i class="fa-solid fa-chevrons-right"></i>E-commerce & Web Solutions</a>  </li>
+                                            <li><a href="rcm-services.php"><i class="fa-solid fa-chevrons-right"></i>RCM Services</a></li>
                                       
                                     </ul>
                                 </div>
@@ -132,10 +132,10 @@
                                 <h3 class="widget_title">Products</h3>
                                 <div class="menu-all-pages-container">
                                     <ul class="menu">
-                                        <li><a href="#"><i class="fa-solid fa-chevrons-right"></i>
+                                        <li><a href="call-center-dialer.php"><i class="fa-solid fa-chevrons-right"></i>
                                                Call Center Dialer with Integrated CRM </a>
                                         </li>
-                                        <li><a href="#"><i class="fa-solid fa-chevrons-right"></i>CallChex – Call Center QA Platform</a>
+                                        <li><a href="callchex-qa.php"><i class="fa-solid fa-chevrons-right"></i>CallChex – Call Center QA Platform</a>
                                         </li>
                                         <li><a href="#"><i class="fa-solid fa-chevrons-right"></i>Alt-Lending Origination & Servicing Software</a>
                                         </li>

@@ -6,16 +6,16 @@
 .services-megamenu {
   position: absolute;
   top: 100%;
-  left: -500px !important;
+  left: -400px !important;
   transform: translateX(0);
-  width: 1100px;
-  height: 600px;
+  width: 900px; 
+  height: 500px; 
   background: #fff;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
   z-index: 999;
   display: none;
   border-radius: 12px;
-  padding: 20px 40px 30px;
+  padding: 20px 30px 25px; 
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease;
@@ -37,19 +37,21 @@
 .services-row .col {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 18px; 
   align-items: flex-start;
 }
 
 .services-row .col:first-child {
-  margin-left: 15px;
+  margin-left: 30px;
 }
+
 
 .card-item {
   background: #f9f9fa;
-  width: 95%;
+  width: 90%; 
+  height: 135px; 
   border-radius: 12px;
-  padding: 18px 15px;
+  padding: 15px 12px; 
   text-align: center;
   transition: all 0.3s ease;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
@@ -69,9 +71,9 @@
 }
 
 .card-item i {
-  font-size: 32px;
+  font-size: 30px; 
   color: #007bff;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   transition: color 0.3s ease;
 }
 
@@ -80,13 +82,13 @@
 }
 
 .card-item h4 {
-  font-size: 15px;
+  font-size: 14px; 
   font-weight: 600;
   margin: 4px 0;
 }
 
 .card-item p {
-  font-size: 13px;
+  font-size: 12px;
   color: #666;
   margin: 0;
 }
@@ -158,19 +160,15 @@ body, html {
     border-radius: 6px;
   }
 
-  .services-row {
+   .services-row {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
   .services-row .col {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    display: contents; 
   }
-
   .card-item {
     display: flex;
     flex-direction: row;
@@ -219,6 +217,10 @@ body, html {
    .contact-li {
     display: none !important;
   }
+}
+
+.header-3::before{
+  background-color: transparent !important;
 }
 
 </style>
@@ -426,14 +428,195 @@ body, html {
 }
 
 .contact-li i {
-  margin-right: 5px;
-  line-height: -30px !important;
+  display: inline-block;
+  width: 16px;           
+  text-align: center;   
+  margin-right: 6px;      
+  padding-left: 1px;      
 }
+
+.contact-li a:nth-child(2) i {
+  margin-left: -125px; 
+}
+
 
 .contact-li a {
   text-transform: none !important;
 }
+</style>
 
+
+<style>
+.products-megamenu-li {
+  position: relative;
+}
+
+.products-megamenu {
+  position: absolute;
+  top: 100%;
+  left: -470px !important;
+  transform: translateX(0);
+  width: 900px;
+  height: 580px;
+  background: #fff;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  z-index: 999;
+  display: none;
+  border-radius: 12px;
+  padding: 8px 30px 25px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.products-megamenu-li:hover .products-megamenu {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.products-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.products-row .products-col:first-child {
+  margin-left: 10px;
+  margin-top: -12px;
+}
+
+.products-col {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  margin-top: -12px;
+}
+
+.products-col h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+  margin-top: 25px;
+  margin-bottom: 2px;
+  margin-left: 12px;
+}
+
+.products-card {
+  background: #f9f9fa;
+  width: 90%;
+  height: 155px;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: left;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.products-card:hover {
+  background: #eef4ff;
+  transform: translateY(-4px);
+}
+
+.products-card a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-decoration: none;
+  color: #333;
+  height: 100%;
+}
+
+.products-card i {
+  font-size: 30px;
+  color: #007bff;
+  margin-bottom: 4px;
+  transition: color 0.3s ease;
+}
+
+.products-card:hover i {
+  color: #0056b3;
+}
+
+.products-card h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 2px 0 2px;
+  text-align: left;
+}
+
+.products-card p {
+  font-size: 12px;
+  color: #666;
+  margin: 0;
+  text-align: left;
+}
+
+@media (max-width: 1199px) {
+  .products-megamenu {
+    position: static;
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    margin: 0;
+  }
+
+  .products-megamenu-li.open .products-megamenu {
+    display: block;
+  }
+
+  .products-row {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+  }
+
+   .products-col {
+    display: contents; 
+  }
+
+  .products-col h4 {
+    margin-top: 15px;
+    margin-left: 16px;
+  }
+
+
+  .products-card {
+    background: #f9f9fa;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: left;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .products-card a {
+    align-items: flex-start;
+    width: 100%;
+  }
+}
 
 </style>
  
@@ -546,21 +729,21 @@ body, html {
         <!-- Column 2 -->
         <div class="col">
           <div class="card-item">
-            <a href="#">
+            <a href="it-consulting.php">
               <i class="fas fa-lightbulb"></i>
               <h4>IT Consulting & Strategy</h4>
               <p>Digital Roadmap</p>
             </a>
           </div>
           <div class="card-item">
-            <a href="#">
+            <a href="bpo-services.php">
               <i class="fas fa-headset"></i>
               <h4>BPO Services</h4>
               <p>Customer Support</p>
             </a>
           </div>
           <div class="card-item">
-            <a href="#">
+            <a href="ecommerce.php">
               <i class="fas fa-cart-plus"></i>
               <h4>E-commerce</h4>
               <p>Shopify, Magento</p>
@@ -571,14 +754,14 @@ body, html {
         <!-- Column 3 -->
         <div class="col">
           <div class="card-item">
-            <a href="#">
+            <a href="it-staffing.php">
               <i class="fas fa-user-friends"></i>
               <h4>IT Staffing</h4>
               <p>Dedicated Hiring</p>
             </a>
           </div>
           <div class="card-item">
-            <a href="#">
+            <a href="rcm-services.php">
               <i class="fas fa-file-invoice-dollar"></i>
               <h4>RCM Services</h4>
               <p>Medical Billing</p>
@@ -595,32 +778,65 @@ body, html {
 
 
 
-                                            <li class="has-dropdown">
-                                                <a href="#">
-                                                     Products
-                                                    <i class="fas fa-angle-down"></i>
-                                                </a>
-                                                <ul class="submenu">
-                                                    <li class="has-dropdown">
-                                                        <a href="#">
-                                                           Call Center Dialer with Integrated CRM
-                                                        
-                                                        </a>
-                                                    
-                                                    </li>
-                                                    <li class="has-dropdown">
-                                                        <a href="#">
-                                                            CallChex – Call Center QA Platform
-                                                            <!-- <i class="fas fa-angle-down"></i> -->
-                                                        </a>
-                                                      
-                                                    </li>
-                                                    <li><a href="#">Alt-Lending Origination & Servicing Software</a></li>
-                                                    <li><a href="#">Ringless.Cloud</a></li>
-                                                   
-                                                </ul>
-                                            </li>
-                                          
+ <li class="products-megamenu-li">
+  <a href="#">
+    Products
+    <i class="fas fa-angle-down"></i>
+  </a>
+  <div class="products-megamenu">
+    <div class="products-row">
+      <div class="products-col">
+        <h4>VoIP Platforms</h4>
+        <div class="products-card">
+          <a href="call-center-dialer.php"><i class="fas fa-phone-volume"></i>
+            <h4>Call Center Dialer</h4>
+            <p>Advanced VoIP solution</p>
+          </a>
+        </div>
+        <div class="products-card">
+          <a href="callchex-qa.php"><i class="fas fa-headset"></i>
+            <h4>CallChex – QA Platform</h4>
+            <p>Call center quality assurance</p>
+          </a>
+        </div>
+        <div class="products-card">
+          <a href="#"><i class="fas fa-bullhorn"></i>
+            <h4>Ringless Voicemail Drop</h4>
+            <p>Non-intrusive voice drops</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="products-col">
+        <h4>Fintech</h4>
+        <div class="products-card">
+          <a href="#"><i class="fas fa-credit-card"></i>
+            <h4>Cash Advance CRM</h4>
+            <p>Manage merchant advances</p>
+          </a>
+        </div>
+        <div class="products-card">
+          <a href="#"><i class="fas fa-hand-holding-usd"></i>
+            <h4>Lending Origination & Servicing</h4>
+            <p>Finance & compliance suite</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="products-col">
+        <h4>AI Platform</h4>
+        <div class="products-card">
+          <a href="#"><i class="fas fa-robot"></i>
+            <h4>SMS AI</h4>
+            <p>Conversational automation</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+
+
                                             <li>
                                                 <a href="contact.php">Contact</a>
                                             </li>
@@ -660,5 +876,17 @@ body, html {
     </header>
 
 
-
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const productToggle = document.querySelector(".products-megamenu-li > a");
+  if (productToggle) {
+    productToggle.addEventListener("click", function (e) {
+      if (window.innerWidth <= 1199) {
+        e.preventDefault();
+        this.parentElement.classList.toggle("open");
+      }
+    });
+  }
+});
+</script>
 
