@@ -486,6 +486,7 @@
 
 
 
+    
    <?php include 'footer.php'; ?>
 
     <!--<< All JS Plugins >>-->
