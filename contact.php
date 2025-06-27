@@ -207,15 +207,15 @@
     <div class="mouse-cursor cursor-outer"></div>
     <div class="mouse-cursor cursor-inner"></div>
 
-     <!-- Offcanvas Area Start -->
+       <!-- Offcanvas Area Start -->
     <div class="fix-area">
-        <div class="offcanvas__info">
+        <div class="offcanvas__info bg-white">
             <div class="offcanvas__wrapper">
                 <div class="offcanvas__content">
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="index.php">
-                                <img src="assets/img/logo-png.png" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -50px;">
+                                <img src="assets/img/logo-png.png" alt="logo-img" style="width: 450px; max-height: 80px; margin-left: -40px !important;">
                             </a>
                         </div>
                         <div class="offcanvas__close">
@@ -245,7 +245,7 @@
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@azent.com"><span
+                                    <a href="mailto:sales@linkswitchcommunications.com"><span
                                             class="mailto:info@example.com">sales@linkswitchcommunications.com</span></a>
                                 </div>
                             </li>
@@ -262,19 +262,19 @@
                                     <i class="far fa-phone"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="tel:+11002345909">+1 (902) 441-2385</a>
+                                    <a href="tel:+19024412385" >+1 (902) 441-2385</a>
                                 </div>
                             </li>
                         </ul>
-                        <div class="header-button mt-4">
+                        <!-- <div class="header-button mt-4">
                             <a href="contact.php" class="theme-btn text-center">
                                 <span>Join Us Now<i class="fa-solid fa-arrow-right-long"></i></span>
                             </a>
-                        </div>
+                        </div> -->
                         <div class="social-icon d-flex align-items-center">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <!-- <a href="#"><i class="fab fa-youtube"></i></a> -->
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>

@@ -6,87 +6,91 @@
 .services-megamenu {
   position: absolute;
   top: 100%;
-  left: -750px !important; 
-  width: 1400px; 
-  max-width: 140vw;
-  padding: 20px;
-  background: #fff !important; 
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  left: -500px !important;
+  transform: translateX(0);
+  width: 1100px;
+  height: 600px;
+  background: #fff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
   z-index: 999;
   display: none;
+  border-radius: 12px;
+  padding: 20px 40px 30px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
   overflow: hidden;
 }
 
 .megamenu-li:hover .services-megamenu {
   display: block;
+  opacity: 1;
+  visibility: visible;
 }
 
 .services-row {
-  display: flex;
-  flex-direction: row;
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 
 .services-row .col {
-  flex: 1;
-  min-width: 200px;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
 }
 
-.services-row .title {
-  font-weight: bold;
-  font-size: 15px;
-  text-transform: uppercase;
-  color: #007bff;
-  pointer-events: none;
+.services-row .col:first-child {
+  margin-left: 15px;
+}
+
+.card-item {
+  background: #f9f9fa;
+  width: 95%;
+  border-radius: 12px;
+  padding: 18px 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+.card-item:hover {
+  background: #eef4ff;
+  transform: translateY(-4px);
+}
+
+.card-item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-decoration: none;
-  cursor: default;
-  padding: 4px 0 4px 25px;
-  border-bottom: 2px solid #007bff;
+  color: #333;
+}
+
+.card-item i {
+  font-size: 32px;
+  color: #007bff;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.card-item:hover i {
+  color: #0056b3;
+}
+
+.card-item h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 4px 0;
+}
+
+.card-item p {
+  font-size: 13px;
+  color: #666;
   margin: 0;
 }
 
-.services-row li a,
-.services-row li a *,
-.services-row li:hover a,
-.services-row li:hover a *,
-.services-row li:focus a,
-.services-row li:focus a *,
-.services-row li:active a,
-.services-row li:active a * {
-  color: black !important;
-  background-color: transparent !important;
-  -webkit-text-fill-color: black !important; 
-  text-decoration: none !important;
-  outline: none !important;
-  box-shadow: none !important;
-}
-
-
-.services-row li a:hover,
-.services-row li a:hover *,
-.services-row li a:focus,
-.services-row li a:focus *,
-.services-row li a:active,
-.services-row li a:active * {
-  color: black !important;
-  -webkit-text-fill-color: black !important;
-}
-
-.services-row li a::selection,
-.services-row li a *::selection {
-  color: black !important;
-  background: #ddd !important;
-}
-
-.services-row li a span,
-.services-row li a i,
-.services-row li a strong,
-.services-row li a em {
-  color: black !important;
-  -webkit-text-fill-color: black !important;
-}
 
 
 html, body, * {
@@ -127,70 +131,31 @@ body, html {
   cursor: default !important;
 }
 
+@media (max-width: 1199px) {
+  .header-logo img {
+    margin-left: -60px !important; 
+  }
+}
+
 
 
 .header-left,
 .logo {
     display: flex;
-    align-items: center;
+    align-items: start;
+
 }
 
-@media (max-width: 767px) {
-    .logo {
-        justify-content: flex-start;
-        padding-left: 60px;
-    }
-
-    .responsive-logo {
-        max-width: 180px;
-        height: auto;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
-    .logo {
-        padding-left: 80px;
-    }
-
-    .responsive-logo {
-        max-width: 320px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .logo {
-        padding-left: 0;
-    }
-
-    .responsive-logo {
-        max-width: 480px;
-        margin-left: -100px;
-    }
-}
-
-
-@media (max-width: 767px) {
-  .megamenu-li .submenu {
-    display: none;
-    position: static;
-    width: 100%;
+@media (max-width: 1199px) {
+  .services-megamenu {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    background: #f9f9f9;
     box-shadow: none;
-    padding: 0;
+    padding: 15px;
     margin-top: 10px;
-  }
-
-  .megamenu-li.open .submenu {
-    display: block;
-  }
-
-  .megamenu-li a.mobile-toggle {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 600;
-    padding: 12px 0;
-    color: #333;
-    text-decoration: none;
+    border-radius: 6px;
   }
 
   .services-row {
@@ -199,20 +164,62 @@ body, html {
     gap: 15px;
   }
 
-  .services-row .col ul {
-    padding: 0;
+  .services-row .col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
-  .services-row .col ul li {
-    padding: 5px 0;
+  .card-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    transition: background 0.3s;
   }
 
-  .services-row .col .title {
-    font-weight: bold;
-    padding: 5px 0;
+  .card-item:hover {
+    background-color: #f0f0f0;
+  }
+
+  .card-item i {
+    font-size: 20px;
+    color: #0a58ca;
+    min-width: 24px;
+    margin-top: 4px;
+  }
+
+  .card-item h4 {
+    font-size: 15px;
+    margin: 0;
+    color: #111;
+  }
+
+  .card-item p {
+    font-size: 13px;
+    margin: 2px 0 0 0;
+    color: #666;
+  }
+
+  .card-item a {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: flex-start;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+  }
+
+   .contact-li {
+    display: none !important;
   }
 }
-
 
 </style>
 
@@ -379,32 +386,53 @@ body, html {
   }
 }
 
-/* .contact-info {
-  position: relative;
-  padding-left: 20px;
-  margin-left: 20px;
+.header-right .main-menu nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 25px; 
 }
 
-.contact-wrap {
+.header-right .main-menu nav > ul > li {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.contact-li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 13px;
-  line-height: 1.2;
+  align-items: flex-start;
+  padding-left: 15px;
   white-space: nowrap;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  line-height: 1;
 }
 
-.contact-wrap a {
+.contact-li a {
+  font-size: 14px;
   color: #000;
   text-decoration: none;
-  padding: 0;
+  font-weight: 700;
+  text-transform: none;
   margin: 0;
-  display: inline-block;
-  font-weight: 500;
-} */
+  padding: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+.contact-li a + a {
+  margin-top: -20px !important; 
+}
+
+.contact-li i {
+  margin-right: 5px;
+  line-height: -30px !important;
+}
+
+.contact-li a {
+  text-transform: none !important;
+}
 
 
 </style>
@@ -485,46 +513,77 @@ body, html {
                                             <li>
                                                 <a href="about.php">About</a>
                                             </li>
-                                <li class="megamenu-li">
-  <a href="#0">Services <i class="fa-solid fa-angle-down"></i></a>
+<li class="megamenu-li">
+  <a href="#">Services <i class="fa-solid fa-angle-down"></i></a>
   <ul class="submenu services-megamenu">
     <li>
       <div class="services-row">
+        <!-- Column 1 -->
         <div class="col">
-          <ul>
-      <li class="title"><span><i class="fas fa-laptop-code"></i>  IT Services</span></li>
-      <li><a href="managed-itservices.php"><i class="fas fa-cogs"></i> Managed IT Services</a></li>
-      <li><a href="cloudservices.php"><i class="fas fa-cloud"></i> Cloud Services</a></li>
-      <li><a href="#"><i class="fas fa-code"></i>  Software Development</a></li>
-          </ul>
+          <div class="card-item">
+            <a href="managed-itservices.php">
+              <i class="fas fa-cogs"></i>
+              <h4>Managed IT Services</h4>
+              <p>Infrastructure & Support</p>
+            </a>
+          </div>
+          <div class="card-item">
+            <a href="cloudservices.php">
+              <i class="fas fa-cloud"></i>
+              <h4>Cloud Services</h4>
+              <p>AWS | Azure | GCP</p>
+            </a>
+          </div>
+          <div class="card-item">
+            <a href="softwaredevelopment.php">
+              <i class="fas fa-code"></i>
+              <h4>Software Development</h4>
+              <p>Web & Mobile Apps</p>
+            </a>
+          </div>
         </div>
-        <div class="col">
-          <ul>
-        <li class="title"><span><i class="fas fa-user-tie"></i> Consulting</span></li>
-      <li><a href="#"><i class="fas fa-lightbulb"></i> IT Consulting & Strategy</a></li>
-     
-          </ul>
-        </div>
-        <div class="col">
-          <ul>
-             <li class="title"><span><i class="fas fa-briefcase"></i> Business Services</span></li>
-             <li><a href="#"><i class="fas fa-headset"></i> BPO Services</a></li>
-            <li><a href="#"><i class="fas fa-user-friends"></i> IT Staffing</a></li>
-          </ul>
-        </div>
-        <div class="col">
-          <ul>
-            <li class="title"><span><i class="fas fa-globe"></i> Digital Solutions</span></li>
-            <li><a href="#"><i class="fas fa-cart-plus"></i> E-commerce</a></li>
 
-          </ul>
-        </div>
+        <!-- Column 2 -->
         <div class="col">
-          <ul>
-             <li class="title"><span><i class="fas fa-notes-medical"></i> Healthcare Services</span></li>
-            <li><a href="#"><i class="fas fa-file-invoice-dollar"></i> RCM Services</a></li>
+          <div class="card-item">
+            <a href="#">
+              <i class="fas fa-lightbulb"></i>
+              <h4>IT Consulting & Strategy</h4>
+              <p>Digital Roadmap</p>
+            </a>
+          </div>
+          <div class="card-item">
+            <a href="#">
+              <i class="fas fa-headset"></i>
+              <h4>BPO Services</h4>
+              <p>Customer Support</p>
+            </a>
+          </div>
+          <div class="card-item">
+            <a href="#">
+              <i class="fas fa-cart-plus"></i>
+              <h4>E-commerce</h4>
+              <p>Shopify, Magento</p>
+            </a>
+          </div>
+        </div>
 
-          </ul>
+        <!-- Column 3 -->
+        <div class="col">
+          <div class="card-item">
+            <a href="#">
+              <i class="fas fa-user-friends"></i>
+              <h4>IT Staffing</h4>
+              <p>Dedicated Hiring</p>
+            </a>
+          </div>
+          <div class="card-item">
+            <a href="#">
+              <i class="fas fa-file-invoice-dollar"></i>
+              <h4>RCM Services</h4>
+              <p>Medical Billing</p>
+            </a>
+          </div>
         </div>
       </div>
     </li>
@@ -532,65 +591,48 @@ body, html {
 </li>
 
 
+
+
+
+
                                             <li class="has-dropdown">
-                                                <a href="news.html">
+                                                <a href="#">
                                                      Products
                                                     <i class="fas fa-angle-down"></i>
                                                 </a>
                                                 <ul class="submenu">
                                                     <li class="has-dropdown">
-                                                        <a href="project.html">
+                                                        <a href="#">
                                                            Call Center Dialer with Integrated CRM
-                                                            <!-- <i class="fas fa-angle-down"></i> -->
+                                                        
                                                         </a>
-                                                        <!-- <ul class="submenu">
-                                                            <li><a href="project.html">CallChex – Call Center QA Platform</a></li>
-                                                            <li><a href="project-carousel.html">Alt-Lending Origination & Servicing Software</a>
-                                                            </li>
-                                                            <li><a href="project-details.html">Project Details</a></li>
-                                                        </ul> -->
+                                                    
                                                     </li>
                                                     <li class="has-dropdown">
-                                                        <a href="team.html">
+                                                        <a href="#">
                                                             CallChex – Call Center QA Platform
                                                             <!-- <i class="fas fa-angle-down"></i> -->
                                                         </a>
-                                                        <!-- <ul class="submenu">
-                                                            <li><a href="team.html">Our Team</a></li>
-                                                            <li><a href="team-carousel.html">Team Carousel</a></li>
-                                                            <li><a href="team-details.html">Team Details</a></li>
-                                                        </ul> -->
+                                                      
                                                     </li>
-                                                    <li><a href="pricing.html">Alt-Lending Origination & Servicing Software</a></li>
-                                                    <li><a href="pricing.html">Ringless.Cloud</a></li>
-                                                    <!-- <li><a href="faq.html">Faq's</a></li>
-                                                    <li><a href="404.html">404 Page</a></li> -->
+                                                    <li><a href="#">Alt-Lending Origination & Servicing Software</a></li>
+                                                    <li><a href="#">Ringless.Cloud</a></li>
+                                                   
                                                 </ul>
                                             </li>
-                                            <!-- <li>
-                                                <a href="news.html">
-                                                    Blog
-                                                    <i class="fas fa-angle-down"></i>
-                                                </a>
-                                                <ul class="submenu">
-                                                    <li><a href="news.html">Blog Grid</a></li>
-                                                    <li><a href="news-standard.html">Blog Standard</a></li>
-                                                    <li><a href="news-details.html">Blog Details</a></li>
-                                                </ul>
-                                            </li> -->
+                                          
                                             <li>
                                                 <a href="contact.php">Contact</a>
                                             </li>
-<li class="contact-li">
-  <div class="contact-column">
-    <!-- <a href="mailto:sales@linkswitchcommunications.com">
-      <i class="far fa-envelope"></i> sales@linkswitchcommunications.com
-    </a> -->
-    <a href="tel:+19024412385">
-      <i class="fa-solid fa-phone-volume"></i> +1 (902) 441-2385
-    </a>
-  </div>
+<li class="contact-li" style="display: flex; flex-direction: column; justify-content: center; padding-left: 15px;">
+  <a href="mailto:sales@linkswitchcommunications.com" style="font-size: 13px; color: #000; text-decoration: none; font-weight: 500;">
+    <i class="far fa-envelope"></i> sales@linkswitchcommunications.com
+  </a>
+  <a href="tel:+19024412385" style="font-size: 13px; color: #000; text-decoration: none; font-weight: 500;">
+    <i class="fa-solid fa-phone-volume"></i> +1 (902) 441-2385
+  </a>
 </li>
+
 
                                         </ul>
                                     </nav>
@@ -618,4 +660,5 @@ body, html {
     </header>
 
 
-    
+
+
