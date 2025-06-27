@@ -127,6 +127,7 @@
                             </div>
                         </div>
 
+
                         
                                    <div class="col-xl-2 col-md-6 col-12">
                             <div class="widget widget_nav_menu footer-widget wow fadeInUp" data-wow-delay="1s">
