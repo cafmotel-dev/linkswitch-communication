@@ -802,7 +802,7 @@ body, html {
           </a>
         </div>
         <div class="products-card">
-          <a href="#"><i class="fas fa-bullhorn"></i>
+          <a href="ringless-voicemail.php"><i class="fas fa-bullhorn"></i>
             <h4>Ringless Voicemail Drop</h4>
             <p>Non-intrusive voice drops</p>
           </a>
@@ -812,13 +812,13 @@ body, html {
       <div class="products-col">
         <h4>Fintech</h4>
         <div class="products-card">
-          <a href="#"><i class="fas fa-credit-card"></i>
+          <a href="mca-crm.php"><i class="fas fa-credit-card"></i>
             <h4>Cash Advance CRM</h4>
             <p>Manage merchant advances</p>
           </a>
         </div>
         <div class="products-card">
-          <a href="#"><i class="fas fa-hand-holding-usd"></i>
+          <a href="lending-origination.php"><i class="fas fa-hand-holding-usd"></i>
             <h4>Lending Origination & Servicing</h4>
             <p>Finance & compliance suite</p>
           </a>
@@ -828,7 +828,7 @@ body, html {
       <div class="products-col">
         <h4>AI Platform</h4>
         <div class="products-card">
-          <a href="#"><i class="fas fa-robot"></i>
+          <a href="sms-ai.php"><i class="fas fa-robot"></i>
             <h4>SMS AI</h4>
             <p>Conversational automation</p>
           </a>

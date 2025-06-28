@@ -139,10 +139,14 @@
                                         </li>
                                         <li><a href="callchex-qa.php"><i class="fa-solid fa-chevrons-right"></i>CallChex – Call Center QA Platform</a>
                                         </li>
-                                        <li><a href="#"><i class="fa-solid fa-chevrons-right"></i>Alt-Lending Origination & Servicing Software</a>
+                                        <li><a href="lending-origination.php"><i class="fa-solid fa-chevrons-right"></i>Lending Origination & Servicing Platform</a>
                                         </li>
                                  
-                                        <li><a href="#"><i class="fa-solid fa-chevrons-right"></i>Ringless.Cloud</a>
+                                        <li><a href="ringless-voicemail.php"><i class="fa-solid fa-chevrons-right"></i>Ringless Voicemail drop</a>
+                                        </li>
+                                        <li><a href="sms-ai.php"><i class="fa-solid fa-chevrons-right"></i>SMS AI</a>
+                                        </li>
+                                        <li><a href="mca-crm.php"><i class="fa-solid fa-chevrons-right"></i>Merchant Cash Advance CRM</a>
                                         </li>
                                     </ul>
                                 </div>
