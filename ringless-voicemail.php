@@ -12,7 +12,7 @@
     <meta name="author" content="ex-coders">
     <meta name="description" content="LinkSwitch - Be Inspired By Communication">
     <!-- ======== Page title ============ -->
-    <title>LinkSwitch - Be Inspired By Communication</title>
+    <title>Ringless Voicemail - LinkSwitch</title>
     <!--<< Favcion >>-->
     <link rel="shortcut icon" href="assets/img/favicon.svg">
     <!--<< Bootstrap min.css >>-->
