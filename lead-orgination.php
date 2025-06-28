@@ -62,7 +62,7 @@
         </div>
         <div class="container">
             <div class="page-heading">
-                <h1 class="wow fadeInUp" data-wow-delay=".3s">Call Chex – QA Platform</h1>
+                <h1 class="wow fadeInUp" data-wow-delay=".3s">Lending Origination & Servicing Platform</h1>
                 <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                     <li>
                         <a href="index.php">
@@ -79,7 +79,7 @@
                         <i class="fas fa-chevron-right"></i>
                     </li>
                     <li>
-                        Call Chex – QA Platform
+                       Lending Origination & Servicing Platform
                     </li>
                 </ul>
             </div>
@@ -99,10 +99,9 @@
                             <div class="row g-4 justify-content-between">
                                 <div class="col-lg-7">
                                     <div class="details-content pt-5">
-                                        <h3>Call Chex – QA Platform</h3>
+                                        <h3>Lending Origination & Servicing Platform</h3>
                                         <p>
-                                            Call Chex – QA Platform is a quality assurance solution developed to evaluate and improve call center performance by automating QA workflows, scoring agent interactions, and maintaining compliance across large-scale operations.
-                                        </p>
+                                         Lending Origination & Servicing Platform is a comprehensive solution that streamlines the entire lifecycle of a loan—from application and approval to disbursal and repayment tracking. Built for speed, compliance, and scalability, it supports both lenders and borrowers with intuitive interfaces and automated backend workflows. </p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
@@ -115,7 +114,7 @@
                                             </li>
                                             <li>
                                                 Category:
-                                                <span>Callchex-QA </span>
+                                                <span>Lending Origination & Servicing Platform</span>
                                             </li>
                                             <li>
                                                 Location:
@@ -136,19 +135,18 @@
                             <div class="details-content pt-3">
                                 <h3>Our Challenge</h3>
                                 <p>
-                                  Manual quality checks across thousands of calls per day were inconsistent and time-consuming. The client needed a centralized, scalable solution to:
-                                </p>
+                                The client’s legacy system lacked scalability and automation, resulting in processing delays, compliance risks, and poor borrower experience. </p>
                             </div>
                             <div class="row g-4 pt-5">
                                 <div class="col-lg-6 col-md-6">
                                     <ul class="list">
                                         <li>
                                             <i class="fa-regular fa-circle-check"></i>
-                                            Automate call scoring based on custom QA parameters.
+                                         Manual loan approval processes delaying disbursals.
                                         </li>
                                         <li>
                                             <i class="fa-regular fa-circle-check"></i>
-                                           Track agent performance in real-time.
+                                          Lack of integration with credit bureaus and KYC tools.
                                         </li>
                                     </ul>
                                 </div>
@@ -156,11 +154,11 @@
                                     <ul class="list">
                                         <li>
                                             <i class="fa-regular fa-circle-check"></i>
-                                          Flag compliance risks automatically.
+                                        Disconnected servicing modules causing repayment mismatches.
                                         </li>
                                         <li>
                                             <i class="fa-regular fa-circle-check"></i>
-                                          Replace outdated spreadsheets and disconnected tools.
+                                       Limited borrower communication during the loan cycle.
                                         </li>
                                     </ul>
                                 </div>
@@ -190,19 +188,18 @@
                                 </h6>
                             </div>
                             <div class="content">
-                                <h6>Secure Call Archiving</h6>
+                                <h6>Servicing Dashboard</h6>
                                 <p>
-                                    Stored all QA-reviewed calls with notes and compliance flags.
-                                </p>
+                                  Track repayments, send reminders, manage delinquencies. </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="work-process-items text-center">
                             <div class="content style-2">
-                                <h6>Custom Report Generator</h6>
+                                <h6> Borrower Portal</h6>
                                 <p>
-                                    Exportable QA reports for audits, training, and leadership review.
+                                  Self-serve access to loan history, EMI schedules, and support.
                                 </p>
                             </div>
                             <div class="icon">
@@ -222,9 +219,9 @@
                                 </h6>
                             </div>
                             <div class="content">
-                                <h6>Managing QA</h6>
+                                <h6>Automated Notifications</h6>
                                 <p>
-                                    Difficulty managing QA across multiple departments.
+                                 SMS/Email alerts for disbursal, EMI reminders, and overdue notices.
                                 </p>
                             </div>
                         </div>
@@ -232,9 +229,9 @@
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="work-process-items text-center">
                             <div class="content style-2">
-                                <h6>Delivering Delays</h6>
+                                <h6>Dynamic Product Engine</h6>
                                 <p>
-                                    Delays in delivering performance feedback to agents.
+                                    Create and manage various lending products with flexible terms.
                                 </p>
                             </div>
                             <div class="icon">
@@ -253,7 +250,7 @@
                             <div class="details-content pt-5">
                                 <h3>The Result of Project</h3>
                                 <p>
-                                  The QA process became 4x faster and more consistent. Management could now spot training needs instantly, track improvements over time, and ensure 100% compliance coverage—all from a centralized platform. Agent performance improved by 32% within the first quarter of deployment.  </p>
+                                 Loan processing time dropped from 3 days to under 2 hours. EMI collection success improved by 37%, and borrower satisfaction rose with real-time loan status tracking. The platform scaled to handle 10,000+ loans per month seamlessly.</p>
                             </div>
                             <div class="row g-4 pt-5">
                                 <div class="col-lg-6 col-md-6">
@@ -272,14 +269,14 @@
                             <div class="preview-item">
                                 <img src="assets/img/project/p-1.png" alt="img">
                                 <div class="content">
-                                    <h3><a href="call-center-dialer.php">Preview</a></h3>
-                                    <p>Call Center Dialer</p>
+                                    <h3><a href="mca-crm.php">Preview</a></h3>
+                                    <p> Merchant Cash Advance CRM</p>
                                 </div>
                             </div>
                             <div class="preview-item">
                                 <div class="content text-right">
-                                    <h3><a href="ringless-voicemail.php">Next</a></h3>
-                                    <p>Ringless Voicemail Drop</p>
+                                    <h3><a href="sms-ai.php">Next</a></h3>
+                                    <p>SMS AI</p>
                                 </div>
                                 <img src="assets/img/project/p-2.png" alt="img">
                             </div>

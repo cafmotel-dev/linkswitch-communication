@@ -62,7 +62,7 @@
         </div>
         <div class="container">
             <div class="page-heading">
-                <h1 class="wow fadeInUp" data-wow-delay=".3s">Call Chex – QA Platform</h1>
+                <h1 class="wow fadeInUp" data-wow-delay=".3s">Ringless Voicemail Drop System</h1>
                 <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                     <li>
                         <a href="index.php">
@@ -73,13 +73,13 @@
                         <i class="fas fa-chevron-right"></i>
                     </li>
                     <li>
-                        Products
+                          Products
                     </li>
                      <li>
                         <i class="fas fa-chevron-right"></i>
                     </li>
                     <li>
-                        Call Chex – QA Platform
+                        Ringless Voicemail Drop System
                     </li>
                 </ul>
             </div>
@@ -99,10 +99,9 @@
                             <div class="row g-4 justify-content-between">
                                 <div class="col-lg-7">
                                     <div class="details-content pt-5">
-                                        <h3>Call Chex – QA Platform</h3>
+                                        <h3>Ringless Voicemail Drop System</h3>
                                         <p>
-                                            Call Chex – QA Platform is a quality assurance solution developed to evaluate and improve call center performance by automating QA workflows, scoring agent interactions, and maintaining compliance across large-scale operations.
-                                        </p>
+                                           Ringless Voicemail Drop System streamlines customer outreach by delivering voicemail messages directly to recipients’ inboxes—without triggering a phone ring. It allows marketing and support teams to connect at scale while staying compliant and non-intrusive. </p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
@@ -115,7 +114,7 @@
                                             </li>
                                             <li>
                                                 Category:
-                                                <span>Callchex-QA </span>
+                                                <span>Ringless Voicemail Drop System</span>
                                             </li>
                                             <li>
                                                 Location:
@@ -136,19 +135,18 @@
                             <div class="details-content pt-3">
                                 <h3>Our Challenge</h3>
                                 <p>
-                                  Manual quality checks across thousands of calls per day were inconsistent and time-consuming. The client needed a centralized, scalable solution to:
-                                </p>
+                                  The client faced challenges with low engagement in cold calling and high opt-out rates from SMS campaigns. They needed: </p>
                             </div>
                             <div class="row g-4 pt-5">
                                 <div class="col-lg-6 col-md-6">
                                     <ul class="list">
                                         <li>
                                             <i class="fa-regular fa-circle-check"></i>
-                                            Automate call scoring based on custom QA parameters.
+                                           A non-intrusive way to reach thousands of leads.
                                         </li>
                                         <li>
                                             <i class="fa-regular fa-circle-check"></i>
-                                           Track agent performance in real-time.
+                                           Seamless integration with CRM tools.
                                         </li>
                                     </ul>
                                 </div>
@@ -156,11 +154,11 @@
                                     <ul class="list">
                                         <li>
                                             <i class="fa-regular fa-circle-check"></i>
-                                          Flag compliance risks automatically.
+                                          A dashboard to track drop status, response rates, and compliance.
                                         </li>
                                         <li>
                                             <i class="fa-regular fa-circle-check"></i>
-                                          Replace outdated spreadsheets and disconnected tools.
+                                        A scalable system that avoids carrier blocking and legal risks.
                                         </li>
                                     </ul>
                                 </div>
@@ -190,19 +188,18 @@
                                 </h6>
                             </div>
                             <div class="content">
-                                <h6>Secure Call Archiving</h6>
+                                <h6>CRM & API Integration</h6>
                                 <p>
-                                    Stored all QA-reviewed calls with notes and compliance flags.
-                                </p>
+                                   Synced with HubSpot, Salesforce, and custom CRM tools. </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="work-process-items text-center">
                             <div class="content style-2">
-                                <h6>Custom Report Generator</h6>
+                                <h6>TCPA & DNC Compliance Checker</h6>
                                 <p>
-                                    Exportable QA reports for audits, training, and leadership review.
+                                  Automated legal screening before message delivery.
                                 </p>
                             </div>
                             <div class="icon">
@@ -222,9 +219,9 @@
                                 </h6>
                             </div>
                             <div class="content">
-                                <h6>Managing QA</h6>
+                                <h6>Marketing</h6>
                                 <p>
-                                    Difficulty managing QA across multiple departments.
+                                 High opt-out and complaint rates with SMS/email marketing.
                                 </p>
                             </div>
                         </div>
@@ -232,9 +229,9 @@
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="work-process-items text-center">
                             <div class="content style-2">
-                                <h6>Delivering Delays</h6>
+                                <h6>Centralized Reporting</h6>
                                 <p>
-                                    Delays in delivering performance feedback to agents.
+                                    No centralized reporting or analytics for campaigns.
                                 </p>
                             </div>
                             <div class="icon">
@@ -253,7 +250,7 @@
                             <div class="details-content pt-5">
                                 <h3>The Result of Project</h3>
                                 <p>
-                                  The QA process became 4x faster and more consistent. Management could now spot training needs instantly, track improvements over time, and ensure 100% compliance coverage—all from a centralized platform. Agent performance improved by 32% within the first quarter of deployment.  </p>
+                                  Within two months, the platform delivered over 100,000 voicemails with a 28% callback rate. Lead engagement tripled compared to traditional calling, while maintaining full compliance. The client reported a 40% reduction in operational effort and greater message delivery accuracy. </p>
                             </div>
                             <div class="row g-4 pt-5">
                                 <div class="col-lg-6 col-md-6">
@@ -272,14 +269,14 @@
                             <div class="preview-item">
                                 <img src="assets/img/project/p-1.png" alt="img">
                                 <div class="content">
-                                    <h3><a href="call-center-dialer.php">Preview</a></h3>
-                                    <p>Call Center Dialer</p>
+                                    <h3><a href="callchex-qa.php">Preview</a></h3>
+                                    <p>CallChex-QA Plateform</p>
                                 </div>
                             </div>
                             <div class="preview-item">
                                 <div class="content text-right">
-                                    <h3><a href="ringless-voicemail.php">Next</a></h3>
-                                    <p>Ringless Voicemail Drop</p>
+                                    <h3><a href="mca-crm.php">Next</a></h3>
+                                    <p>Merchant Cash Advance CRM</p>
                                 </div>
                                 <img src="assets/img/project/p-2.png" alt="img">
                             </div>

@@ -62,7 +62,7 @@
         </div>
         <div class="container">
             <div class="page-heading">
-                <h1 class="wow fadeInUp" data-wow-delay=".3s">Call Chex – QA Platform</h1>
+                <h1 class="wow fadeInUp" data-wow-delay=".3s">Merchant Cash Advance CRM</h1>
                 <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                     <li>
                         <a href="index.php">
@@ -79,7 +79,7 @@
                         <i class="fas fa-chevron-right"></i>
                     </li>
                     <li>
-                        Call Chex – QA Platform
+                       Merchant Cash Advance CRM
                     </li>
                 </ul>
             </div>
@@ -99,10 +99,9 @@
                             <div class="row g-4 justify-content-between">
                                 <div class="col-lg-7">
                                     <div class="details-content pt-5">
-                                        <h3>Call Chex – QA Platform</h3>
+                                        <h3>Merchant Cash Advance CRM</h3>
                                         <p>
-                                            Call Chex – QA Platform is a quality assurance solution developed to evaluate and improve call center performance by automating QA workflows, scoring agent interactions, and maintaining compliance across large-scale operations.
-                                        </p>
+                                           Merchant Cash Advance CRM is a specialized customer relationship management platform built to streamline deal tracking, agent performance, and lead nurturing for MCA providers. It integrates underwriting tools, pipeline visibility, and communication features to close deals faster. </p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
@@ -115,7 +114,7 @@
                                             </li>
                                             <li>
                                                 Category:
-                                                <span>Callchex-QA </span>
+                                                <span>Merchant Cash Advance CRM</span>
                                             </li>
                                             <li>
                                                 Location:
@@ -136,19 +135,18 @@
                             <div class="details-content pt-3">
                                 <h3>Our Challenge</h3>
                                 <p>
-                                  Manual quality checks across thousands of calls per day were inconsistent and time-consuming. The client needed a centralized, scalable solution to:
-                                </p>
+                                 The client was managing leads and deals manually across spreadsheets, resulting in delays and missed follow-ups. Their key issues were: </p>
                             </div>
                             <div class="row g-4 pt-5">
                                 <div class="col-lg-6 col-md-6">
                                     <ul class="list">
                                         <li>
                                             <i class="fa-regular fa-circle-check"></i>
-                                            Automate call scoring based on custom QA parameters.
+                                           Lack of visibility across the sales funnel.
                                         </li>
                                         <li>
                                             <i class="fa-regular fa-circle-check"></i>
-                                           Track agent performance in real-time.
+                                           Poor tracking of agent performance.
                                         </li>
                                     </ul>
                                 </div>
@@ -156,11 +154,11 @@
                                     <ul class="list">
                                         <li>
                                             <i class="fa-regular fa-circle-check"></i>
-                                          Flag compliance risks automatically.
+                                         Manual follow-ups and inconsistent communication.
                                         </li>
                                         <li>
                                             <i class="fa-regular fa-circle-check"></i>
-                                          Replace outdated spreadsheets and disconnected tools.
+                                        Inability to segment leads based on funding stages.
                                         </li>
                                     </ul>
                                 </div>
@@ -190,19 +188,18 @@
                                 </h6>
                             </div>
                             <div class="content">
-                                <h6>Secure Call Archiving</h6>
+                                <h6>Integrated Call & SMS Tools</h6>
                                 <p>
-                                    Stored all QA-reviewed calls with notes and compliance flags.
-                                </p>
+                                   Trigger communication workflows based on lead behavior. </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="work-process-items text-center">
                             <div class="content style-2">
-                                <h6>Custom Report Generator</h6>
+                                <h6>Auto Task Reminders & Notes</h6>
                                 <p>
-                                    Exportable QA reports for audits, training, and leadership review.
+                                  Ensured timely follow-ups with context-specific actions.
                                 </p>
                             </div>
                             <div class="icon">
@@ -222,9 +219,9 @@
                                 </h6>
                             </div>
                             <div class="content">
-                                <h6>Managing QA</h6>
+                                <h6>Agent Productivity</h6>
                                 <p>
-                                    Difficulty managing QA across multiple departments.
+                                 No centralized view of agent productivity.
                                 </p>
                             </div>
                         </div>
@@ -232,9 +229,9 @@
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="work-process-items text-center">
                             <div class="content style-2">
-                                <h6>Delivering Delays</h6>
+                                <h6>Lead Qualification</h6>
                                 <p>
-                                    Delays in delivering performance feedback to agents.
+                                    Inconsistent tracking of lead qualification & offers.
                                 </p>
                             </div>
                             <div class="icon">
@@ -253,7 +250,7 @@
                             <div class="details-content pt-5">
                                 <h3>The Result of Project</h3>
                                 <p>
-                                  The QA process became 4x faster and more consistent. Management could now spot training needs instantly, track improvements over time, and ensure 100% compliance coverage—all from a centralized platform. Agent performance improved by 32% within the first quarter of deployment.  </p>
+                                 The CRM improved funding turnaround by 35%, reduced lead leakage by 50%, and gave managers better insight into agent productivity. Automation of follow-ups and underwriting notes helped reduce the average time-to-funding from 5 days to just 2 days.</p>
                             </div>
                             <div class="row g-4 pt-5">
                                 <div class="col-lg-6 col-md-6">
@@ -272,14 +269,14 @@
                             <div class="preview-item">
                                 <img src="assets/img/project/p-1.png" alt="img">
                                 <div class="content">
-                                    <h3><a href="call-center-dialer.php">Preview</a></h3>
-                                    <p>Call Center Dialer</p>
+                                    <h3><a href="ringless-voicemail.php">Preview</a></h3>
+                                    <p>Ringless Voicemail</p>
                                 </div>
                             </div>
                             <div class="preview-item">
                                 <div class="content text-right">
-                                    <h3><a href="ringless-voicemail.php">Next</a></h3>
-                                    <p>Ringless Voicemail Drop</p>
+                                    <h3><a href="lead-orgination.php">Next</a></h3>
+                                    <p>Lending Origination & Servicing Platform</p>
                                 </div>
                                 <img src="assets/img/project/p-2.png" alt="img">
                             </div>
