@@ -14,7 +14,7 @@
     <!-- ======== Page title ============ -->
     <title>LinkSwitch - Be Inspired By Communication</title>
     <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="assets/img/favicon.svg">
+    <link rel="shortcut icon" href="assets/img/logo-transparent-fav.png" style="width: 1200px !important; height: auto !important;">
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!--<< All Min Css >>-->
@@ -554,14 +554,14 @@ html {
                       </div>
                       <div class="body">
                         <h3>
-                          <a href="#">BPO Services</a>
+                          <a href="bpo-services.php">BPO Services</a>
                         </h3>
                         <p>
                           Customer support and back-office outsourcing with
                           multilingual agents and AI tools for cost-effective
                           service delivery.
                         </p>
-                        <a href="#" class="link-btn style1"
+                        <a href="bpo-services.php" class="link-btn style1"
                           >Read more <i class="fa-regular fa-chevrons-right"></i
                         ></a>
                       </div>
@@ -577,7 +577,7 @@ html {
                       </div>
                       <div class="body">
                         <h3>
-                          <a href="#"
+                          <a href="it-consulting.php"
                             >IT Consulting & Strategy</a
                           >
                         </h3>
@@ -585,7 +585,7 @@ html {
                        IT audits, CTO-as-a-Service, automation, and strategic roadmaps for long-term efficiency.
 
                         </p>
-                        <a href="#" class="link-btn style1"
+                        <a href="it-consulting.php" class="link-btn style1"
                           >Read more <i class="fa-regular fa-chevrons-right"></i
                         ></a>
                       </div>
@@ -601,7 +601,7 @@ html {
                       </div>
                       <div class="body">
                         <h3>
-                          <a href="#"
+                          <a href="it-staffing.php"
                             >IT Staffing & Augmentation</a
                           >
                         </h3>
@@ -609,7 +609,7 @@ html {
                         Pre-vetted developers, offshore teams, flexible hiring, and RPO solutions.
 
                         </p>
-                        <a href="#" class="link-btn style1"
+                        <a href="it-staffing.php" class="link-btn style1"
                           >Read more <i class="fa-regular fa-chevrons-right"></i
                         ></a>
                       </div>
@@ -625,13 +625,13 @@ html {
                         />
                       </div>
                       <div class="body">
-                        <h3><a href="#">E-commerce & Web Solutions</a></h3>
+                        <h3><a href="ecommerce.php">E-commerce & Web Solutions</a></h3>
                         <p>
                          E-commerce solutions with Shopify, WooCommerce, CMS, SEO, and digital marketing.
 
 
                         </p>
-                        <a href="#" class="link-btn style1"
+                        <a href="ecommerce.php" class="link-btn style1"
                           >Read more <i class="fa-regular fa-chevrons-right"></i
                         ></a>
                       </div>
@@ -647,12 +647,12 @@ html {
                       </div>
                       <div class="body">
                         <h3>
-                          <a href="#">RCM Services</a>
+                          <a href="rcm-services.php">RCM Services</a>
                         </h3>
                         <p>
                          CleverCrew Healthcare leverages cutting-edge automation, AI, and data-driven insights to transform healthcare operations.
                         </p>
-                        <a href="#" class="link-btn style1"
+                        <a href="rcm-services.php" class="link-btn style1"
                           >Read more <i class="fa-regular fa-chevrons-right"></i
                         ></a>
                       </div>
@@ -964,132 +964,190 @@ html {
         </div>
     </section> -->
 
-       <!-- Service Section Start -->
-    <section
-      class="service-section-3 pb-0 fix section-padding bg-cover bg-white"
-      style="background-image: url('assets/img/service/service-bg-3.jpg')"
-    >
-      <div class="container">
-        <div class="row d-flex align-items-end justify-content-between mb-20">
-          <div class="col-xl-7">
-            <div class="section-title mxw-650">
-              <div class="subtitle">
-                <img src="assets/img/icon/arrowLeft.svg" alt="icon" />
-                <span> Our Products </span
-                ><img src="assets/img/icon/arrowRight.svg" alt="icon" />
-              </div>
-              <h3>Explore Our Cutting-Edge Product Solutions</h3>
-            </div>
+<!-- Service Section Start -->
+<section class="service-section-3 fix section-padding bg-cover bg-white" style="background-image: url('assets/img/service/service-bg-3.jpg')">
+  <div class="container">
+    <!-- Heading -->
+    <div class="row d-flex align-items-end justify-content-between mb-20">
+      <div class="col-xl-7">
+        <div class="section-title mxw-650">
+          <div class="subtitle">
+            <img src="assets/img/icon/arrowLeft.svg" alt="icon" />
+            <span> Our Products </span>
+            <img src="assets/img/icon/arrowRight.svg" alt="icon" />
           </div>
+          <h3>Explore Our Cutting-Edge Product Solutions</h3>
+        </div>
+      </div>
+    </div>
+</br>
 
-          <div class="col-xl-5 d-flex align-items-end justify-content-end">
-            <div class="btn-wrapper" data-wow-delay=".9s">
-              <a href="#" class="theme-btn">
-                See all Products <i class="fa-solid fa-arrow-right-long"></i>
+    <!-- Swiper Slider -->
+    <div class="swiper service-slider-2">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="service-card-items mt-0">
+            <div class="service-image">
+              <img src="assets/img/service/03.jpg" alt="service-img" />
+            </div>
+            <div class="icon-2">
+              <img src="assets/img/service/icon/s-icon-2.svg" alt="img" />
+            </div>
+            <div class="service-content">
+              <div class="icon">
+                <img src="assets/img/service/icon/s-icon-2.svg" alt="img" />
+              </div>
+              <h5 class="text-black">
+                <a href="call-center-dialer.php" class="text-black">Call Center Dialer</a>
+              </h5>
+              <p>Smart dialer with CRM, multichannel outreach, and real-time lead automation.</p>
+              <a href="call-center-dialer.php" class="theme-btn-2 mt-3">
+                read More
+                <i class="fa-solid fa-arrow-right-long"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="row mb-45">
 
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="service-card-items">
-              <div class="service-image">
-                <img src="assets/img/service/03.jpg" alt="service-img" />
-              </div>
-              <div class="icon-2">
-                <img src="assets/img/service/icon/s-icon-2.svg" alt="img" />
-              </div>
-              <div class="service-content">
-                <div class="icon">
-                  <img src="assets/img/service/icon/s-icon-2.svg" alt="img" />
-                </div>
-                <h5 class="text-black">
-                  <a href="#" class="text-black">Call Center Dialer with Integrated CRM</a>
-                </h5>
-                <p>Smart dialer with CRM, multichannel outreach, and real-time lead automation.</p>
-                <a href="#" class="theme-btn-2 mt-3">
-                  read More
-                  <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
-              </div>
+        <div class="swiper-slide">
+          <div class="service-card-items mt-0">
+            <div class="service-image">
+              <img src="assets/img/service/04.jpg" alt="service-img" />
             </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="service-card-items">
-              <div class="service-image">
-                <img src="assets/img/service/04.jpg" alt="service-img" />
-              </div>
-              <div class="icon-2">
-                <img src="assets/img/service/icon/s-icon-4.svg" alt="img" />
-              </div>
-              <div class="service-content">
-                <div class="icon">
-                  <img src="assets/img/service/icon/s-icon-5.svg" alt="img" />
-                </div>
-                <h5 class="text-black">
-                  <a href="#" class="text-black">CallChex – Call Center QA Platform</a>
-                </h4>
-                <p>AI call analyzer for coaching, compliance, and performance insights.</p>
-                <a href="#" class="theme-btn-2 mt-3">
-                  read More
-                  <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
-              </div>
+            <div class="icon-2">
+              <img src="assets/img/service/icon/s-icon-4.svg" alt="img" />
             </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="service-card-items">
-              <div class="service-image">
-                <img src="assets/img/service/05.jpg" alt="service-img" />
+            <div class="service-content">
+              <div class="icon">
+                <img src="assets/img/service/icon/s-icon-5.svg" alt="img" />
               </div>
-              <div class="icon-2">
-                <img src="assets/img/service/icon/s-icon-3.svg" alt="img" />
-              </div>
-              <div class="service-content">
-                <div class="icon">
-                  <img src="assets/img/service/icon/s-icon-3.svg" alt="img" />
-                </div>
-                <h5 class="text-black">
-                  <a href="#" class="text-black">Alternative Lending Software</a>
-                </h5>
-                <p>End-to-end MCA lending automation with syndication, ACH, and real-time analytics.</p>
-                <a href="#" class="theme-btn-2 mt-3">
-                  read More
-                  <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="service-card-items">
-              <div class="service-image">
-                <img src="assets/img/service/02.jpg" alt="service-img" />
-              </div>
-              <div class="icon-2">
-                <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
-              </div>
-              <div class="service-content">
-                <div class="icon">
-                  <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
-                </div>
-                <h5 class="text-black">
-                  <a href="#" class="text-black">Ringless.Cloud</a>
-                </h5>
-                <p>Ringless enhances productivity with intelligent workflows, automated tasks, and effortless scheduling for busy professionals.</p>
-                <a href="#" class="theme-btn-2 mt-3">
-                  read More
-                  <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
-              </div>
+              <h5 class="text-black">
+                <a href="callchex-qa.php" class="text-black">CallChex – QA Platform</a>
+              </h5>
+            <p>AI-powered platform for call monitoring, compliance checks, and agent coaching.</p>
+              <a href="callchex-qa.php" class="theme-btn-2 mt-3">
+                read More
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </a>
             </div>
           </div>
         </div>
+
+        <div class="swiper-slide">
+          <div class="service-card-items mt-0">
+            <div class="service-image">
+              <img src="assets/img/service/05.jpg" alt="service-img" />
+            </div>
+            <div class="icon-2">
+              <img src="assets/img/service/icon/s-icon-3.svg" alt="img" />
+            </div>
+            <div class="service-content">
+              <div class="icon">
+                <img src="assets/img/service/icon/s-icon-3.svg" alt="img" />
+              </div>
+              <h5 class="text-black">
+                <a href="lending-origination.php" class="text-black">Lending Origination</a>
+              </h5>
+              <p>Streamlined loan origination and servicing with automation, tracking, and smart analytics.</p>
+              <a href="lending-origination.php" class="theme-btn-2 mt-3">
+                read More
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="service-card-items mt-0">
+            <div class="service-image">
+              <img src="assets/img/service/02.jpg" alt="service-img" />
+            </div>
+            <div class="icon-2">
+              <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
+            </div>
+            <div class="service-content">
+              <div class="icon">
+                <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
+              </div>
+              <h5 class="text-black">
+                <a href="ringless-voicemail.php" class="text-black">Ringless Voicemail Drop</a>
+              </h5>
+              <p>Ringless boosts productivity with smart workflows and automated scheduling.</p>
+
+              <a href="ringless-voicemail.php" class="theme-btn-2 mt-3">
+                read More
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+                <div class="swiper-slide">
+          <div class="service-card-items mt-0">
+            <div class="service-image">
+              <img src="assets/img/service/02.jpg" alt="service-img" />
+            </div>
+            <div class="icon-2">
+              <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
+            </div>
+            <div class="service-content">
+              <div class="icon">
+                <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
+              </div>
+              <h5 class="text-black">
+                <a href="mca-crm.php" class="text-black">Cash Advance CRM</a>
+              </h5>
+              <p>Purpose-built CRM for MCA with deal tracking, broker management, and automated follow-ups.</p>
+
+              <a href="mca-crm.php" class="theme-btn-2 mt-3">
+                read More
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+                <div class="swiper-slide">
+          <div class="service-card-items mt-0">
+            <div class="service-image">
+              <img src="assets/img/service/02.jpg" alt="service-img" />
+            </div>
+            <div class="icon-2">
+              <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
+            </div>
+            <div class="service-content">
+              <div class="icon">
+                <img src="assets/img/service/icon/s-icon-1.svg" alt="img" />
+              </div>
+              <h5 class="text-black">
+                <a href="sms-ai.php" class="text-black">SMS AI</a>
+              </h5>
+     <p>AI-powered SMS platform for smart conversations, lead engagement, and automated follow-ups.</p>
+
+
+
+              <a href="sms-ai.php" class="theme-btn-2 mt-3">
+                read More
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
       </div>
+      <div class="swiper-dot-2">
+        <div class="dot-2"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 
     <!--<< Testimonial Section Start >>-->
-    <section class="tesimonial-section-3 section-padding section-bg-2 bg-cover" style="padding-top: 35px;">
+    <section class="tesimonial-section-3 section-padding section-bg-2 bg-cover" style="padding-top: 25px;">
         <div class="line-shape">
             <img src="assets/img/team/line-shape.png" alt="shape-img">
         </div>

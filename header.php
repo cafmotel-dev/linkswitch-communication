@@ -133,12 +133,11 @@ body, html {
   cursor: default !important;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 768px) {
   .header-logo img {
     margin-left: -60px !important; 
   }
 }
-
 
 
 .header-left,
@@ -146,6 +145,12 @@ body, html {
     display: flex;
     align-items: start;
 
+}
+
+@media (min-width: 1000px) {
+  .header-logo img {
+   margin-left: -80px !important;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -678,7 +683,7 @@ body, html {
                         <div class="header-left">
                             <div class="logo">
                                 <a href="index.php" class="header-logo">
-                                    <img src="assets/img/logo-png.png" alt="logo-img" style="width: 470px; max-height: 80px; margin-left: -110px;">
+                                    <img src="assets/img/logo-png.png" alt="logo-img" style="width: 470px; max-height: 80px;">
                                 </a>
                             </div>
                         </div>

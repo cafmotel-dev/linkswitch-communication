@@ -135,19 +135,21 @@
                                 <div class="menu-all-pages-container">
                                     <ul class="menu">
                                         <li><a href="call-center-dialer.php"><i class="fa-solid fa-chevrons-right"></i>
-                                               Call Center Dialer with Integrated CRM </a>
+                                              Call Center Dialer </a>
                                         </li>
-                                        <li><a href="callchex-qa.php"><i class="fa-solid fa-chevrons-right"></i>CallChex – Call Center QA Platform</a>
+                                        <li><a href="callchex-qa.php"><i class="fa-solid fa-chevrons-right"></i>CallChex – QA Platform</a>
                                         </li>
+                                         <li><a href="ringless-voicemail.php"><i class="fa-solid fa-chevrons-right"></i>Ringless Voicemail drop</a>
+                                        </li>
+
+                                         <li><a href="mca-crm.php"><i class="fa-solid fa-chevrons-right"></i>Merchant Cash Advance CRM</a>
+                                        </li>
+
                                         <li><a href="lending-origination.php"><i class="fa-solid fa-chevrons-right"></i>Lending Origination & Servicing Platform</a>
-                                        </li>
-                                 
-                                        <li><a href="ringless-voicemail.php"><i class="fa-solid fa-chevrons-right"></i>Ringless Voicemail drop</a>
                                         </li>
                                         <li><a href="sms-ai.php"><i class="fa-solid fa-chevrons-right"></i>SMS AI</a>
                                         </li>
-                                        <li><a href="mca-crm.php"><i class="fa-solid fa-chevrons-right"></i>Merchant Cash Advance CRM</a>
-                                        </li>
+                                       
                                     </ul>
                                 </div>
                             </div>

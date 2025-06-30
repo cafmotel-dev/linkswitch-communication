@@ -14,7 +14,7 @@
     <!-- ======== Page title ============ -->
     <title>About Us - LinkSwitch</title>
     <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="assets/img/favicon.svg">
+ <link rel="shortcut icon" href="assets/img/logo-transparent-fav.png" style="width: 1200px !important; height: auto !important;">
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!--<< All Min Css >>-->
@@ -330,6 +330,67 @@
             </div>
         </div>
     </section>
+
+<style>
+@media (max-width: 1199.98px) {
+    .custom-gap {
+        gap: 15px;
+        row-gap: 20px;
+    }
+
+    .offer-items {
+        padding: 15px;
+        min-height: 120px;
+    }
+
+    .offer-items .content h5 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .col-lg-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .col-sm-6, .col-md-4, .col-lg-4 {
+        flex: 0 0 48%;
+        max-width: 48%;
+    }
+
+    .custom-gap {
+        gap: 12px;
+        row-gap: 15px;
+        justify-content: space-around;
+    }
+
+    .offer-items {
+        min-height: 120px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .offer-items .content h5 {
+        font-size: 15px;
+        line-height: 1.3;
+    }
+
+    .offer-items .icon svg {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media (max-width: 400px) {
+    .offer-items .content h5 {
+        font-size: 14px;
+    }
+}
+</style>
+
 
     <!-- Offer Section Start -->
     <section class="offer-section fix section-bg-2 section-padding close-to-top" style="padding-top: 35px;">
@@ -669,106 +730,230 @@
       </div>
     </section>
 
-      
-        <!-- Project Section Start -->
-    <section class="project-section section-padding fix" style="padding-top: 30px; padding-bottom: 30px;">
-        <div class="container">
+<style>
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-items {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.project-items:hover {
+  transform: translateY(-5px);
+}
+
+.project-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.project-content h5,
+.project-content h6 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.arrow-icon {
+  font-size: 18px;
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .project-content h5,
+  .project-content h6 {
+    font-size: 16px;
+  }
+
+  .project-content {
+    padding: 15px;
+  }
+}
+
+
+.swiper-dot-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+
+.swiper-dot-2 .dot-2 {
+  width: 8px;
+  height: 8px;
+  background-color: #333;
+  border-radius: 50%;
+  opacity: 0.4;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.swiper-dot-2 .dot-2.swiper-pagination-bullet-active {
+  background-color: #000;
+  opacity: 1;
+}
+
+
+</style>
+
+      <!-- Project Section Start -->
+<section class="project-section section-padding fix" style="padding-top: 30px; padding-bottom: 30px;">
+    <div class="container">
         <div class="title-wrap mb-45">
             <div class="section-title">
-              <div class="subtitle">
-                <img src="assets/img/icon/arrowLeft.svg" alt="icon" />
-                <span> What We Do </span
-                ><img src="assets/img/icon/arrowRight.svg" alt="icon" />
-              </div>
-                 <h3>Transforming Ideas into Powerful Products</h3>
-            </div>
-            <!-- <div class="arrow-btn text-end wow fadeInUp" data-wow-delay=".9s">
-              <button
-                data-slider-prev="#serviceSliderOne"
-                class="slider-arrow style1"
-              >
-                <i class="fa-sharp fa-regular fa-arrow-left-long"></i>
-              </button>
-              <button
-                data-slider-next="#serviceSliderOne"
-                class="slider-arrow style1 slider-next"
-              >
-                <i class="fa-regular fa-arrow-right-long"></i>
-              </button>
-            </div> -->
-          </div>
-
-            <div class="row g-4">
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                   <div class="project-items style-2 mt-0">
-                                <div class="project-image">
-                                    <img src="assets/img/bg/dial.jpg" alt="project-img">
-                                    <div class="project-content style2">
-                                        <!-- <p>Technology</p> -->
-                                        <h6>
-                                            <a href="#">Call Center Dialer with Integrated CRM</a>
-                                        </h6>
-                                        <a href="#" class="arrow-icon">
-                                            <i class="fa-solid fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-       
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                            <div class="project-items style-2 mt-0">
-                                <div class="project-image">
-                                    <img src="assets/img/bg/call-center.jpg" alt="project-img">
-                                    <div class="project-content style2">
-                                     
-                                        <h6>
-                                            <a href="#">CallChex – Call Center QA Platform</a>
-                                        </h6>
-                                        <a href="#" class="arrow-icon">
-                                            <i class="fa-solid fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                  <div class="project-items style-2 mt-0">
-                                <div class="project-image">
-                                    <img src="assets/img/bg/Alt.jpg" alt="project-img">
-                                    <div class="project-content style2">
-                                      
-                                        <h6>
-                                            <a href="#">Alternative Lending Software</a>
-                                        </h6>
-                                        <a href="#" class="arrow-icon">
-                                            <i class="fa-solid fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                            <div class="project-items style-2 mt-0">
-                                <div class="project-image">
-                                    <img src="assets/img/bg/ringless.jpg" alt="project-img">
-                                    <div class="project-content style2" >
-                                     
-                                        <h5>
-                                            <a href="#">Ringless.Cloud</a>
-                                        </h5>
-                                        <a href="#" class="arrow-icon">
-                                            <i class="fa-solid fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-             
-                        </div>
-          
+                <div class="subtitle">
+                    <img src="assets/img/icon/arrowLeft.svg" alt="icon" />
+                    <span> What We Do </span>
+                    <img src="assets/img/icon/arrowRight.svg" alt="icon" />
+                </div>
+                <h3>Transforming Ideas into Powerful Products</h3>
             </div>
         </div>
+
+        <div class="swiper project-slider-2">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide wow fadeInUp" data-wow-delay=".3s">
+                    <!-- <div class="col-xl-12 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s"> -->
+                        <div class="project-items style-2 mt-0">
+                            <div class="project-image">
+                                <img src="assets/img/bg/dial.jpg" alt="project-img">
+                                <div class="project-content style2">
+                                    <h6>
+                                        <a href="call-center-dialer.php">Call Center Dialer</a>
+                                    </h6>
+                                    <a href="call-center-dialer.php" class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide  wow fadeInUp" data-wow-delay=".3s">
+                    <!-- <div class="col-xl-12 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s"> -->
+                        <div class="project-items style-2 mt-0">
+                            <div class="project-image">
+                                <img src="assets/img/bg/call-center.jpg" alt="project-img">
+                                <div class="project-content style2">
+                                    <h6>
+                                        <a href="callchex-qa.php">CallChex – QA Platform</a>
+                                    </h6>
+                                    <a href="callchex-qa.php" class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide  wow fadeInUp" data-wow-delay=".3s">
+                    <!-- <div class="col-xl-12 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s"> -->
+                        <div class="project-items style-2 mt-0">
+                            <div class="project-image">
+                                <img src="assets/img/bg/Alt.jpg" alt="project-img">
+                                <div class="project-content style2">
+                                    <h6>
+                                        <a href="lending-origination.php">Lending Origination & Servicing</a>
+                                    </h6>
+                                    <a href="lending-origination.php" class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="swiper-slide  wow fadeInUp" data-wow-delay=".3s">
+                    <!-- <div class="col-xl-12 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s"> -->
+                        <div class="project-items style-2 mt-0">
+                            <div class="project-image">
+                                <img src="assets/img/bg/ringless.jpg" alt="project-img">
+                                <div class="project-content style2">
+                                    <h5>
+                                        <a href="ringless-voicemail.php">Ringless Voicemail drop</a>
+                                    </h5>
+                                    <a href="ringless-voicemail.php" class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+         
+
+                   <!-- Slide 5 -->
+                <div class="swiper-slide  wow fadeInUp" data-wow-delay=".3s">
+                    <!-- <div class="col-xl-12 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s"> -->
+                        <div class="project-items style-2 mt-0">
+                            <div class="project-image">
+                                <img src="assets/img/bg/pay.jpg" alt="project-img">
+                                <div class="project-content style2">
+                                    <h5>
+                                        <a href="mca-crm.php">Cash Advance CRM</a>
+                                    </h5>
+                                    <a href="mca-crm.php" class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+           
+
+                   <!-- Slide 6 -->
+                <div class="swiper-slide  wow fadeInUp" data-wow-delay=".3s">
+                    <!-- <div class="col-xl-12 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s"> -->
+                        <div class="project-items style-2 mt-0">
+                            <div class="project-image">
+                                <img src="assets/img/bg/AI.jpg" alt="project-img">
+                                <div class="project-content style2">
+                                    <h5>
+                                        <a href="sms-ai.php">SMS AI</a>
+                                    </h5>
+                                    <a href="sms-ai.php" class="arrow-icon">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+     
+
+            </div>
+
+            <!-- Optional Pagination Dots -->
+            <div class="swiper-dot-2">
+                <div class="dot-2"></div>
+            </div>
+        </div>
+    </div>
+
 
 
       <div class="cta-banner-2 section-padding" style="margin-bottom: 0px;">
@@ -785,7 +970,7 @@
             <h3 class="cta-title text-white wow fadeInUp" data-wow-delay=".3s">Stay Connected With Cutting Edge IT
             </h3>
             <div class="btn-wrapper">
-               <a class="gt-btn style5" href="contact.php">Talk to a Specialist<i
+               <a class="gt-btn style5" href="contact.php">Talk to Us<i
                      class="fa-sharp fa-regular fa-arrow-right-long"></i></a>
             </div>
          </div>
@@ -831,6 +1016,33 @@
     }
   });
 </script>
+
+<script>
+  var swiper = new Swiper(".project-slider-2", {
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-dot-2",
+      clickable: true,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      576: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1200: {
+        slidesPerView: 3,
+      },
+    },
+  });
+</script>
+
 
 </body>
 
