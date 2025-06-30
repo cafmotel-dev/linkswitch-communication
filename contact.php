@@ -376,6 +376,80 @@
                                             <input type="text" name="email" id="email" placeholder="you@example.com">
                                         </div>
                                     </div>
+<div class="col-lg-8 wow fadeInUp" data-wow-delay=".5s">
+    <div class="form-clt">
+        <span>Services/ Products you are interested in</span>
+         <select name="orderby" class="single-select identical-input" aria-label="Shop order">
+            <option value="" disabled selected>Your interests</option>
+            <option value="Managed IT Services">Managed IT Services</option>
+            <option value="Cloud Services">Cloud Services</option>
+            <option value="Software Development">Software Development</option>
+            <option value="IT Consulting & Strategy">IT Consulting & Strategy</option>
+            <option value="IT Staffing & Augmentation">IT Staffing & Augmentation</option>
+            <option value="BPO Services">BPO Services</option>
+            <option value="E-commerce & Web Solutions">E-commerce & Web Solutions</option>
+            <option value="Call Center Dialer">Call Center Dialer</option>
+            <option value="Call Chex- QA Platform">Call Chex- QA Platform</option>
+            <option value="Ringless Voicemail drop">Ringless Voicemail drop</option>
+            <option value="Merchant Cash Advance CRM">Merchant Cash Advance CRM</option>
+            <option value="Lending Origination & Servicing Platform">Lending Origination & Servicing Platform</option>
+            <option value="SMS AI">SMS AI</option>
+        </select>
+    </div>
+</div>
+
+<style>
+.identical-input {
+    display: block;
+    width: 100%;
+    height: 58px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #495057;
+    background-color: transparent;
+    border: 1px solid #ced4da !important;
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 12px;
+    padding-right: 30px;
+}
+
+.identical-input:focus {
+    border-color: #80bdff !important;
+    outline: none !important;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    background-color: transparent;
+}
+
+
+.identical-input option {
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    overflow-y: auto !important;
+}
+
+
+select.identical-input {
+    min-width: 100%;
+     overflow-y: auto !important;
+}
+</style>
+
+
+                                      <div class="col-lg-4 wow fadeInUp" data-wow-delay=".5s">
+                                        <div class="form-clt">
+                                            <span>Others</span>
+                                            <input type="text" id="msg" placeholder="Others">
+                                        </div>
+                                    </div>
                                     <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
                                         <div class="form-clt">
                                             <span>Message*</span>

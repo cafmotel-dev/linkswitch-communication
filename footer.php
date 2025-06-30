@@ -135,9 +135,9 @@
                                 <div class="menu-all-pages-container">
                                     <ul class="menu">
                                         <li><a href="call-center-dialer.php"><i class="fa-solid fa-chevrons-right"></i>
-                                              Call Center Dialer </a>
+                                              Call Center Dialer with Integrated CRM </a>
                                         </li>
-                                        <li><a href="callchex-qa.php"><i class="fa-solid fa-chevrons-right"></i>CallChex – QA Platform</a>
+                                        <li><a href="callchex-qa.php"><i class="fa-solid fa-chevrons-right"></i>CallChex- AI Powered Call Center QA Platform</a>
                                         </li>
                                          <li><a href="ringless-voicemail.php"><i class="fa-solid fa-chevrons-right"></i>Ringless Voicemail drop</a>
                                         </li>

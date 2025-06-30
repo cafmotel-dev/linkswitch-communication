@@ -31,6 +31,16 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css">
+
+<style>
+.closer-to-hero {
+    margin-top: -80px; 
+  }
+
+.bgcover{
+     background: #eef4ff;
+}
+</style>
 </head>
 
 <body>
@@ -53,7 +63,7 @@
     </div>
 
     <!--<< Breadcrumb Section Start >>-->
-    <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb.jpg');">
+    <!-- <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb.jpg');">
         <div class="border-shape">
             <img src="assets/img/element.png" alt="shape-img">
         </div>
@@ -84,20 +94,20 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Project Section Start -->
-    <section class="Project-details-section fix section-padding">
+    <section class="Project-details-section fix section-padding bgcover">
         <div class="container">
             <div class="project-details-wrapper">
-                <div class="row">
+                <div class="row closer-to-hero">
                     <div class="col-lg-12">
                         <div class="project-details-items">
                             <div class="details-image">
-                                <img src="assets/img/project/details.jpg" alt="img">
+                                <img src="assets/img/bg/callchex.jpg" alt="img" style= "height: 700px !important">
                             </div>
                             <div class="row g-4 justify-content-between">
-                                <div class="col-lg-7">
+                                <div class="col-lg-12">
                                     <div class="details-content pt-5">
                                         <h3>Call Chex – QA Platform</h3>
                                         <p>
@@ -105,7 +115,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <!-- <div class="col-lg-4">
                                     <div class="project-catagory">
                                         <h3>Project Info: </h3>
                                         <ul>
@@ -131,7 +141,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="details-content pt-3">
                                 <h3>Our Challenge</h3>
@@ -258,12 +268,12 @@
                             <div class="row g-4 pt-5">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="thumb">
-                                        <img src="assets/img/project/details-2.jpg" alt="img">
+                                        <img src="assets/img/bg/grop.jpg" alt="img">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="thumb">
-                                        <img src="assets/img/project/details-3.jpg" alt="img">
+                                        <img src="assets/img/bg/person.jpg" alt="img">
                                     </div>
                                 </div>
                             </div>

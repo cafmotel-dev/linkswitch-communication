@@ -509,6 +509,22 @@ body, html {
   margin-left: 12px;
 }
 
+/* .products-col > h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: -30px;
+  border-bottom: 2px solid #007bff;
+  display: block;
+  width: 1200%; 
+  box-sizing: border-box;
+  padding: 0 0 6px 0; 
+}
+ */
+
+
 .products-card {
   background: #f9f9fa;
   width: 90%;
