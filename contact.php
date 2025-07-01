@@ -379,68 +379,96 @@
 <div class="col-lg-8 wow fadeInUp" data-wow-delay=".5s">
     <div class="form-clt">
         <span>Services/ Products you are interested in</span>
-         <select name="orderby" class="single-select identical-input" aria-label="Shop order">
-            <option value="" disabled selected>Your interests</option>
-            <option value="Managed IT Services">Managed IT Services</option>
-            <option value="Cloud Services">Cloud Services</option>
-            <option value="Software Development">Software Development</option>
-            <option value="IT Consulting & Strategy">IT Consulting & Strategy</option>
-            <option value="IT Staffing & Augmentation">IT Staffing & Augmentation</option>
-            <option value="BPO Services">BPO Services</option>
-            <option value="E-commerce & Web Solutions">E-commerce & Web Solutions</option>
-            <option value="Call Center Dialer">Call Center Dialer</option>
-            <option value="Call Chex- QA Platform">Call Chex- QA Platform</option>
-            <option value="Ringless Voicemail drop">Ringless Voicemail drop</option>
-            <option value="Merchant Cash Advance CRM">Merchant Cash Advance CRM</option>
-            <option value="Lending Origination & Servicing Platform">Lending Origination & Servicing Platform</option>
-            <option value="SMS AI">SMS AI</option>
-        </select>
+<div class="dropdown-wrapper">
+  <div class="custom-select">
+    <span class="selected">Your Interests</span>
+    <div class="options-container">
+      <div class="option">Managed IT Services</div>
+      <div class="option">Cloud Services</div>
+      <div class="option">Software Development</div>
+      <div class="option">IT Consulting & Strategy</div>
+      <div class="option">IT Staffing & Augmentation</div>
+      <div class="option">BPO Services</div>
+      <div class="option">E-commerce & Web Solutions</div>
+      <div class="option">RCM Services</div>
+      <div class="option">Call Center Dialer</div>
+      <div class="option">Call Chex- QA Platform</div>
+      <div class="option">Ringless Voicemail drop</div>
+      <div class="option">Merchant Cash Advance CRM</div>
+      <div class="option">Lending Origination & Servicing Platform</div>
+      <div class="option">SMS AI</div>
+    </div>
+  </div>
+</div>
+
     </div>
 </div>
 
 <style>
-.identical-input {
-    display: block;
-    width: 100%;
-    height: 58px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.8;
-    color: #495057;
-    background-color: transparent;
-    border: 1px solid #ced4da !important;
-    border-radius: 4px;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
-    background-repeat: no-repeat;
-    background-position: right 12px center;
-    background-size: 12px;
-    padding-right: 30px;
-}
+.custom-select {
+  position: relative;
+  width: 100%;
+  height: 58px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 12px;
+  box-sizing: border-box;
+  padding-right: 50px; 
 
-.identical-input:focus {
-    border-color: #80bdff !important;
-    outline: none !important;
-    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
-    background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 20px; 
 }
 
 
-.identical-input option {
-    background-color: #fff;
-    color: #000;
-    font-size: 14px;
-    overflow-y: auto !important;
+.selected {
+  display: block;
+  width: 100%;
+  color: #fff; 
+  background-color: transparent;
+  font-size: 14px;
+  line-height: 1.8;
 }
 
 
-select.identical-input {
-    min-width: 100%;
-     overflow-y: auto !important;
+.options-container {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 180px;
+  overflow-y: auto;
+  border: 1px solid #fff;
+  background-color: #fff;
+  z-index: 999;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
 }
+
+
+.option {
+  padding: 10px;
+  font-size: 14px;
+  color: #000; 
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #f1f1f1;
+}
+
+
+.custom-select.active .options-container {
+  display: block;
+}
+
 </style>
 
 
@@ -533,6 +561,32 @@ select.identical-input {
     }
   });
 </script>
+
+<script>
+const selectBox = document.querySelector('.custom-select');
+const selected = document.querySelector('.selected');
+const optionsContainer = document.querySelector('.options-container');
+
+selectBox.addEventListener('click', function () {
+  this.classList.toggle('active');
+});
+
+document.querySelectorAll('.option').forEach(option => {
+  option.addEventListener('click', function () {
+    selected.innerText = this.innerText;
+    selectBox.classList.remove('active');
+  });
+});
+
+document.addEventListener('click', function (e) {
+  if (!selectBox.contains(e.target)) {
+    selectBox.classList.remove('active');
+  }
+});
+
+</script>
+
+
 </body>
 
 
