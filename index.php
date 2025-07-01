@@ -1376,10 +1376,138 @@ Thanks to LinkSwitch, our coaching sessions are quicker and way more focused. We
                             </div>
                         </div>
                     </div>
+                      <div class="swiper-slide">
+                        <div class="news-card-items style-2">
+                            <div class="news-image">
+                                <img src="assets/img/blog/blogThumb2_1.jpg" alt="news-img" style= "height: 290px;">
+                                <!-- <div class="post-date">
+                                    <h3>
+                                        20 <br>
+                                        <span>May</span>
+                                    </h3>
+                                </div> -->
+                            </div>
+                            <div class="news-content">
+                                <!-- <ul>
+                                    <li>
+                                        <i class="fa-regular fa-user"></i>
+                                        By Admin
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-tag"></i>
+                                        UI/UX Design
+                                    </li>
+                                </ul> -->
+                                <h5>
+                                    <a href="https://callchex.com/blogs">Call Center Analytics Software: Turn Every Call into a Winning Move</a>
+                                </h5>
+                                <a href="https://callchex.com/blogs" class="theme-btn-2 mt-3">
+                                    read More
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                        <div class="news-card-items style-2">
+                            <div class="news-image">
+                                <img src="assets/img/blog/blogThumb2_2.jpg" alt="news-img" style= "height: 290px;">
+                                <!-- <div class="post-date">
+                                    <h3>
+                                        20 <br>
+                                        <span>May</span>
+                                    </h3>
+                                </div> -->
+                            </div>
+                            <div class="news-content">
+                                <!-- <ul>
+                                    <li>
+                                        <i class="fa-regular fa-user"></i>
+                                        By Admin
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-tag"></i>
+                                        UI/UX Design
+                                    </li>
+                                </ul> -->
+                                <h5>
+                                    <a href="https://callchex.com/blogs">Agent Performance Tracking: Enhance Efficiency with AI Insights</a>
+                                </h5>
+                                <a href="https://callchex.com/blogs" class="theme-btn-2 mt-3">
+                                    read More
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                  <div class="swiper-slide">
+                        <div class="news-card-items style-2">
+                            <div class="news-image">
+                                <img src="assets/img/blog/blogThumb2_3.jpg" alt="news-img" style= "height: 290px;">
+                                <!-- <div class="post-date">
+                                    <h3>
+                                        20 <br>
+                                        <span>May</span>
+                                    </h3>
+                                </div> -->
+                            </div>
+                            <div class="news-content">
+                                <!-- <ul>
+                                    <li>
+                                        <i class="fa-regular fa-user"></i>
+                                        By Admin
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-tag"></i>
+                                        UI/UX Design
+                                    </li>
+                                </ul> -->
+                                <h5>
+                                    <a href="https://callchex.com/blogs">Sales Call Analysis in Hauppauge: Boost Conversions with AI</a>
+                                </h5>
+                                <a href="https://callchex.com/blogs" class="theme-btn-2 mt-3">
+                                    read More
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                      <div class="swiper-slide">
+                        <div class="news-card-items style-2">
+                            <div class="news-image">
+                                <img src="assets/img/news/07.jpg" alt="news-img" style= "height: 290px;">
+                                <!-- <div class="post-date">
+                                    <h3>
+                                        20 <br>
+                                        <span>May</span>
+                                    </h3>
+                                </div> -->
+                            </div>
+                            <div class="news-content">
+                                <!-- <ul>
+                                    <li>
+                                        <i class="fa-regular fa-user"></i>
+                                        By Admin
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-tag"></i>
+                                        UI/UX Design
+                                    </li>
+                                </ul> -->
+                                <h5>
+                                    <a href="https://callchex.com/blogs">Call Quality Monitoring Tool: A Game-Changer for Customer Service</a>
+                                </h5>
+                                <a href="https://callchex.com/blogs" class="theme-btn-2 mt-3">
+                                    read More
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="swiper-slide">
                         <div class="news-card-items style-2">
                             <div class="news-image">
-                                <img src="assets/img/news/08.jpg" alt="news-img">
+                                <img src="assets/img/news/post-5.jpg" alt="news-img" style= "height: 290px;">
                                 <!-- <div class="post-date">
                                     <h3>
                                         10 <br>

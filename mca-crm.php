@@ -243,22 +243,12 @@
 
 
 <style>
-
 .hero-section {
   width: 100vw;
   padding: 0;
   margin: 0;
   overflow: hidden;
   background-color: #384bff; 
-}
-
-.main-thumb {
-  background: transparent !important;
-}
-
-.main-thumb img {
-  background: transparent !important;
-  display: block;
 }
 
 
@@ -272,9 +262,6 @@
   justify-content: center;
 }
 
-.hero-content .subtitle {
-   margin-left: -10px !important;
-}
 
 .hero-main-container.style1 {
   display: flex;
@@ -303,6 +290,9 @@
   padding: 0 15px;
 }
 
+.hero-content .subtitle {
+   margin-left: -10px !important;
+}
 
 .hero-main-container .row {
   width: 100%;
@@ -359,7 +349,6 @@
   gap: 8px;
 }
 
-/* CTA Button */
 .btn-wrapper .gt-btn.style4 {
   background-color: #ff8900;
   color: #fff;
@@ -401,14 +390,160 @@
 
   .hero-content.style1 {
     text-align: center;
-    padding: 0 15px;
+    margin-left: 0;
+    padding: 0 20px;
+  }
+
+  .hero-content.style1 h4 {
+    font-size: 26px;
+    margin-left: 0;
+  }
+
+  .hero-content.style1 h6.subtitle {
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  .checklist-wrapper.style3 {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .checklist.style3 li {
+    font-size: 14px;
   }
 
   .hero-thumb.style1 {
     margin-top: 30px;
-    padding: 20px;
-    align-items: center;
+    text-align: center;
   }
+
+  .hero-thumb.style1 .main-thumb img {
+    max-height: 350px;
+    width: 100%;
+    height: auto;
+  }
+
+  .shape1_1 {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-main-container.style1 {
+    flex-direction: column;
+    padding: 30px 10px;
+  }
+
+  .hero-content.style1 {
+    text-align: center;
+    margin-left: 0;
+    padding: 0 10px;
+  }
+
+  .hero-content.style1 h4 {
+    font-size: 22px;
+    line-height: 1.3;
+    margin-left: 0;
+  }
+
+  .hero-content.style1 h6.subtitle {
+    font-size: 13px;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  .hero-content.style1 p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .checklist-wrapper.style3 {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .checklist.style3 {
+    width: 100%;
+    text-align: left;
+  }
+
+  .checklist.style3 li {
+    font-size: 14px;
+  }
+
+  .btn-wrapper {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .hero-thumb.style1 {
+    margin-top: 30px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .hero-thumb.style1 .main-thumb img {
+    max-height: 300px;
+    width: 100%;
+    height: auto;
+  }
+
+  .shape1_1 {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  .hero-main-container.style1 {
+    padding: 60px 30px;
+    min-height: auto;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .hero-content.style1 {
+    margin-left: 0;
+    padding-right: 20px;
+  }
+
+  .hero-content.style1 h4 {
+    font-size: 28px;
+  }
+
+  .hero-thumb.style1 .main-thumb img {
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+  }
+
+  .checklist-wrapper.style3 {
+    gap: 15px;
+  }
+
+  .checklist.style3 li {
+    font-size: 15px;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero-main-container.style1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .hero-thumb.style1 .main-thumb {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-content.style1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
 }
 </style>
 
@@ -552,6 +687,7 @@
 </div>
 
 
+
    <style>
 .team-wrapper {
   width: 100vw;
@@ -573,12 +709,137 @@
   padding-left: 40px; 
 }
 
+.service-box-items {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.service-box-items .icon img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.service-box-items .content h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.service-box-items .content p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+
+.service-box-items:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+@media (max-width: 991px) {
+  .col-lg-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .service-box-items {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .service-box-items .icon img {
+    margin: 0 auto 15px;
+  }
+}
+
+
+
+.preview-area {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.preview-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.preview-item img {
+  width: 100px;
+  height: auto;
+}
+
+
+@media (max-width: 768px) {
+  .preview-area {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .preview-item {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .preview-item img {
+    display: none;
+  }
+
+  .preview-item .content {
+    text-align: center;
+  }
+
+  .preview-item .content h3,
+  .preview-item .content p {
+    margin: 0;
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .preview-area {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .preview-item {
+    justify-content: center;
+  }
+
+  .preview-item .content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .preview-item .content.text-right {
+    text-align: center !important;
+  }
+}
 
 </style>
 
     <div class="team-wrapper space style1" data-bg-src="assets/img/bg/teamBg1_1.png">
                             <div class="details-content pt-5">
-                             <h3>The Result of Project</h3>
+                          <h3>Product Impact & Outcome</h3>
 <p>
    The Merchant Cash Advance CRM streamlined the entire funding workflow by centralizing lead data, automating underwriting steps, and enabling real-time agent tracking. It empowered teams to follow up faster, close deals more efficiently, and make data-driven decisions with complete visibility into the funding pipeline.
 </p>
@@ -607,7 +868,7 @@
                             </div>
                             <div class="preview-item">
                                 <div class="content text-right">
-                                    <h3><a href="lead-orgination.php">Next</a></h3>
+                                    <h3><a href="lending-origination.php">Next</a></h3>
                                     <p>Lending Origination & Servicing Platform</p>
                                 </div>
                                 <img src="assets/img/project/p-2.png" alt="img">

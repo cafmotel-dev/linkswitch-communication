@@ -409,6 +409,26 @@
     align-items: center;
   }
 }
+
+@media (max-width: 767.98px) {
+  .hero-main-container.style1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .hero-thumb.style1 .main-thumb {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-content.style1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+}
 </style>
 
 
@@ -426,7 +446,7 @@
                                 <div class="col-lg-12">
                                     <div class="details-content pt-0">
                                         <h3>Ringless Voicemail Drop System</h3>
-           <p>
+<p>
    The Ringless Voicemail Drop System is a cutting-edge communication tool that enables businesses to reach customers efficiently without causing any disruption. By delivering voicemail messages directly to recipients’ inboxes—without ringing their phones—it ensures a respectful and non-intrusive experience. This technology allows marketing, sales, and support teams to engage large audiences effortlessly, while remaining fully compliant with industry regulations. It’s a powerful solution for scaling outreach, improving response rates, and enhancing customer engagement—all without interrupting the customer’s day.
 </p>
 
@@ -567,7 +587,7 @@
 </div>
 
 
-    <style>
+   <style>
 .team-wrapper {
   width: 100vw;
   background-image: url('assets/img/bg/teamBg1_1.png');
@@ -588,12 +608,137 @@
   padding-left: 40px; 
 }
 
+.service-box-items {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.service-box-items .icon img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.service-box-items .content h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.service-box-items .content p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+
+.service-box-items:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+@media (max-width: 991px) {
+  .col-lg-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .service-box-items {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .service-box-items .icon img {
+    margin: 0 auto 15px;
+  }
+}
+
+
+
+.preview-area {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.preview-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.preview-item img {
+  width: 100px;
+  height: auto;
+}
+
+
+@media (max-width: 768px) {
+  .preview-area {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .preview-item {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .preview-item img {
+    display: none;
+  }
+
+  .preview-item .content {
+    text-align: center;
+  }
+
+  .preview-item .content h3,
+  .preview-item .content p {
+    margin: 0;
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .preview-area {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .preview-item {
+    justify-content: center;
+  }
+
+  .preview-item .content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .preview-item .content.text-right {
+    text-align: center !important;
+  }
+}
 
 </style>
 
     <div class="team-wrapper space style1" data-bg-src="assets/img/bg/teamBg1_1.png">
                             <div class="details-content pt-5">
-                               <h3>The Result of Project</h3>
+                              <h3>Product Impact & Outcome</h3>
 <p>
    The implementation of the Ringless Voicemail Drop System significantly improved customer engagement while reducing manual outreach efforts. The client experienced smoother campaign execution, better message delivery accuracy, and a more efficient way to reach leads without causing interruptions — all while remaining fully compliant with communication regulations.
 </p>

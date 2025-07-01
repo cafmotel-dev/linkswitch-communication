@@ -97,7 +97,7 @@
                                         <li><a href="contact.php"><i class="fa-solid fa-chevrons-right"></i>Contact
                                                 Us</a>
                                         </li>
-                                        <li><a href="#"><i class="fa-solid fa-chevrons-right"></i>FAQ</a></li>
+                                        <li><a href="faq.php"><i class="fa-solid fa-chevrons-right"></i>FAQ</a></li>
                                     </ul>
                                 </div>
                             </div>
