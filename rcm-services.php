@@ -167,7 +167,7 @@
     <div class="mouse-cursor cursor-outer"></div>
     <div class="mouse-cursor cursor-inner"></div>
 
-     <!-- Offcanvas Area Start -->
+    <!-- Offcanvas Area Start -->
     <div class="fix-area">
         <div class="offcanvas__info bg-white">
             <div class="offcanvas__wrapper">
@@ -232,10 +232,10 @@
                             </a>
                         </div> -->
                         <div class="social-icon d-flex align-items-center">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61577661337809"><i class="fab fa-facebook-f" style="cursor: pointer !important;"></i></a>
+                            <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
                             <!-- <a href="#"><i class="fab fa-youtube"></i></a> -->
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/company/linkswitch-communications-llc/"><i class="fab fa-linkedin-in" style="cursor: pointer !important;"></i></a>
                         </div>
                     </div>
                 </div>

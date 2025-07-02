@@ -258,10 +258,10 @@ html {
                             </a>
                         </div> -->
                         <div class="social-icon d-flex align-items-center">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61577661337809"><i class="fab fa-facebook-f" style="cursor: pointer !important;"></i></a>
+                            <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
                             <!-- <a href="#"><i class="fab fa-youtube"></i></a> -->
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/company/linkswitch-communications-llc/"><i class="fab fa-linkedin-in" style="cursor: pointer !important;"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1335,9 +1335,9 @@ Thanks to LinkSwitch, our coaching sessions are quicker and way more focused. We
                                     </li>
                                 </ul> -->
                                 <h5>
-                                    <a href="https://callchex.com/blogs">Agent Coaching AI: Smarter Coaching for Better Call Center Results</a>
+                                    <a href="https://callchex.com/blogs/agent-coaching-ai">Agent Coaching AI: Smarter Coaching for Better Call Center Results</a>
                                 </h5>
-                                <a href="https://callchex.com/blogs" class="theme-btn-2 mt-3">
+                                <a href="https://callchex.com/blogs/agent-coaching-ai" class="theme-btn-2 mt-3">
                                     read More
                                     <i class="fa-solid fa-arrow-right-long"></i>
                                 </a>
@@ -1367,9 +1367,9 @@ Thanks to LinkSwitch, our coaching sessions are quicker and way more focused. We
                                     </li>
                                 </ul> -->
                                 <h5>
-                                    <a href="https://callchex.com/blogs">Call Auditing Software: Boosting Call Center Efficiency</a>
+                                    <a href="https://callchex.com/blogs/call-auditing-software">Call Auditing Software: Boosting Call Center Efficiency</a>
                                 </h5>
-                                <a href="https://callchex.com/blogs" class="theme-btn-2 mt-3">
+                                <a href="https://callchex.com/blogs/call-auditing-software" class="theme-btn-2 mt-3">
                                     read More
                                     <i class="fa-solid fa-arrow-right-long"></i>
                                 </a>
@@ -1399,9 +1399,9 @@ Thanks to LinkSwitch, our coaching sessions are quicker and way more focused. We
                                     </li>
                                 </ul> -->
                                 <h5>
-                                    <a href="https://callchex.com/blogs">Call Center Analytics Software: Turn Every Call into a Winning Move</a>
+                                    <a href="https://callchex.com/blogs/call-center-analytics-software">Call Center Analytics Software: Turn Every Call into a Winning Move</a>
                                 </h5>
-                                <a href="https://callchex.com/blogs" class="theme-btn-2 mt-3">
+                                <a href="https://callchex.com/blogs/call-center-analytics-software" class="theme-btn-2 mt-3">
                                     read More
                                     <i class="fa-solid fa-arrow-right-long"></i>
                                 </a>
@@ -1431,9 +1431,9 @@ Thanks to LinkSwitch, our coaching sessions are quicker and way more focused. We
                                     </li>
                                 </ul> -->
                                 <h5>
-                                    <a href="https://callchex.com/blogs">Agent Performance Tracking: Enhance Efficiency with AI Insights</a>
+                                    <a href="https://callchex.com/blogs/agent-performance-tracking">Agent Performance Tracking: Enhance Efficiency with AI Insights</a>
                                 </h5>
-                                <a href="https://callchex.com/blogs" class="theme-btn-2 mt-3">
+                                <a href="https://callchex.com/blogs/agent-performance-tracking" class="theme-btn-2 mt-3">
                                     read More
                                     <i class="fa-solid fa-arrow-right-long"></i>
                                 </a>
@@ -1463,9 +1463,9 @@ Thanks to LinkSwitch, our coaching sessions are quicker and way more focused. We
                                     </li>
                                 </ul> -->
                                 <h5>
-                                    <a href="https://callchex.com/blogs">Sales Call Analysis in Hauppauge: Boost Conversions with AI</a>
+                                    <a href="https://callchex.com/blogs/sales-call-analysis-software">Sales Call Analysis in Hauppauge: Boost Conversions with AI</a>
                                 </h5>
-                                <a href="https://callchex.com/blogs" class="theme-btn-2 mt-3">
+                                <a href="https://callchex.com/blogs/sales-call-analysis-software" class="theme-btn-2 mt-3">
                                     read More
                                     <i class="fa-solid fa-arrow-right-long"></i>
                                 </a>
@@ -1495,9 +1495,9 @@ Thanks to LinkSwitch, our coaching sessions are quicker and way more focused. We
                                     </li>
                                 </ul> -->
                                 <h5>
-                                    <a href="https://callchex.com/blogs">Call Quality Monitoring Tool: A Game-Changer for Customer Service</a>
+                                    <a href="https://callchex.com/blogs/call-quality-monitoring-tool">Call Quality Monitoring Tool: A Game-Changer for Customer Service</a>
                                 </h5>
-                                <a href="https://callchex.com/blogs" class="theme-btn-2 mt-3">
+                                <a href="https://callchex.com/blogs/call-quality-monitoring-tool" class="theme-btn-2 mt-3">
                                     read More
                                     <i class="fa-solid fa-arrow-right-long"></i>
                                 </a>
@@ -1527,9 +1527,9 @@ Thanks to LinkSwitch, our coaching sessions are quicker and way more focused. We
                                     </li>
                                 </ul> -->
                                 <h5>
-                                    <a href="https://callchex.com/blogs">AI Call Monitoring: Smarter Call Center Optimization</a>
+                                    <a href="https://callchex.com/blogs/ai-call-quality-monitoring">AI Call Monitoring: Smarter Call Center Optimization</a>
                                 </h5>
-                                <a href="https://callchex.com/blogs" class="theme-btn-2 mt-3">
+                                <a href="https://callchex.com/blogs/ai-call-quality-monitoring" class="theme-btn-2 mt-3">
                                     read More
                                     <i class="fa-solid fa-arrow-right-long"></i>
                                 </a>

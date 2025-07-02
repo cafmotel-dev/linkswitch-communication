@@ -76,8 +76,8 @@
                                     </p>
                                     <div class="gt-social style2">
                                         <a href="https://www.facebook.com/profile.php?id=61577661337809"><i class="fab fa-facebook-f" style="cursor: pointer !important;"></i></a>
-                                        <a href="https://www.twitter.com/"><i class="fab fa-twitter" style="cursor: pointer !important;"></i></a>
-                                         <a href="#"><i class="fa-brands fa-linkedin-in" style="cursor: pointer !important;"></i></a>
+                                        <!-- <a href="https://www.twitter.com/"><i class="fab fa-twitter" style="cursor: pointer !important;"></i></a> -->
+                                         <a href="https://www.linkedin.com/company/linkswitch-communications-llc/"><i class="fa-brands fa-linkedin-in" style="cursor: pointer !important;"></i></a>
                                         <!-- <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                                         <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> -->
                                     </div>
@@ -189,8 +189,8 @@
                     </div>
                     <div class="layout-link wow fadeInUp" data-wow-delay=".6s">
                         <div class="link-wrapper">
-                            <a href="contact.php">Terms &amp; Condition </a>
-                            <a href="contact.php">Privacy Policy</a>
+                            <a href="index.php">Terms &amp; Condition </a>
+                            <a href="index.php">Privacy Policy</a>
                         </div>
                     </div>
                 </div>
