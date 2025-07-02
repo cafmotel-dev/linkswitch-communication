@@ -184,7 +184,7 @@
                 <div class="copyright-layout">
                     <div class="layout-text wow fadeInUp" data-wow-delay=".3s">
                         <p class="copyright">
-                            <i class="fal fa-copyright"></i>LSC © 2025. All Rights Reserved.</a>
+                           LSC © 2025. All Rights Reserved.</a>
                         </p>
                     </div>
                     <div class="layout-link wow fadeInUp" data-wow-delay=".6s">
