@@ -33,6 +33,16 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
+<style>
+.closer-to-hero {
+    margin-top: -70px !important; 
+  }
+
+.bgcover{
+     background: #eef4ff;
+}
+</style>
+
 <body>
 
   <div class="preloader" id="preloader">
@@ -187,7 +197,7 @@
             <div class="container-fluid">
                <div class="row">
                   <div class="col-xl-6 order-2 order-xl-1">
-                     <div class="hero-content style1" style="margin-top: 80px;">
+                     <div class="hero-content style1">
                         <h6 class="subtitle">
                            <img src="assets/img/icon/subtitleIcon1_1.svg" alt="icon">
                            Modernize Outreach with Ringless Voicemail
@@ -251,80 +261,63 @@
 
 
 <style>
-
 .hero-section {
-  width: 100vw;
+  width: 100%;
   padding: 0;
   margin: 0;
   overflow: hidden;
-  background-color: #384bff; 
+  background-color: #384bff;
 }
-
 
 .hero-wrapper.style1 {
   width: 100%;
   padding: 0;
   margin: 0;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-
 
 .hero-main-container.style1 {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  min-height: 100vh; 
-  padding: 0 30px;
+  justify-content: space-between;
+  padding: 60px 30px;
   width: 100%;
-  border-radius: 0; 
-}
-
-.contact-meta {
-  position: relative;
-}
-
-.shape1_1 img,
-.shape1_2 img,
-.shape1_3 img,
-.shape1_5 img {
-  pointer-events: none;
-}
-
-
-.hero-main-container .container-fluid {
-  max-width: 100%;
-  padding: 0 15px;
-}
-
-.hero-content .subtitle {
-   margin-left: -10px !important;
+  gap: 20px;
 }
 
 .hero-main-container .row {
   width: 100%;
-  align-items: center;
-  justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
-
 .hero-content.style1 {
-  text-align: left;
-  padding-left: 0;
   padding-right: 15px;
-  margin-left: -20px;
+  text-align: left;
 }
 
 .hero-content.style1 h6.subtitle {
-  margin-bottom: 20px;
-  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 999px;
   font-size: 16px;
-  color: #ffffff;
-  margin-left: 10px; 
+  font-weight: 600;
+  color: #fff;
+  background-color: transparent;
+  width: auto;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.hero-content.style1 h6.subtitle img {
+  width: 20px;
+  height: auto;
 }
 
 .hero-content.style1 h4 {
@@ -332,16 +325,13 @@
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 25px;
-  margin-left: 10px;
 }
-
 
 .checklist-wrapper.style3 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  margin-bottom: 25px;
   gap: 20px;
+  margin-bottom: 25px;
 }
 
 .checklist.style3 {
@@ -358,7 +348,6 @@
   gap: 8px;
 }
 
-/* CTA Button */
 .btn-wrapper .gt-btn.style4 {
   background-color: #ff8900;
   color: #fff;
@@ -370,7 +359,7 @@
   align-items: center;
   gap: 10px;
   transition: all 0.3s ease;
-  cursor: pointer !important;
+  cursor: pointer;
 }
 
 .btn-wrapper .gt-btn.style4:hover {
@@ -378,56 +367,172 @@
   color: #fff;
 }
 
-.hero-thumb.style1 .main-thumb {
-  margin-top: 90px;
+.hero-thumb.style1 {
+  text-align: center;
 }
 
-
+.hero-thumb.style1 .main-thumb {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
 
 .hero-thumb.style1 .main-thumb img {
-  max-height: 500px; 
+  max-height: 500px;
   width: auto;
   height: auto;
   object-fit: contain;
 }
 
-
-@media (max-width: 991.98px) {
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 991.98px) {
   .hero-main-container.style1 {
     flex-direction: column;
-    padding: 40px 15px;
+    padding: 40px 30px;
+    gap: 20px;
   }
 
   .hero-content.style1 {
-    text-align: center;
-    padding: 0 15px;
+    width: 100%;
+    padding: 0;
+    text-align: left;
   }
 
-  .hero-thumb.style1 {
-    margin-top: 30px;
-    padding: 20px;
-    align-items: center;
+  .hero-content.style1 h6.subtitle {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    padding: 12px 20px;
+    border: 1px solid #fff;
+    border-radius: 999px;
+  }
+
+  .hero-content.style1 h4 {
+    font-size: 24px;
+    line-height: 1.4;
+    padding: 0 25px;
+  }
+
+  .checklist-wrapper.style3 {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 25px;
+    gap: 12px;
+  }
+
+  .checklist.style3 li {
+    font-size: 15px;
+  }
+
+  .btn-wrapper {
+    width: 100%;
+    padding: 0 25px;
+    margin-top: 15px;
+    text-align: left;
+  }
+
+  .hero-thumb.style1 .main-thumb img {
+    max-height: 360px;
+    width: auto;
   }
 }
 
+
 @media (max-width: 767.98px) {
   .hero-main-container.style1 {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
-  .hero-thumb.style1 .main-thumb {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0;
+    gap: 15px;
   }
 
   .hero-content.style1 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
   }
 
+  .hero-content.style1 h6.subtitle {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 18px;
+    border: 1px solid #fff;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .hero-content.style1 h6.subtitle img {
+    width: 18px;
+    height: auto;
+  }
+
+  .hero-content.style1 h4 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+    padding: 10px 15px 15px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .checklist-wrapper.style3 {
+    width: 100%;
+    padding: 0 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .checklist.style3 {
+    width: 100%;
+  }
+
+  .checklist.style3 li {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .btn-wrapper {
+    width: 100%;
+    padding: 0 15px;
+    margin-top: 15px;
+    text-align: left;
+  }
+
+  .hero-thumb.style1 .main-thumb {
+    margin: 10px 0;
+    justify-content: center;
+  }
+
+  .hero-thumb.style1 .main-thumb img {
+    max-height: 240px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 425px) {
+  .hero-content.style1 h6.subtitle {
+    padding-top: 10px;
+    padding-bottom: 8px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-main-container.style1 {
+    padding-top: 180px;
+    padding-bottom: 60px;
+  }
+
+  .hero-thumb.style1 .main-thumb {
+    margin-top: 0;
+  }
 }
 </style>
 
@@ -436,7 +541,7 @@
     <section class="Project-details-section fix section-padding">
         <div class="container">
             <div class="project-details-wrapper">
-                <div class="row">
+                <div class="row closer-to-hero">
                     <div class="col-lg-12">
                         <div class="project-details-items">
                             <!-- <div class="details-image">
@@ -586,7 +691,6 @@
     </div>
 </div>
 
-
    <style>
 .team-wrapper {
   width: 100vw;
@@ -734,6 +838,17 @@
   }
 }
 
+@media (max-width: 767px) {
+  .team-wrapper .details-content,
+  .team-wrapper .row {
+    padding-left: 0;
+  }
+
+  .team-wrapper .thumb img {
+    width: 100%;
+    display: block;
+  }
+}
 </style>
 
     <div class="team-wrapper space style1" data-bg-src="assets/img/bg/teamBg1_1.png">
